@@ -1,0 +1,36 @@
+{
+    "FAQ CFPTA Contributions formation professionnelle et taxe d’apprentissage": [
+        {
+            "question": "pas sur d’autres alors qu’il y a un apprenti sur le dossier ?",
+            "answer": "Pour être exonéré, il faut la double condition : avoir un apprenti sur la période M-1 et avoir une masse salariale M-1 (avec le salaire de lʼapprenti) inférieure à 6 SMIC.   \fFiche Transfert du recouvrement des contributions FPTA aux Urssaf et à la MSA.  On peut le voir dans lʼétat de contrôle :  En décembre, est-il normal de ne pas avoir de base déclarée pour la Formation"
+        },
+        {
+            "question": "professionnelle ou pour la taxe d’apprentissage dans la DSN ?",
+            "answer": "Depuis 2022, il ne doit plus y avoir de déclaration de lʼassiette annuelle en DSN pour la TA, la CSA, la CFP et la CPF-CDD :    \fFiche Transfert du recouvrement des contributions FPTA aux Urssaf et à la MSA.  Ainsi le bloc S21.G00.44 doit avoir une base à 0.00 sur décembre."
+        },
+        {
+            "question": "tableau des charges ?",
+            "answer": "Il faut décocher la case ci-dessous de la fiche Société :"
+        },
+        {
+            "question": "pas de CCN applicable sur le dossier ? Comment la supprimer ?",
+            "answer": "Il faut vérifier le code NAF saisi dans la fiche Société :  Fiche Gérer les professions libérales et la formation professionnelle.  Si le code NAF fait partie des listes ci-dessus alors la cotisation TC000.PL sʼapplique sur le dossier. Pour mettre cette cotisation à 0, il faut aller dans Paramétrage applicables au dossier > Clic droit \"Modifier le taux\" :  > Cotisations  > Taux"
+        },
+        {
+            "question": "Comment forcer ou annuler une taxe d’apprentissage ?",
+            "answer": "Si la régularisation doit intervenir sur lʼannée en cours alors il convient dʼutiliser le profil :   \fPour les salariés sortis en cours dʼannée, il convient de faire un bulletin post-emploi. Si la régularisation porte sur une période précédente, il faut créer les lignes manuellement.  Pour plus de détails voir la fiche Insérer un libellé de cotisation et le rattacher à une période  À noter : La TA nʼest en DSN que depuis janvier 2022. Ainsi, les régularisations pour des périodes antérieures nʼapparaîtront pas dans la DSN. Cela est normal.  Entreprise en cessation d’activité : Comment déclarer le solde de la Taxe d’Apprentissage"
+        },
+        {
+            "question": "?",
+            "answer": "Il faut renseigner la cessation dʼactivité dans le module Taxe d'apprentissage :  Renseigner le mois de cessation dʼactivité :    \fPour que cela soit pris en compte dans la DSN, il est nécessaire dʼaller dans Vérifier le résultat :  Si la déclaration de cessation nʼa pas été faite sur la dernière DSN, il y a deux situations possibles : Soit il est encore possible de faire une DSN annule et remplace sur le mois en cours, dans ce cas, il suffit de recalculer la DSN. Soit cela nʼest plus possible, et il faut dans ce cas le faire rapidement avant que le siret ne soit clôturé, et enfin calculer la DSN du mois suivant avec la coche \"régul\" du mois de la cessation dans les options de calcul."
+        },
+        {
+            "question": "DSN ?",
+            "answer": "Pour rappel, pour que lʼexonération sʼapplique, il faut aller tous les mois dans le module Taxe d'apprentissage pour « Vérifier le résultat ». Sinon cela ne sʼappliquera pas dans la DSN.  Si cela nʼa pas été fait, une fois la vérification du résultat faite, il est possible de régulariser dans la DSN en cours en cochant \"régul\" pour le mois concerné dans les options de calcul. Exemple pour avril 2022 (découvrir N-1) :    \fExemple de résultat sur la DSN en cours :"
+        },
+        {
+            "question": "Est-il normal d’avoir un écart entre le tableau des charges et la déclaration DSN ?",
+            "answer": "Cela vient du fait que les cotisations sont dues sur le bulletin alors quʼil y a lʼexonération dans la DSN. Cela est normal. Exemple : Le tableau des charges inclut la taxe dʼapprentissage :  Ce qui nʼest pas le cas de la DSN, car ce dossier bénéficie de lʼexonération :  Pour retrouver le montant de la DSN, il faut déduire la taxe dʼapprentissage du montant du tableau des charges, soit 1626.22 – 31.85 = 1594.37.    Powered by Document360"
+        }
+    ]
+}

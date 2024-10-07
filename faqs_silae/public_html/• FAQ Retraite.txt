@@ -1,0 +1,126 @@
+• FAQ Retraite
+
+Prérequis
+Les fiches relatives aux cotisations sont à votre disposition dans la base de connaissances :
+
+Créer, modifier un taux de cotisation (paramétrage d'une cotisation non
+conventionnelle) ;
+Créer des taux de cotisation variables via un contrat complémentaire ;
+Insérer un libellé de cotisation et le rattacher à une période.
+
+Pourquoi la base Contribution d’Équilibre Technique (CET ) est-elle autant élevée /
+négative ?
+
+Le déclenchement de la CET dépend des cumuls annuels.
+Si le cumul du brut est inférieur au cumul du PMSS : la cotisation ne se déclenche pas .
+Si le cumul de rémunération brute est supérieur : la cotisation se déclenche avec un
+effet rétroactif.
+
+Comment renseigner un taux spécifique pour les cadres et les non cadres ?
+
+Pour appliquer un taux spécifique aux cadres, aux non cadres ou aux deux catégories,
+nous vous invitons à suivre la procédure indiquée dans la fiche suivante : Créer, modifier
+un taux de cotisation (paramétrage d'une cotisation non conventionnelle) .
+
+Comment appliquer une répartition du taux de retraite complémentaire différente ou un
+taux différent ?
+
+Nous appliquons par défaut la répartition légale ou conventionnelle. Si votre organisme vous
+indique une répartition particulière, deux possibilités :
+Il sʼagit dʼune évolution conventionnelle : Vous devez nous communiquer un
+document officiel.
+Il sʼagit dʼun contrat propre à votre client (accord spécifique) : Vous devez
+modifier la répartition ou le taux dans Paramétrage > Cotisations > Taux
+Documentation Silae - Aide Client
+
+Page: 1
+
+applicables au dossier . Réalisez un clic droit sur le libellé de cotisation en
+question et choisissez lʼoption Modifier la répar tition des taux .
+Dans ce dernier cas, la personnalisation ne vous empêchera pas dʼobtenir les mises à
+jour légales ou conventionnelles.
+
+L’organisme de retraite attend un taux supérieur à la retraite complémentaire applicable au
+dossier.
+
+Sʼil sʼagit de lʼorganisme de Retraite ARRCO, vous avez la possibilité d'utiliser le code libellé de
+cotisation AA101.SC (Retraite TU1 non cadre Sur-complémentaire) :
+Accès : Paramétrage > Cotisations > Taux applicables au dossier > ARRCO > Voir
+les taux à 0 > AA101.SC .
+
+Certains salariés ne doivent pas cotiser à la retraite Sur-complémentaire. Vous pouvez
+dispenser les salariés à l'aide d'un contrat complémentaire.
+Pour cela, nous vous invitons à consulter la fiche de la base de connaissance : Créer
+des taux de cotisation variables via un contrat complémentaire
+
+Pourquoi la retraite supplémentaire n’est-elle pas soumise intégralement au forfait social ?
+
+Vérifier dans Paramétrage > Cotisations > Taux que la partie RS/RF/FS/CSG nʼa pas été
+modifiée.
+
+Si la retraite supplémentaire nʼentre pas intégralement dans le forfait social ainsi que la CSG et
+que de la réintégration sociale est présente dans le bulletin : vous devez activer la méthode 012
+"Réintégration sociale dans les PR - PS - GR" .
+
+Documentation Silae - Aide Client
+
+Page: 2
+
+Accès : Paramétrage > Méthodes > Méthode 012 : "Réintégration sociale dans les
+PR - PS - GR".
+Dans le champ "Valeur", saisir la valeur "1 " permettant de réintégrer les GR dans les cotisations
+PR/PS/PX et les PR/PS/PX dans les GR. Sauver dans le volet de droite.
+
+⚠ Attention :
+Si le bulletin de paie comporte de la réintégration sociale liée à la retraite supplémentaire,
+celle-ci est déduite de la base du forfait social .
+
+Exemple : 171.40 + 95.17 (part retraite supplémentaire) - 8,76 (part réintégration sociale liée
+à la retraite supplémentaire) = 257,81 €.
+
+Malgré la personnalisation du taux, celui-ci ne se déclenche pas.
+
+Si la modification ne concerne quʼune seule CCN : Vérifier que la personnalisation a
+bien été effectuée sur la bonne CCN .
+Si plusieurs conventions collectives sont applicables au dossier : S'assurer que le taux
+du code libellé de cotisation a été modifié pour chaque convention .
+Documentation Silae - Aide Client
+
+Page: 3
+
+Les cotisations de retraite ne se déclenchent pas dans le bulletin d’un mandataire.
+
+Le PSS dʼun mandataire (qui ne cumule pas son mandat avec un contrat de travail) reste fixé à 3
+428,00 €.
+Les cotisations de retraite se déclenchent uniquement si le calcul du PMSS est activé et
+que ce dernier nʼest pas à 0.
+
+Nous vous invitons à vérifier que :
+Le plafond ne soit pas à zéro dans les Éléments calculés du Bulletin.
+La case "Calcul spécifique du PSS" dans la Fiche salarié soit bien décochée.
+
+À noter :
+En cas de cumul mandat/contrat de travail , le plafond est mis en totalité sur le premier
+bulletin pour le calcul des cotisations.
+
+Retraite supplémentaire & Forfait social réduit à 16 % (OPA/AGRICOLE)
+
+Plusieurs mises à jour ont eu lieu pour les dossiers relevant des groupes CCN OPA et AGRICOLE.
+Vous retrouverez le détail de ces éléments dans les évolutions conventionnelles des semaines
+34, 35 et 36 .
+Le taux du forfait social à 20 % dépend uniquement de l'organisme collecteur CPCEA (code
+P0223). Si l'organisme collecteur est différent, il est normal d'avoir un FS à 16 %.
+Seuls les codes libellés de cotisations suivants sont concernés : GR210 ; GR240 ; GR250 ; GX110 ;
+GX120 ; GX130.
+Il est donc important de vérifier les points suivants sur les dossiers concernés :
+Si lʼentreprise est affiliée à la CPCEA : Lʼorganisme P0223 CPCEA doit être
+paramétré.
+Si des filtres sont appliqués au niveau de l'organisme (CPCEA) : Contrôler dans
+les filtres que les codes libellés cités plus haut soient bien rattachés à l'organisme.
+
+Powered by Document360
+Documentation Silae - Aide Client
+
+Page: 4
+
+

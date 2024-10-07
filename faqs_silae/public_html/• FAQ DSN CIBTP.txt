@@ -1,0 +1,96 @@
+• FAQ DSN CIBTP
+
+Message d’erreur : "Le code Emploi Bâtiment est nécessaire pour la caisse de congés
+payés (Table CMET – Code métier BT P)"
+
+Il convient dans ce cas de saisir un Code Emploi Bâtiment dans la fiche Salarié et dans lʼemploi
+archivé (menu DADSU DSN/Modification des emplois archivés).
+
+Attention : Dans de rares cas, il est nécessaire de supprimer l'organisme résilié de la CIBTP.
+Une correction sur ce point a été livrée dans la mise à jour du mardi 29 mars 2022.
+
+La CI-BT P demande de renseigner la rubrique S21.G00.40.022 même pour les salariés qui
+sont exclus de la caisse (apprenti s ou sal ari és dépendants d’une autre conventi on
+col l ecti ve)
+
+Nous avons interrogé lʼUNION DES CAISSES DE FRANCE CIBTP, elle confirme notre paramétrage
+actuel, la rubrique S21.G00.40.022 est bien attendue même pour les salariés exclus CI-BTP, sauf
+pour les mandataires et les VRP (sauf si lʼentreprise est adhérente de la Caisse nationale des
+Coopératives).
+Source : "DSN : fiches de paramétrage" sur www.cibtp.fr.
+
+Concernant les bases OPPBT P majorées (sal ari és permanents) , il est attendu une base
+OPPBT P non majorée car la majoration est appliquée sur le bordereau CI BT P à réception
+de la DSN.
+
+Dans la DSN de janvier 2022, la rubrique S21.G00.78.004 a été déclarée en tenant compte de
+cette majoration.
+Pour régulariser il convient d'activer la coche "Régularisation" de janvier 2022 dans l'outil de
+calcul de la DSN.
+Documentation Silae - Aide Client
+
+Page: 1
+
+Dans certains cas, des Bases spécifiques ou dérogatoires doivent ressortir par rapport à
+certains organismes professionnels pour lesquels il est demandé un code Base 39 et/ou 40
+pour le bloc 78 (S21.G00.78.001)
+
+image.png
+
+La majorité des CCN sont gérées en automatique dans Silae.
+Cela peut ne pas être le cas pour certaines CCN, il convient alors dʼappliquer la solution suivante
+: personnalisez la cotisation CP020 afin dʼobtenir un code base 39 dans la structure 78 et/ou la
+cotisation CP021 pour la base 40.
+
+Courrier CIBT P "Absence de la rubrique S21.G00.82 avec pour valeur le code 54"
+
+Il convient dans ce cas dʼutiliser le module de saisie de la base mensuelle de cotisation sur
+chiffre dʼaffaires (menu DADS-U DSN > Saisie des éléments Caisses de Congés Payés).
+
+Courrier CIBT P "DSN – Absences pour congés payés – Vérifier votre paramétrage"
+
+Documentation Silae - Aide Client
+
+Page: 2
+
+Source : "Modalité déclarative dʼune suspension liée au défaut de schéma vaccinal ou à lʼabsence de pass sanitaire" sur www.netentreprises.fr.
+
+Il sʼagit dʼun mail Générique envoyé par la CIBTP qui demande à ce que lʼabsence Congés Payés
+remonte avec un code 200 et non 501.
+Nous gérons correctement lʼabsence CP avec le code 200 ainsi que le type "02 – Durée dʼabsence
+non rémunérée".
+
+Documentation Silae - Aide Client
+
+Page: 3
+
+Courrier CIBT P "Vous devez paramétrer la rubrique S21.G00.78.001 Code 20 avec la
+valeur 0"
+
+Deux options sont validées par lʼUCF :
+Option 1 – Base de cotisations CP (code 20) non renseignée.
+Option 2 - Base de cotisations CP (code 20) renseignée à 0.
+
+Silae a retenu lʼoption 1 . Voir le courrier de confirmation ci-dessous :
+
+DADSU CIBT P
+
+Exceptionnellement, sur la première année liée à lʼouverture en DSN des caisses et compte tenu
+de la réception partielle des déclarations sur lʼexercice congés, il est demandé aux entreprises de
+produire une DADSU CIBTP (ou une DNA) sur lʼexercice congés complet.
+
+Mise à disposition des CRM
+
+Les CRM sont mis à disposition sur le tableau de bord Net-entreprises 24 à 48 heures après que
+les caisses aient reçu les DSN.
+Pour rappel, les DSN nʼarrivent dans les caisses que trois jours après la date dʼéchéance et pas
+avant :
+Date d'échéance au 5 > DSN reçue le 8 > CRM disponible le 9 ou le 10.
+Date dʼéchéance au 15 > DSN reçue le 18 > CRM disponible le 19 ou le 20.
+
+Powered by Document360
+Documentation Silae - Aide Client
+
+Page: 4
+
+

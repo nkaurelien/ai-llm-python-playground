@@ -1,0 +1,56 @@
+{
+    "FAQ Editions groupées": [
+        {
+            "question": "Est-il possible de créer une édition pour une groupe de dossiers ?",
+            "answer": "Il est effectivement possible de créer une édition groupée pour un groupe de dossiers. Pour cela, un groupe doit être défini. Pour créer un groupe ou affecter un dossier à un groupe existant, ouvrir l'onglet Gestion interne > menu Clients :  Renseigner le numéro / nom du dossier ou le sélectionner via le menu déroulant :  Dans le champ \"Groupe\", indiquer le nom du groupe à créer ou sélectionner un groupe existant :    \fDepuis l'écran Etat d'avancement d'un dossier appartenant à un groupe, cliquer sur le nom du groupe affiché dans le volet de droite :  Dans le volet de droite, cliquer sur \"Editions groupées\" :  Double cliquer sur une édition groupée de la liste pour lancer une édition groupée s'appliquant à tous les dossiers contenus dans le groupe :"
+        },
+        {
+            "question": "Comment personnaliser l'envoi automatique des éditions groupées ?",
+            "answer": "Ouvrir les Paramètres robot de paie depuis l'onglet Paramétrage paie > Paramétrage général menus dossiers clients :    \fModifier les paramètres souhaités :  \"Expéditeur à prendre en priorité pour chaque dossier\" : Permet de définir l'affectation de l'expéditeur à prendre en priorité en fonction du dossier. Si on choisit \"Expert comptable\", le mail envoyé par le robot de paie aura comme adresse mail dʼexpédition celle de lʼexpert-comptable du dossier. ⚠ Attention : Vérifier que les adresses mails sont renseignées dans le dossier Silae.  \"Expéditeur par défaut\" : Permet de saisir le nom et lʼadresse mail dʼun expéditeur par défaut pour les envois avec le robot de paie."
+        },
+        {
+            "question": "Est-il possible d'envoyer des éditions groupées de manière automatisée ?",
+            "answer": "Il est possible d'envoyer des éditions groupées dans des répertoires de destinations en saisissant une adresse mail ou l'adresse d'un serveur distant FTP, FSTP ou FTPS avec la syntaxe suivante : ftp://utilisateur:motdepasse@siteftp sftp://utilisateur:motdepasse@sitesftp ftps://utilisateur:motdepasse@siteftp  ⚠ Attention : Il n'est pas possible de renseigner un port personnalisé. Le port par défaut du protocole doit être utilisé : - 21 pour le FTP - 22 pour SFTP - 990 pour le FTPS Le serveur distant doit être configuré obligatoirement en mode passif. Les protocoles FTPSX et SFTP établissent une connexion chiffrée, nos serveurs utiliseront le protocole TLS 1.2 pour le chiffrement (le TLS 1.3 n'est pas supporté)."
+        },
+        {
+            "question": "\fEst-il possible de modifier le corps du mail envoyé pour les éditions groupées ?",
+            "answer": "À ce jour, il n'est pas possible de modifier le corps du mail pour les éditions groupées paramétrées au niveau du domaine."
+        },
+        {
+            "question": "L’envoi automatique des éditions groupées ne parvient pas à notre serveur. Que faire ?",
+            "answer": "Vérifier les éléments suivants : Le dossier est en production ;  L'automate est activé pour le dossier concerné ;  Le serveur FTP, FSTP ou FTPS est fonctionnel ; Il n'y a pas d'erreur de syntaxe dans le serveur : - ftp://utilisateur:motdepasse@siteftp - sftp://utilisateur:motdepasse@sitesftp - ftps://utilisateur:motdepasse@siteftp Les plages d'IP ont été autorisées selon la plateforme d'utilisation. Voir la fiche Prérequis techniques Silae ."
+        },
+        {
+            "question": "Comment créer une édition pour tous les dossiers ?",
+            "answer": "Pour créer une édition groupée au niveau du domaine, ouvrir le module Paramétrage paie > Editions groupées :  Dans le volet de droite, cliquer sur \"Créer\" :  Ajouter un Code et un Libellé puis sélectionner les éditions à ajouter à l'édition groupée :   \fCliquer sur \"Sauver\".  Depuis l'onglet Dossier paie , ouvrir le menu Relation Client > Cycle de paie :  Dans la section \"Editions groupées\", paramétrer l'envoi automatique de l'édition groupée via le robot de paie :  Peut-on faire un état des paiements"
+        },
+        {
+            "question": "établissements, salariés ou autre) ?",
+            "answer": "automatisés  en  effectuant  des  filtres  (par  Oui, le filtrage est possible depuis l'onglet Dossier paie , menu Relation Client > Cycle de paie en cliquant sur \"Salariés\" :    \fEst-il possible d’archiver une édition groupée reprenant plusieurs états (détail des cotisations, récapitulatif de paie, écritures comptables, journal de paie, DUCS, bulletins"
+        },
+        {
+            "question": "duplicatas...) en une seule fois ?",
+            "answer": "Oui, à condition que l'édition groupée ait été créée au niveau du domaine ou du dossier comme indiqués ci-dessous :  Au niveau du domaine :  Pour créer une édition groupée au niveau du domaine, ouvrir le module Paramétrage paie > Editions groupées :  Dans le volet de droite, cliquer sur \"Créer\" :  Ajouter un Code et un Libellé puis sélectionner les éditions à ajouter à l'édition groupée :  Cliquer sur \"Sauver\".  Au niveau du dossier :  Pour créer une édition groupée au niveau du dossier, ouvrir le module Relation client > Editions groupées :    \fDans le volet de droite, cliquer sur \"Créer\" :  Ajouter un Code et un Libellé puis sélectionner les éditions à ajouter à l'édition groupée :  Cliquer sur \"Sauver\".  Lancer ensuite l'édition groupées. Voir la fiche Paramétrer des éditions groupées pour effectuer et archiver une édition groupée."
+        },
+        {
+            "question": "autre) pour les établissements en redressement judiciaire (RJ) ?",
+            "answer": "Effectuer un Filtre et tri depuis l'état d'avancement dans le volet de droite :  Effectuer ensuite un clic droite sur une bulle de bulletins et sélectionner l'édition souhaitée :"
+        },
+        {
+            "question": "\fQuelles sont les raisons du décalage indiquées dans le cycle de paie et l’envoi réel ?",
+            "answer": "Le robot de paie passe sur toutes nos plateformes afin de traiter toutes les fonctionnalités paramétrées sur tous les domaines de nos partenaires. Cʼest la raison pour laquelle vous pouvez constater des différences entre lʼheure indiquée et lʼheure d'envoi réelle.  Est-il possible d’avoir une attestation avec le nombre de jours travaillés dans l’année pour"
+        },
+        {
+            "question": "la déclaration d’impôt ?",
+            "answer": "Il nʼexiste pas dʼédition par défaut à ce sujet. Il n'est pas non plus prévu de la créer, nʼétant pas une obligation légale. Il est toutefois possible de créer une analyse pour retrouver le nombre de jours travaillés. Ouvrir le menu Paramétrage bilan société :  Cliquer sur \"Créer\" dans le volet à droite. Renseigner un code et un libellé pour le nouveau bilan. Pour obtenir le détail des absences, effectuer un double-clic dans le tableau dans la partie \"Analyse de l'absentéisme\" :    \fLe bilan créé se retrouve ensuite dans le menu Gestion des ressources humaines :  Les dates d'analyse peuvent ensuite être configurées :  Une autre solution est de créer une édition historique. Voir la fiche Editions historiques : Guide des fiches à consulter ."
+        },
+        {
+            "question": "Est-il possible d'extraire les fichiers DSN en masse ?",
+            "answer": "Pour extraire les fichiers DSN, se rendre dans l'onglet Outils > Paie > Expor t Fichiers DSN :   \fSélectionner les dossiers et renseigner la période souhaitée pour exporter les fichiers DSN."
+        },
+        {
+            "question": "Est-il possible d'effectuer une édition groupée avec de l'analytique ?",
+            "answer": "Cela nʼest pas possible. Cette évolution nʼest pas réalisable."
+        }
+    ]
+}

@@ -1,0 +1,98 @@
+• FAQ Prime de partage de la valeur (PPV)
+
+Comment faire une régularisation ? Comment forcer pour avoir l’exonération totale ?
+
+Il convient dʼutiliser le profil ci-dessous :
+
+Cela génère deux colonnes : La colonne PPV_MTFORCE pour les montants non exonérés et
+PPV_MTFOREXO pour les montants totalement exonérés :
+
+Pourquoi le SMIC est à 0 dans la bulle explicative ?
+
+Cʼest lié au fait que le salarié ne cotise pas au chômage. Il nʼest donc pas éligible à la RGC (ex :
+Fillon) :
+
+Pourquoi la Prime ne se met pas sur le bulletin ?
+
+Documentation Silae - Aide Client
+
+Page: 1
+
+Un salarié sans contrat de travail est exclu du bénéfice de la PPV. Cʼest notamment le cas
+des mandataires. Le code contrat étant "90 sans contrat de travail ou conventionnement"
+:
+
+Source : "La prime de partage de la valeur" sur le site du travail-emploi.gouv.fr.
+
+Un salarié entré le 1er du mois. Il nʼa pas dʼhistorique sur les 12 derniers mois. Exemple
+d'un salarié entré en octobre :
+
+Cʼest pourquoi le montant est souvent non exonéré. Si on souhaite un montant exonéré, il faut
+utiliser le profil PPVFORCE .
+
+Différence entre exonération totale et exonération par tielle :
+La prime est exonérée totalement lorsque le cumul brut est inférieur à 3 fois le Smic,
+cʼest la K42 qui apparaît sur le bulletin.
+La prime est exonérée partiellement si le cumul brut est supérieur à 3 fois le Smic. La
+prime est soumise à CSG et à lʼimpôt. La K30 se met sur le bulletin si le dossier est
+inférieur à 250 salariés. Sinon cʼest la K15 car le montant de la prime est en plus
+soumise au forfait social à 20%.
+
+PPV et heures supplémentaires
+
+Actuellement les HS sont exclues du calcul de la limite des 3 SMIC. Nous attendons une position
+officielle de lʼadministration.
+
+Documentation Silae - Aide Client
+
+Page: 2
+
+Comment fonctionne les colonnes de rattachement du profil PPV ?
+
+Si aucune date n'est indiquée alors la date de rattachement en DSN est le mois
+du bulletin.
+Les 12 derniers mois commencent à partir de novembre 2022 :
+
+Si on indique une date de rattachement au 01/10/2022.
+Documentation Silae - Aide Client
+
+Page: 3
+
+Les 12 derniers mois commencent à partir de dʼoctobre 2022 :
+
+À noter :
+Si la prime est distribuée en plusieurs fois alors il faudra indiquer la date de rattachement
+du 1er versement. Actuellement, il nʼy a pas de contrôle de la période de rattachement.
+
+Est-ce que PPV et PEPA sont cumulables ?
+
+Oui, les deux primes sont cumulables :
+
+Documentation Silae - Aide Client
+
+Page: 4
+
+Absence complète et SMIC
+
+Si le brut est à 0 alors le Smic pris en compte pour la limite des 3 Smic est aussi de 0 :
+
+Cʼest la raison pour laquelle la CSG et les impôts sʼappliquent sur la prime :
+
+Documentation Silae - Aide Client
+
+Page: 5
+
+Existe-t-il un outil d’aide au calcul pour PPV ?
+
+Oui, il se trouve en faisant un clic droit sur la bulle générale des bulletins :
+
+Documentation Silae - Aide Client
+
+Page: 6
+
+Powered by Document360
+Documentation Silae - Aide Client
+
+Page: 7
+
+

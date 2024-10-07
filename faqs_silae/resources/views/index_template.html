@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SilaePay - YSO Conseils</title>
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css"> -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- SweetAlert2 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+    <!-- Links (sit on top) -->
+    <div class="w3-top">
+
+        <div class="w3-container w3-blue">
+            <h1 style="font-size: 24px;">Menu FAQ</h1>
+        </div>
+    </div>
+
+    <!-- Content -->
+    <div class="w3-content" style="max-width:1100px;margin-top:80px;margin-bottom:80px">
+        <div class="w3-container">
+            <ul class="w3-ul w3-large">
+                {% for item in menu_items %}
+                <li class="w3-display-container">
+                    <a class="openModal" target="_blank" href="{{ item[0] }}">{{ (item[1]).replace("• ", "",
+                        1).replace("FAQ", "", 1) }}</a>
+                    <!-- <a target="_blank" style="font-size: 9pt;" class="actions w3-button w3-display-right" href="{{ item[1] }}.txt">.txt</a> -->
+                    <!-- <a target="_blank" style="margin-right: 50px; font-size: 9pt;" class="actions w3-button w3-display-right" href="{{ item[1] }}.json">.json</a> -->
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+
+
+    </div>
+
+    <div class="w3-bottom">
+
+        <div class="w3-container w3-blue w3-margin-top">
+            <p>YSO Conseils © 2023</p>
+        </div>
+
+    </div>
+
+
+
+    <!-- Boîte de dialogue modale -->
+    <div id="myModal" class="w3-modal">
+        <div class="w3-modal-content">
+            <div class="w3-container">
+                <span onclick="document.getElementById('myModal').style.display='none'"
+                    class="w3-button w3-display-topright">&times;</span>
+                <div id="modalContent"></div>
+            </div>
+        </div>
+    </div>
+    <!-- chatbase -->
+    <iframe src="https://www.chatbase.co/chatbot-iframe/qa2OsXATIvcixB4ke1N6R" width="100%"
+        style="height: 100%; min-height: 700px; display: none;" frameborder="0"></iframe>
+
+    <!-- <script>
+        document.querySelector('.openModal').addEventListener('click', function (e) {
+            e.preventDefault();
+            let linkTarget = location.origin.trimEnd('/') + '/' + $(this).attr("href");
+
+            fetch(encodeURI(linkTarget))
+                .then(response => response.text())
+                .then(data => {
+                    Swal.fire({
+                        title: 'Contenu',
+                        html: data,
+                        width: '60%',
+                        customClass: {
+                            popup: 'custom-popup-class'
+                        }
+                    });
+                })
+                .catch(error => {
+                    console.error("There was an error fetching the content:", error);
+                });
+        });
+    </script> -->
+
+    <script>
+        $(".openModal").on("click", function (e) {
+            e.preventDefault(); // Empêcher la redirection
+
+            let linkTarget = location.origin.trimEnd('/') + '/' + $(this).attr("href");
+
+            console.log(encodeURI(linkTarget));
+            // Charger le contenu de la page cible dans la modale
+            // $("#modalContent").load(encodeURI(linkTarget), function () {
+            //     // Afficher la modale une fois le contenu chargé
+            //     document.getElementById('myModal').style.display = 'block';
+            // });
+            fetch(encodeURI(linkTarget))
+                .then(response => response.text())
+                .then(data => {
+                    Swal.fire({
+                        title: 'Contenu',
+                        html: data,
+                        width: '60%',
+                        confirmButtonColor: "#000000",
+                        confirmButtonText: "Terminer",
+                        customClass: {
+                            popup: 'custom-popup-class'
+                        }
+                    });
+                })
+                .catch(error => {
+                    console.error("There was an error fetching the content:", error);
+                });
+        });
+    </script>
+
+    <script>
+        window.chatbaseConfig = {
+            chatbotId: "qa2OsXATIvcixB4ke1N6R",
+        }
+    </script>
+    <script src="https://www.chatbase.co/embed.min.js" id="qa2OsXATIvcixB4ke1N6R" defer>
+    </script>
+</body>
+
+</html>

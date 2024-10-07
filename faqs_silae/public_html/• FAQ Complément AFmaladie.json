@@ -1,0 +1,16 @@
+{
+    "FAQ Complément AFmaladie": [
+        {
+            "question": "Comment vérifier le calcul des compléments ?",
+            "answer": "Pour voir le détail du calcul, ouvrir la bulle explicative :  Faire la comparaison entre le cumul brut et les 2.50 Smic (ou 3.50 Smic pour le complément AF). Si le cumul brut dépasse le cumul des 2.50 smic, alors le salarié nʼest pas éligible au taux réduit."
+        },
+        {
+            "question": "Pourquoi il n’y a pas de bulle explicative alors que le complément s’affiche sur le bulletin ?",
+            "answer": "Sʼil nʼy a pas de bulle explicative, le problème vient de la fiche Salarié. En effet, le paramétrage exclu automatiquement ce salarié des taux réduits quel que soit le niveau de son salaire (par exemple pour un stagiaire ou un mandataire).  Je ne comprends pas le calcul du SMIC.  Le SMIC utilisé est le même que celui utilisé pour le calcul de la Réduction Générale de Cotisation (ex Fillon). On peut le retrouver dans le contrôle réduction Fillon (clic droit sur une bulle bulletin) :    \fSur un dossier qui passe en Production en cours d’année, il y a une grosse régularisation du ou des compléments alors qu’ils sont déjà passés en paie.  Renseigner les montants déjà passés en paie en passant par :    \fÀ noter : Il faut renseigner les bases et non les montants.  Sur un dossier qui passe en Production en cours d’année, le cumul des bruts dans la bulle explicative n’est pas correct.  Vérifier que la date de démarrage en Production dans la fiche Société nʼa pas été modifiée. En effet, les bulletins fictifs doivent toujours être dans la zone \"rouge\" :  Ici, modifier la date comme ci-dessous pour que le cumul soit correct :    \fPourquoi le complément AF et/ou maladie se déclenche sur un bulletin avec des IJ"
+        },
+        {
+            "question": "prévoyance ?",
+            "answer": "Les IJ prévoyance peuvent être prises en compte ou non dans le SMIC. Cela dépend de lʼintitulé. Ainsi, un profil se terminant par .DS sera automatiquement repris dans le calcul du SMIC Fillon.  Voir la fiche Paramétrer le maintien de salaire  Les SMIC sont à 0 dans la bulle explicative.  Le problème vient du fait que les SMIC Fillon nʼont pas été repris via la DSN. Pour résoudre ce problème, renseigner les SMIC Fillon dans Modification des bulletins impor tés DSN à ce niveau :    Powered by Document360"
+        }
+    ]
+}

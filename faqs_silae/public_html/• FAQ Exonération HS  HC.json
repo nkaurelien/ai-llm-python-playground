@@ -1,0 +1,44 @@
+{
+    "FAQ Exonération HS  HC": [
+        {
+            "question": "supplémentaires ?",
+            "answer": "Exemple : La base de lʼexonération de 247.86 est supérieure au montant des heures supplémentaires de 214.06.    \fSur ce dossier, cela vient de la prime dʼancienneté car elle est prise en compte dans le taux horaire dʼabsence.  Voir la fiche Exonération sociale et fiscale des heures supplémentaires et complémentaires .  À noter : (Montant de la prime / Salaire de base avec les HS ou les HC) * (Montant HS et/ou HC) = Base de lʼexo HS / HC Soit pour notre exemple : 506.80 / 3209.79 * 214.06 = 33.80 La base de lʼexonération est la somme des 33.80 + 214.06 = 247.86"
+        },
+        {
+            "question": "Comment est calculé la base de lʼexonération en cas dʼabsence ?",
+            "answer": "En cas dʼabsence non rémunérée ou partiellement rémunérée, la rémunération des HS/HC structurelles est prise en compte après application dʼun coefficient dʼabsence correspondant au rapport entre la rémunération versée et celle qui aurait dû être versée si le salarié nʼavait pas été absent.  À noter : Coefficient dʼabsence = rémunération avec absence / rémunération sans absence Base de lʼexonération = montant des HS/HC * Coefficient dʼabsence  Exemple : La base de lʼexonération ne correspond pas au montant des HS.  La formule de calcul est la suivante : Salaire sans absence : 3742.33 + 15.46 = 3757.79 Salaire avec absence : 2443.19 Soit : Coefficient dʼabsence : 2443.19 / 3757.79 = 0.6501 Base de lʼexonération : 467.70 *0.6501 = 304.08    \fComment savoir quelles heures supplémentaires et complémentaires sont prises en"
+        },
+        {
+            "question": "compte dans le calcul de lʼexonération ?",
+            "answer": "Les heures supplémentaires rentrent dans le calcul de lʼexonération si elles sont majorées et indemnisées en espèce :  Nous vous invitons à consulter le tableau récapitulatif ci-dessous :  Voir la fiche Récapitulatif des exonérations por tant sur les HS"
+        },
+        {
+            "question": "\fComment créer des HS ou des HC non exonérées socialement et fiscalement ?",
+            "answer": "Voir la partie \"Critères de sélection des HC/HS\" dans la fiche Exonération sociale et fiscale des heures supplémentaires et complémentaires Extrait de la fiche (non exhaustif) :"
+        },
+        {
+            "question": "Comment modifier le traitement des HS / HC hors TEPA ?",
+            "answer": "Il est possible dʼutiliser la méthode 320 :"
+        },
+        {
+            "question": "\fComment exclure un salarié de lʼexonération HS/HC ?",
+            "answer": "Il faut utiliser le profil EXOHSEXCLU :  Voir la fiche Profil EXOHSEXCLU - Exclure un salarié de l'exonération sociale et fiscale sur les HS"
+        },
+        {
+            "question": "Comment initialiser ou forcer le montant net fiscal ?",
+            "answer": "Le profil EXOFISCHS est disponible :  Voir la fiche Exonération sociale et fiscale des heures supplémentaires et complémentaires    \fDéduction forfaitaire patronale T EPA"
+        },
+        {
+            "question": "pas dʼautres ?",
+            "answer": "La déduction est cumulable avec dʼautres mesures dʼexonérations de cotisations patronales. Cependant, le cumul de ces exonérations est limité aux cotisations patronales.  Voir la fiche Traiter la déduction forfaitaire patronale (TEPA/PPA)  Ainsi, sʼil y a une régularisation de complément AF et/ou maladie ou une régularisation de la RGC, alors il est possible dʼavoir une déduction forfaitaire partielle ou nulle."
+        },
+        {
+            "question": "la méthode 155 sur le calcul ?",
+            "answer": "En cas dʼabsence non rémunérée ou partiellement rémunérée, la rémunération des HS/HC structurelles est prise en compte après application dʼun coefficient dʼabsence correspondant au rapport entre la rémunération versée et celle qui aurait dû être versée si le salarié nʼavait pas été absence.  À noter : Coefficient dʼabsence = rémunération avec absence / rémunération sans absence Base de la déduction = nombre dʼheures HS/HC * Coefficient dʼabsence  Exemple 1 : Absence maladie par tiellement maintenue  Coefficient dʼabsence : 3183.55 / 3742.33 = 0.8507 Base de la déduction : 17.33 * 0.8507 = 13.6  Exemple 2 : Absence CP    \fCoefficient dʼabsence : 2360.76 / 3742.33 = 0.6308 Base de la déduction : 17.33 * 0.6308 = 10.93  Il est possible de modifier ce traitement et dʼexclure les absences Congés Payés du prorata grâce à la méthode 155 :  Voir la fiche Traiter la déduction forfaitaire patronale (TEPA/PPA)  Exemple 3 : méthode 155 activée avec la valeur 2 Il nʼy a plus de prorata pour lʼabsence CP :    \fLʼexonération TEPA nʼa pas été appliquée depuis le début de lʼannée. Comment"
+        },
+        {
+            "question": "régulariser ?",
+            "answer": "Dans un premier temps, il faut que la fiche Société soit correctement renseignée. Puis il faut utiliser le profil RETRO-TEPA :  Voir la fiche Traiter la déduction forfaitaire patronale (TEPA/PPA)"
+        }
+    ]
+}

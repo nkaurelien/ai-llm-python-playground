@@ -1,0 +1,194 @@
+• FAQ Maladie
+
+Comment est calculé le maintien ?
+
+Lorsquʼil y a un maintien de salaire sans carence, la bulle de lʼindemnité complémentaire se
+présente comme ceci :
+
+Ces montants proviennent de 2 bulletins fictifs :
+Brut que le salarié aurait sans absence
+
+Brut avec absence
+
+Dans le cas où il y a de la carence, vous avez le bulletin suivant :
+
+Brut que le salarié aurait sans absence – jours de carence (dans notre exemple on décompte
+
+7 jours en absence non rémunérée)
+
+Documentation Silae - Aide Client
+
+Page: 1
+
+Brut avec absence
+
+Comment paramétrer la Garantie Arrêt de Travail (GAT ) ?
+
+Pour appliquer la GAT sur un dossier du BTP, il conviendra de se rendre dans le questionnaire
+conventionnel de la fiche Société et dʼactiver les coches suivantes :
+
+En effet, sans ce paramétrage, le maintien de salaire sʼappliquera sur le bulletin.
+
+Le légal devenant plus favorable, il provoque en cumulé un écart de X
+
+Le logiciel compare entre le maintien légal et le maintien conventionnel pour chaque absence et
+chaque mois.
+Dès lors qu'un maintien devient plus favorable que l'autre en l'appliquant dès le début de
+l'absence, il effectue le changement de maintien en déclenchant également une ligne de
+régularisation.
+
+Concernant l'écar t cumulé : Les deux types de maintiens (légal et conventionnel) ne sont pas
+cumulables. Quand on passe sur l'un ou l'autre des types de maintien, le logiciel calcule ce qui
+aurait été versé depuis le début si celui-ci s'était appliqué dès le départ. S'il y a un écart négatif,
+alors il est régularisé.
+
+Documentation Silae - Aide Client
+
+Page: 2
+
+Comment faire si j’ai 2 arrêts, avec un motif différent, qui se suivent ?
+
+Le logiciel considère 2 arrêts juxtaposés comme une prolongation.
+Si ce nʼest pas le cas, il conviendra de modifier manuellement les informations liées à
+lʼabsence directement sur le bulletin .
+
+Cas des arrêts après un congé maternité : Si vous souhaitez que l'absence maladie ne soit
+pas considérée comme une prolongation à l'absence maternité, il vous faudrait cocher l'option
+suivante sur l'attestation maladie lorsque vous générez l'absence maladie.
+
+Les BPIJ ne remontent pas dans le logiciel
+
+Vous devez suivre les étapes suivantes :
+Voir si le bordereau est disponible sur JeDéclare
+Sʼil n'est pas présent, il faut prendre contact avec JeDéclare afin quʼil rétablisse le lien
+vers le logiciel de paie.
+
+Comment se calcule le maintien lorsqu’il se base sur les salaires rétablis des N mois
+précédents ?
+
+Dans lʼexemple ci-dessous, le salarié est absent 10 jours et le maintien sʼeffectue sur les bulletins
+des 3 mois précédents :
+
+Lʼarrêt étant en 01/2023, le maintien sera sur les salaires rétablis dʼoctobre novembre et
+décembre 2022.
+Les salaires rétablis sont présents dans les éléments calculés des bulletins :
+
+Documentation Silae - Aide Client
+
+Page: 3
+
+Les données dont nous avons besoin pour le calcul :
+Salaires rétablis :
+Octobre 2022 : 2000
+novembre 2022 : 2000
+décembre 2022 : 2000
+Nombre de jours calendaires moyens mensuels selon la sécurité sociale : 365/12 = 30.42
+Donc 2000 * 3= 6000
+30,42 * 3 = 91,26
+6000 / 91,26 = 65,75
+
+Le congé Paternité/Maternité ne se déclenche pas sur le bulletin
+
+Pour rappel, légalement il n'est pas prévu de maintien mais uniquement une période de jours
+d'absence autorisée.
+Si vous souhaitez tout de même en déclencher un, alors que cela nʼest pas prévu par la
+convention, il convient de vous rendre dans les éléments variables du bulletin > Ajouter le
+profil de prime ICEMP :
+
+Documentation Silae - Aide Client
+
+Page: 4
+
+Que faire lorsqu’il y a de la maladie et des congés sur la même période ?
+
+Il ne faut pas saisir 2 motifs d'absences en même temps.
+
+En effet, pour un salarié qui est malade pendant ses congés il y a 2 options :
+Soit la maladie suspend les CP : Si d'un commun accord avec l'employeur, le
+salarié peut reporter ses congés. Dans ce cas-là le salarié n'est plus en CP pour la
+période concernée mais en arrêt maladie ;
+Soit le salarié est en congés et dans ce cas il n'y a aucun maintien de
+l'employeur car pour ce dernier le salarié est en congés et non en maladie.
+Le salarié devra envoyer l'attestation de salaire à la CPAM pour percevoir directement
+des IJSS (il n'y a pas de subrogation de l'employeur). Au niveau du bulletin, il y aura
+uniquement la période de CP de décomptée.
+
+Je souhaite modifier les informations dans mon attestation de salaire
+
+Voici la procédure pour modifier l'attestation de salaire :
+1. Supprimer la date de démarrage de la DSN "Arrêt de travail et fin de contrat" :
+
+2. Modifier l'attestation
+3. Remettre la date démarrage de la DSN arrêt de travail
+4. Envoyer la déclaration
+
+Le maintien enfant malade ne se déclenche pas
+
+Documentation Silae - Aide Client
+
+Page: 5
+
+Il conviendra de vérifier que la partie "Enfants - Personnes à charge" est remplie et que la coche
+"À charge" est bien activée en fiche Salarié :
+
+Le maintien ne se déclenche pas sur mon bulletin
+
+Il conviendra de vérifier les points suivants :
+La présence dʼune fonction calcul qui bloquerait le déclenchement du maintien
+Une ancienneté insuffisante ou modifiée par la présence dʼinformation dans la partie
+"Informations complémentaires" de la fiche Salarié :
+
+Il faut que, dans la fiche Société, les champs "Calcul du maintien des salaires",
+"Lʼentreprise avance les IJSS" ou "Lʼentreprise pratique la subrogation" soient cochées :
+
+Documentation Silae - Aide Client
+
+Page: 6
+
+A noter : Si la coche "Lʼentreprise avance les IJSS" est cochée, il nʼy aura pas dʼIJSS sur
+le bulletin.
+Lʼentreprise applique la Garantie Arrêt de Travail ou bien la prévoyance prend en
+charge le maintien
+Date dʼentrée erronée ou absente dans la fiche Salarié :
+
+Une classification absente ou erronée dans la fiche Salarié :
+
+Le maintien ne se régularise pas
+
+Le maintien ne se régularise pas automatiquement comme les absences. En effet, dans ce cas de
+figure, il convient alors de le gérer manuellement.
+
+Documentation Silae - Aide Client
+
+Page: 7
+
+Pour le maintien vous avez le profil ICEMP , dans les éléments variables, ainsi que des profils
+dʼIJSS .
+
+Initialisation du nombre de jours déjà maintenus
+
+Pour initialiser le nombre de jours déjà maintenus en cas de reprise de dossier, il faut ajouter le
+profil INITNBJM dans les éléments variables.
+
+Je constate une différence entre les IJSS brutes et les IJSS Nettes
+
+Il y a 4 éléments à prendre en compte et à vérifier si besoin :
+Les IJSS brutes dépendent du nombre de jours maintenus :
+
+Les IJSS nettes dépendent des dates renseignées dans lʼattestation de salaire :
+
+Documentation Silae - Aide Client
+
+Page: 8
+
+Les IJSS brutes sont limitées au montant et à la durée (nombre de jours) du maintien
+Vérifier et supprimer si besoin les doublons dʼattestations de salaires dans lʼactivité
+Aussi, la coche "Lʼentreprise avance les IJSS" de la fiche Société désactive le calcul sur
+le bulletin lorsquʼelle est activée.
+
+Powered by Document360
+Documentation Silae - Aide Client
+
+Page: 9
+
+

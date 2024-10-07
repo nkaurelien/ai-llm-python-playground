@@ -1,0 +1,48 @@
+{
+    "FAQ Fiche Société": [
+        {
+            "question": "Comment réaliser un changement de Siret ou de forme juridique ?",
+            "answer": "Il ne faut jamais directement changer le Siret ou la forme juridique sur lʼétablissement existant. Il convient de créer un second établissement avec le nouveau Siret ou la nouvelle forme juridique puis il faut déplacer les salariés sur ce nouvel établissement en utilisant le motif de fin dʼemploi \"902\" et sur le nouvel emploi le code \"901\" comme motif de début dʼemploi."
+        },
+        {
+            "question": "Quelle est la procédure pour un changement de nom de l’établissement ?",
+            "answer": "Si le Siret ou la forme juridique ne sont pas modifiés alors il suffit de modifier le nom directement dans la fiche Société."
+        },
+        {
+            "question": "l’établissement dans les DPAE ?",
+            "answer": "Cela peut venir dʼun problème dʼimport. Pour régulariser la situation, il est possible dʼaller dans la fiche Société pour supprimer les établissements en trop :  Il est aussi possible de passer par un programme à la demande :"
+        },
+        {
+            "question": "\fPourquoi la fiche Société est grisée ?",
+            "answer": "Si la fiche Société nʼest pas accessible cela vient des droits accordés. Il faut vous rapprocher de lʼadministrateur du domaine (qui est souvent lʼexpert-comptable)."
+        },
+        {
+            "question": "génère le message d’erreur sur la taxe d’apprentissage ?",
+            "answer": "Exemple de message :  Il convient de renseigner un motif de non-assujettissement :"
+        },
+        {
+            "question": "\fComment modifier la date de virement ?",
+            "answer": "Voir la fiche Générer des virements et options SEPA ."
+        },
+        {
+            "question": "Comment faire une régularisation de taux Accident du Travail (AT ) ?",
+            "answer": "Voir la fiche Régulariser un taux AT (Accident du Travail) ."
+        },
+        {
+            "question": "Comment modifier la présentation du bulletin (masque de bul l eti n) ?",
+            "answer": "Il existe par défaut des masques de bulletin. Par exemple, on peut avoir un bulletin sans le code du dossier ou un bulletin avec lʼIDDC. Ils sont disponibles à ce niveau :"
+        },
+        {
+            "question": "Comment modifier la base de la prime d’ancienneté ?",
+            "answer": "Il y a une coche dans la fiche Société pour choisir une base sur le brut ou sur le salaire conventionnel.    \fComment supprimer un établissement fermé ? Comment ne plus avoir de DSN sur un"
+        },
+        {
+            "question": "établissement fermé ?",
+            "answer": "Il nʼest pas possible de supprimer un établissement fermé. Pour ne plus avoir de DSN pour cet établissement, il faut cocher la case ci-dessous :  Puis pour résilier lʼorganisme de Sécurité sociale, il faut renseigner une date de fin dʼaffiliation (ne jamais supprimer un organisme) :"
+        },
+        {
+            "question": "Comment changer l’établissement principal ?",
+            "answer": "Il faut modifier la fiche Société à ce niveau :"
+        }
+    ]
+}

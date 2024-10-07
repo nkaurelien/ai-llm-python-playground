@@ -1,0 +1,128 @@
+• FAQ Réintégration sociale ou fiscale
+
+Prérequis
+
+Voir les fiches suivantes qui se rattachent au thème de la réintégration :
+
+Réintégration sociale des cotisations
+Réintégration fiscale des cotisations
+Profils REGULRS, REGULRS2 et REGULRF - Réintégration sociale et fiscale
+Modifier des bulletins impor tés (impor t DSN en cours d'année)
+
+Quelles cotisations choisir pour les options non collectives ?
+
+Pour les options non collectives il faut choisir les cotisations .NE .
+Les codes cotisations en .NE sont non déductibles du net imposable pour la part salariale.
+
+Dossier en Montage : Pourquoi la base à réintégrer est à 0 (même pri nci pe pour l a
+réi ntégrati on fi scal e) ?
+
+La réintégration sociale fait partie des éléments non repris dans les DSN. Lors de la création dʼun
+dossier via import des DSN, le logiciel ne peut donc pas savoir que de la réintégration sociale est
+présente dans le bulletin.
+Documentation Silae - Aide Client
+
+Page: 1
+
+Il convient de se rendre dans le menu Traitement mois > Modification des bulletins
+impor tés DSN :
+
+Renseigner toutes les colonnes nécessaires :
+
+Comment faire une régularisation de la réintégration ?
+
+Il faut utiliser des profils de régularisation.
+
+Voir la fiche Profils REGULRS, REGULRS2 et REGULRF - Réintégration sociale et
+fiscale .
+
+Pourquoi la base du forfait social est différente du montant de la cotisation ?
+
+Si la réintégration sociale est générée par une cotisation soumise à forfait social alors il faut
+déduire de la base du forfait social le montant déjà réintégré socialement.
+
+Exemple : Une cotisation GR070 de 496,00 euros générant du forfait social à 20%.
+
+Documentation Silae - Aide Client
+
+Page: 2
+
+Il y a 186,00 euros de réintégration sociale sur le bulletin.
+La base du forfait social est alors de : 496,00 € – 186,00 € = 310,00 €
+
+⚠ Attention :
+Si cela conduit à avoir une base de forfait social négative alors il faut utiliser le profil
+ANNULE-FS pour éviter dʼavoir des erreurs DSN. Ainsi, il y aura une régularisation mois par
+mois.
+
+Quel est le PMSS à prendre en compte ?
+
+Le BOSS a modifié le calcul. Il faut prendre un PMSS plein par mois depuis le début de lʼannée
+ou le début du contrat. Il nʼy a plus de prorata pour temps partiel.
+
+Fiche Réintégration sociale des cotisations
+
+Documentation Silae - Aide Client
+
+Page: 3
+
+Que signifie T P ! et 0 !
+
+TP ! signifie "réintégré dès le 1er euro"
+0 ! signifie "exclu dès le 1er euro".
+
+Mutuelle et réintégration fiscale
+
+Rappel : Toutes les cotisations avec un intitulé "frais de santé" sont réintégrées fiscalement.
+
+Pourquoi seule une partie de la prévoyance est réintégrée ?
+
+Parfois seule une partie de la prévoyance est réintégrée. Cʼest une disposition conventionnelle.
+
+Exemple : CCN B006
+
+On peut voir quel est le taux pris fiscalement en passant par le menu Paramétrage >
+Cotisations > Taux applicables au dossier :
+
+Brut * taux = réintégration fiscale
+Dans cet exemple : 3345.74 * 0.12 /100 = 4.01
+
+Documentation Silae - Aide Client
+
+Page: 4
+
+Pour quelle raison le montant patronal est repris pour un montant différent pour le calcul
+de la CSG, taxe 8% ou RS ?
+
+Exemple :
+
+La différence vient de la réintégration sociale : 1960.81 – 73.21 = 1887.60.
+Soit 1887.67 * 5.655% = 106.74.
+Si vous souhaitez modifier ce traitement et ne pas prendre en compte la réintégration sociale
+alors il faut activer la méthode 012 - Réintégration sociale dans les PR – PS – GR.
+Exemple avec la valeur O (Oui) :
+
+Pourquoi la base CSG ne prend pas en compte la totalité du montant patronal ?
+
+Exemple :
+Le montant pris en compte dans la base CSG est de 321.48. Or le montant patronal est de 214.74
++ 110.88 = 325.62
+Documentation Silae - Aide Client
+
+Page: 5
+
+Par défaut, les bases CSG et FS sont calculées avant réintégration (et non avec les valeurs des
+bases indiquées dans le bulletin). La somme réintégrée dans les bases CSG et Forfait social sur
+contributions prévoyance n'est pas prise en compte.
+Soit 1960.81 – 73.21 = 1887.60
+1887.60 * 5.655% = 106.74
+Il est possible de modifier ce traitement en activant la méthode 001 - Réintégration sociale :
+bases CSG et FS .
+Exemple avec la valeur O (Oui) :
+
+Powered by Document360
+Documentation Silae - Aide Client
+
+Page: 6
+
+

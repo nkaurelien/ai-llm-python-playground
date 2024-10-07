@@ -1,0 +1,60 @@
+{
+    "FAQ Cotisations CCP médecine divers": [
+        {
+            "question": "qu'il n'y a aucune CCN dans le dossier ?",
+            "answer": "Cette cotisation provient de la formation continue due pour les professions libérales et se déclenche selon le code NAF de l'entreprise à retrouver dans la fiche Gérer les professions libérales et la formation professionnelle.  Pour supprimer tout de même cette cotisation, se rendre dans Paramètrage > Cotisations > Taux applicables au dossier puis faire un clic droit et modifier le taux de la TC000.PL à 0 :"
+        },
+        {
+            "question": "Pourquoi les cotisations APNAB et T T C106 ne s'appliquent-elles pas sur le bulletin ?",
+            "answer": "Cette cotisation est liée à l'effectif et s'applique uniquement aux dossiers avec un effectif inférieur à 11 salariés . Le paramétrage dans la fiche Société (Participation à la formation professionnelle) doit être comme illustré ci-dessous :"
+        },
+        {
+            "question": "\fPourquoi les cotisations FFB et CAPEB ne s'appliquent-elles pas sur le bulletin ?",
+            "answer": "Vérifier dans le questionnaire conventionnel de la fiche Société que la case associée est cochée :  ⚠ Attention : Dans le cas où il existe plusieurs statuts de salarié, effectuer la vérification dans le questionnaire conventionnel de la fiche Société pour chaque CCN ."
+        },
+        {
+            "question": "Comment activer la cotisation intempérie sur les bulletins ?",
+            "answer": "Dans la fiche Société, la case \"Activer cette cotisation intempéries\" doit être cochée :  Lors de la reprise d'un dossier, pourquoi les bases des cotisations OPP BT P, FFB et"
+        },
+        {
+            "question": "CP001 sont-elles trop importantes ?",
+            "answer": "Un dysfonctionnement a été décelé concernant les CP : supprimer les montants dans les éléments variables pour corriger l'anomalie.  Exemple : Sur le bulletin ci-desous, des bases sont supérieures au brut.    \fCela provient des montants indiqués dans les éléments variables (Traitement mois > Saisies des éléments variables) :  Après la suppression des montants, le résultat est corrigé :"
+        },
+        {
+            "question": "Comment créer une cotisation oeuvre sociale ?",
+            "answer": "Des taux de cotisations prévus à cet effet sont disponibles dans Paramétrage > Cotisations > Taux applicables au dossier :"
+        },
+        {
+            "question": "Comment déclencher les cotisations AFNCA, ANEFA, PROVEA et ASCPA sur les bulletins ?",
+            "answer": "Le déclenchement de ces cotisations est lié au code risque (à paramétrer dans la fiche Société). Les codes risques permettant leur déclenchement sont les suivants : \"110\", \"120\", \"130\", \"140\", \"180\", \"190\", \"400\", \"410\", \"EBMSA\"."
+        },
+        {
+            "question": "\fComment créer une cotisation assurance chômage pour un mandataire (GSC chômage) ?",
+            "answer": "Choisir une cotisation selon la base souhaitée disponibles dans Paramétrage > Cotisations > Taux applicables au dossier .  À noter : Seuls les mandataires et dirigeants ayant les codes statuts professionnels suivants ont ces cotisations : \"20\", \"21\", \"22\", \"23\", \"24\", \"25\", \"88\"."
+        },
+        {
+            "question": "Commment créer une cotisation médecine du travail ?",
+            "answer": "Se rendre dans Paramétrages > Cotisations > Taux applicables au dossier et choisir un code disponible dans la liste : DI003 : Santé au travail DI003.1 : SST - MSA DI003.F : Santé au travail forfait DI003 : TVA sur Médecine au travail"
+        },
+        {
+            "question": "Pourquoi la CAPED part fixe (CP004) ne s'applique-t-elle pas sur les bulletins ?",
+            "answer": "Cette cotisation est prévue pour les CCN du bâtiment uniquement ."
+        },
+        {
+            "question": "Pourquoi se déclenche-t-elle avec un montant différent de celui attendu ?",
+            "answer": "Le déclenchement de cette cotisation et de son montant sont liés à l'effectif de l'année précédente dans la fiche Société. Celui-ci peut être modifié manuellement."
+        },
+        {
+            "question": "Comment annuler la contribution CPF-CDD (T C003) ?",
+            "answer": "Utiliser le profil ANN-CIFCDD . Voir la fiche Profil ANN-CIFCDD - Annulation de la contribution CIF-CDD ."
+        },
+        {
+            "question": "Comment supprimer la majoration de la cotisation OPP BT P ?",
+            "answer": "Dans Paramétrages > Méthodes , activer la méthode 017 \"Base OPP BTP dans le secteur des Travaux Publics\" :"
+        },
+        {
+            "question": "Pourquoi la coche \"Exclure de la caisse de congés payés\" se met-elle automatiquement",
+            "answer": "pour tous les salariés (T 026 et D001)  Dans le cas de la CCN T026 et de la D001, l'adhésion à la caisse de congés payés n'est obligatoire qu'un an . Ainsi, la coche du questionnaire conventionnel de la fiche Société se présente de la manière suivante :  Au-delà d'un an, l'entreprise ne cotise plus à la caisse. Par conséquent, le logiciel applique la coche \"Exclure de la caisse de congés payés\" automatiquement dans la fiche Salarié car l'affiliation n'est plus obligatoire.    À noter : Si la cotisation doit rester active au delà d'un an, choisir \"Adhésion au régime dit facultatif\" dans le questionnaire conventionnel de la fiche Société. Dans le fiche Salarié, décocher également \"Exclure de la caisse congés payés\"."
+        }
+    ]
+}

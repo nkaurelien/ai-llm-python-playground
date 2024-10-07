@@ -1,0 +1,92 @@
+• FAQ Bulletins ne se calculent pas
+
+Mon salarié revient, pourquoi y a-t-il des bulles rouges sur les mois précédents ?
+
+Cela signifie que la date de fin nʼest pas renseignée dans tous les emplois archivés. Il faut la
+renseigner dans tous les emplois archivés disponibles.
+
+Exemple :
+
+Comment supprimer la bulle rouge sur le mois en cours pour un salarié parti ?
+
+Si la sortie a bien été faite sur le mois précédent alors il faut vérifier les dates de fin dans tous les
+emplois archivés :
+
+Exemple avec une date de fin pour 2023 :
+
+Documentation Silae - Aide Client
+
+Page: 1
+
+Pourquoi y a-t-il des bulles blanches dans l’état d’avancement ?
+
+Cela signifie quʼil y a un bulletin à calculer sur une période précédente.
+
+Exemple :
+
+⚠ Attention : Dans cette situation, il ne faut surtout pas calculer le second bulletin.
+
+Cela peut venir :
+1. Dʼun emploi créé avec une mauvaise date ➜ Corriger la date ou supprimer le second
+emploi.
+2. Dʼune date erronée dans les emplois archivés.
+3. Au moment de la création dʼun emploi, il y a eu inversion de lʼemploi 1 et 2. Cela est
+caractérisé par lʼimpossibilité de supprimer le dernier emploi. Dans ce cas, il faut modifier la
+date du 1er avec une date postérieure à lʼemploi 2 pour quʼil bascule en emploi 2. Il sera
+alors possible de supprimer cet emploi.
+
+Pourquoi la bulle générale du mois ne passe pas au vert ? Pourquoi il n’y a pas de bulles
+rouges à calculer pour le mois suivant ?
+
+1. Le logiciel ne bascule pas sur le mois M+1 sʼil y a encore des bulletins en attente dʼêtre
+calculés.
+On peut voir les bulletins non calculés en découvrant N-1 :
+Documentation Silae - Aide Client
+
+Page: 2
+
+Exemple avec 3 bulletins à calculer :
+
+Il faut soit calculer les bulletins soit supprimer lʼemploi pour ne plus avoir de bulletin à calculer.
+
+2. Le logiciel ne bascule pas sur le mois M+1 sʼil y a encore des bulletins à imprimer (bulle
+bleue).
+
+3. Même sʼil nʼy a pas de bulles rouges, il est possible de calculer un bulletin en faisant un clic
+droit sur la case (cʼest le cas, lorsquʼil nʼy a pas de salarié sur le mois précédent) :
+
+Comment supprimer un bulletin pour la participation/intéressement ?
+
+Documentation Silae - Aide Client
+
+Page: 3
+
+Si la RAZ des bulletins dans le module ne peut pas être utilisé alors il faut supprimer les bulletins
+concernés. Il faut ensuite aller dans la fiche Salarié pour supprimer le dernier emploi :
+
+En fin d’année, comment avoir la période de janvier N+1 ?
+
+Lorsquʼil nʼy a pas de salarié, janvier nʼest pas automatiquement visible.
+
+Exemple :
+
+Pour avoir accès à janvier 2023, il faut créer un salarié fictif pour avoir un emploi sur janvier
+2023.
+Ainsi, il sera possible de faire un clic droit > calculer le bulletin du salarié souhaité (même sʼil nʼy
+a pas de bulle rouge).
+Puis il faudra supprimer le salarié fictif.
+
+Comment modifier une date de fin de contrat ?
+
+Si le changement nʼest pas pris en compte, il faut aller dans la fiche Salarié en passant par le
+bulletin, pour supprimer la date et le motif de fin.
+Puis, sans recalculer le bulletin, il faut supprimer lʼattestation Pôle emploi. Recalculer le bulletin
+sans sortie.
+Enfin, remettre la bonne date de fin dans la fiche Salarié.
+
+Powered by Document360
+Documentation Silae - Aide Client
+
+Page: 4
+
+

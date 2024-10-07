@@ -1,0 +1,24 @@
+{
+    "FAQ Alerte déchéance": [
+        {
+            "question": "Est-il possible de créer une nouvelle alerte en plus de la liste déjà existante ?",
+            "answer": "Il nʼest pas possible de créer une nouvelle alerte dʼéchéance. De nouvelles alertes ne seront pas créées car ce module sera remplacé par Silae RH dans les prochains mois. Cependant, il est possible de créer une alerte au niveau du salarié ou du dossier. Pour cela, voir la fiche Créer des aler tes dans un dossier ."
+        },
+        {
+            "question": "Comment modifier l’expéditeur du mail ?",
+            "answer": "Pour modifier le mail de lʼalerte dʼéchéance, se rendre dans Paramétrage paie > Paramètres robot de paie"
+        },
+        {
+            "question": "Pourquoi le client ne reçoit pas les alertes d’échéance ?",
+            "answer": "Dans un premier temps, vérifier que lʼalerte a bien été envoyée au niveau de lʼétat dʼavancement :    \fVérifier aussi que le contact a bien été créé dans lʼalerte dʼéchéance :  Si le mail nʼapparaît pas, cela signifie quʼil nʼa pas été envoyé. Si le mail se trouve bien dans la liste mais nʼa pas été reçu par le client, il faut alors consulter la FAQ envoi de mails (point 3)."
+        },
+        {
+            "question": "Comment modifier le corps du mail ?",
+            "answer": "Le mail envoyé est modifiable. Il peut être modifié au niveau du Dossier (ou au niveau du domaine). Dans ce cas, se rendre dans Paramétrage Paie > Aler tes d'échéance > Paramétrage mail global pour aler tes salariés :"
+        },
+        {
+            "question": "Où retrouver l’historique des envois ?",
+            "answer": "Pour voir les mails envoyés, se rendre sur lʼétat dʼavancement puis cliquer sur Mails envoyés dans le volet de droite :"
+        }
+    ]
+}

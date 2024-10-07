@@ -1,0 +1,168 @@
+• FAQ Congés Payés
+
+Comment les congés payés sont-ils proratisés ?
+
+En l'absence de dispositions conventionnelles concernant la proratisation des CP, le logiciel
+calcule une proratisation progressive pour l'acquisition mensuelle.
+
+Voir la fiche Proratisation des congés payés .
+
+Pourquoi les congés payés n’apparaissent-ils pas dans le compteur ?
+
+Vérifier les éléments suivants :
+La coche “Emploi principal” au niveau de lʼemploi (fiche Salarié) ;
+La date dʼentrée et la date de début dʼemploi sont correctes (fiche Salarié) ;
+Contrôler que la gestion des CP ne soit pas uniquement en jours (fiche Société).
+
+Comment l’acquisition des congés payés est-elle gérée en cas de maladie non
+professionnelle ?
+
+Dans un premier temps, vérifier dans les dispositions conventionnelles que la MNP est assimilée
+à travail effectif pour le calcul des CP (Menu Documentation > CCN ).
+Si cela nʼest pas prévu par le logiciel, il conviendra de nous faire remonter votre demande via le
+formulaire dʼassistance et dʼappliquer la solution de contournement suivante :
+Forcer le compteur dans les éléments calculés du bulletin :
+
+Documentation Silae - Aide Client
+
+Page: 1
+
+Forcer le profil PROVCPN ou PROVCPN-1.
+Voir la fiche Profils PROVCPN et PROVCPN-1 - Mise à jour de la provision
+congés payés .
+
+Qu’est-ce que la régularisation annuelle des congés payés ?
+
+Silae calcule une régularisation annuelle des CP en fin de période d'acquisition ou en cas de
+sortie du salarié.
+Il est possible de neutraliser cette régularisation avec la méthode 020 "Gestion annuelle des
+congés payés".
+
+Pour plus d'informations, voir la fiche Congés payés et mois de clôture .
+
+Comment les indemnités compensatrices de congés payés (ICCP) sont-elles calculées ?
+
+Le détail du calcul est disponible en cliquant sur la bulle de l'ICCP.
+
+Exemple :
+
+Documentation Silae - Aide Client
+
+Page: 2
+
+Solde de repos en septembre :
+
+On retrouve bien pour N-1 une provision acquise de 676.02. Le logiciel compare ce solde à celui
+obtenu en réalisant le calcul suivant : 8 jours restants x 69.3238 (maintien journalier) = 554.59.
+Ce résultat est moins avantageux pour le salarié et n'est pas retenu du fait de l'arbitrage manuel
+du dossier.
+Pour N, le logiciel compare également la provision acquise (soit 762.62 + 113.27 (provision
+d'octobre) = 875.89) au maintien (soit 12 jours acquis (10 + 2 du mois) x 69.3238 = 831.89).
+Pour N, le logiciel retient le dixième car le salarié n'ayant pas pris de CP sur la période, c'est le
+paramétrage par défaut du logiciel qui prévaut.
+
+Documentation Silae - Aide Client
+
+Page: 3
+
+À noter :
+Si lʼICCP reprise est la valorisation alors que celle-ci est inférieure à la provision, il
+conviendra de vérifier dans la fiche Société lʼarbitrage coché :
+À chaque prise (méthode conseillée) : Lʼarbitrage est calculé à chaque prise
+pour les congés de la période de référence, sauf dans le cas de jours anticipés (le
+10ème nʼest pas connu). Cet arbitrage sera recalculé en fin de période.
+Lors de la dernière prise : Le maintien de salaire est systématique. Lors de la
+prise du dernier jour de congés acquis, lʼarbitrage est recalculé sur lʼannée avec
+le 10ème. En cas dʼécart (si le 10ème est plus favorable), une régularisation sera
+réalisée en fin de période.
+Au mois de clôture : Le maintien est systématique. En fin de période, lʼarbitrage
+est recalculé sur lʼannée avec le 10ème. Si le 10ème est plus favorable, une
+régularisation viendra combler lʼécart.
+M a n u e l l e m e n t (méthode déconseillée) :
+systématique même en cas de sortie du salarié.
+
+Pas
+
+dʼarbitrage,
+
+maintien
+
+Voir la fiche Calculer l'indemnité de congés payés .
+
+Comment les CP des salariés à temps partiel sont-ils décomptés ?
+
+La prise de congés la veille d'un jour non travaillé induit un comptage du jour non travaillé
+comme un jour de congé supplémentaire jusqu'au prochain jour normalement travaillé.
+Le salarié à temps partiel bénéficie d'une garantie d'égalité de traitement avec le salarié à temps
+plein sur l'acquisition comme sur la prise de CP.
+Pour décompter le nombre de jours de congés pris par un salarié :
+Prendre comme point de départ le 1er jour où le salarié aurait dû travailler s'il n'était
+pas parti en congé,
+Et prendre en compte tous les jours ouvrables inclus dans la période d'absence
+jusqu'à la reprise du travail.
+Source : Quelle est l'incidence sur les droits à congés payés d'un salarié à temps partiel ? (www.ser vice-public.fr).
+
+Comment fonctionne la méthode 105 "CP en jours ouvrés à ajouter" ?
+
+Lorsque le samedi est férié, si le salarié a pris un CP durant cette période, le logiciel octroie par
+défaut un CP supplémentaire aux salariés gérés en ouvrés pour compenser le jour
+supplémentaire obtenu par les salariés qui sont gérés en ouvrables.
+L'activation de la méthode 105 "CP en jours ouvrés à ajouter" permet de ne pas appliquer ce
+traitement.
+Documentation Silae - Aide Client
+
+Page: 4
+
+Comment intervenir sur le paramétrage des CP supplémentaires ?
+
+Pour modifier le paramétrage des CP supplémentaires, se rendre dans le menu Paramétrage >
+Absences > Paramètres CPSUP (volet de droite).
+Il est possible de modifier les paramètres suivants :
+Nom du compteur ("code") ;
+Nom de l'absence sur le bulletin et dans la saisie d'activité ("libellé/bulletin") ;
+Déclencher le calcul des ICP en cochant "réagissent comme des CP" ;
+Choisir le mois de clôture et le report.
+
+Comment accéder au solde de repos ?
+
+On accède au solde de repos depuis lʼétat dʼavancement en réalisant un clic droit sur la bulle
+dʼun bulletin.
+
+Puis double cliquer sur la ligne :
+
+Comment gérer les CP en cas de transfert d’un salarié d’un dossier à un autre ?
+
+Documentation Silae - Aide Client
+
+Page: 5
+
+Lorsque les CP et provisions sont initialisés via la saisie des éléments variables, l'initialisation
+sera effective sur le mois suivant . C'est pour cela que les CP sont déduits sur N au lieu de N-1
+lorsquʼils sont posés sur le premier bulletin fait après le transfert.
+Pour modifier, il convient de forcer via les éléments calculés .
+Cependant, il faudra également utiliser le profil PROVCONSN pour mettre à jour la provision
+qui a été déduite à tort sur N et modifier la valeur de la provision consommée N-1.
+
+Comment modifier un compteur d’un salarié qui est désormais exclu de la gestion des
+congés payés ?
+
+Des profils existent pour mettre à jour les compteurs CP :
+
+Vous pouvez agir sur les jours acquis / pris :
+
+Pour tout supprimer , vous pouvez forcer les jours dans les éléments calculés avec les valeurs
+permettant d'annuler ce qui a déjà été saisi.
+⚠ Attention : Il conviendra en premier lieu de supprimer la coche "Exclure de la
+gestion des congés payés" et de la remettre ensuite.
+Documentation Silae - Aide Client
+
+Page: 6
+
+À noter : Forcer les éléments calculés ne permet pas de modifier les provisions :
+
+Powered by Document360
+Documentation Silae - Aide Client
+
+Page: 7
+
+

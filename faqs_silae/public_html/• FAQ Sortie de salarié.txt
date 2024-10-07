@@ -1,0 +1,124 @@
+• FAQ Sortie de salarié
+
+L’attestation ne se confirme/envoie pas
+
+Vérifier que la coche "Emploi principal" de la fiche Salarié et/ou des emplois archivés soit bien
+activée.
+
+Salaires ou périodes d'absences manquant(e)s sur l’AER (hi stori que manquant)
+
+Pôle emploi se base sur le numéro de contrat DSN de chaque salarié et/ou SIRET pour
+reconstituer lʼhistorique. Cʼest pourquoi à la reprise du dossier sur Silae ou lors de changements
+de contrat ou de SIRET, il convient de renseigner ces numéros de contrat (anciens et nouveaux)
+pour assurer le chainage des informations pour les DSN événementielles.
+Voir aussi la fiche Changer l'adresse ou le SIRET de l'établissement
+
+Cette anomalie nʼest pas liée à lʼenvoi de la DSN événementielle car aucune valeur nʼest envoyée
+à ce moment, le retour de lʼAER Pole emploi se fera bien avec les historiques des 36 derniers
+mois qui ont été transmis via les DSN mensuelles.
+Vous pouvez donc corriger ce problème en renseignant les informations contrat DSN dans le
+menu DSN > Gestion des numéros de contrat .
+Cependant, ce changement sera déclaré dans la prochaine DSN mensuelle et donc effectif pour
+les DSN évènementielles suivantes.
+Si des sorties sont à faire entre temps, vous devez passer manuellement sur Net-Entreprise ou
+Pôle emploi.
+
+Envoi FCT U pour les dossiers spectacles
+
+Les envois FCTU ne sont pas encore possible pour les dossiers Spectacle et ENIM, il faut donc
+continuer lʼutilisation de lʼancien canal via le dépôt manuel.
+
+Comment modifier ou supprimer la sortie quand l’assistant de sortie est validé ?
+
+Documentation Silae - Aide Client
+
+Page: 1
+
+Si vous souhaitez supprimer ou modifier la sortie dans la fiche Salarié, il conviendra de
+supprimer la sortie dans lʼassistant et, sans recalculer le bulletin, vous devez vous rendre
+dans la fiche Salarié pour retirer la date de fin dʼemploi.
+
+Modifier le régime de la rupture conventionnelle
+
+Si vous souhaitez modifier le régime de la rupture conventionnelle (soumis ou non soumis),
+nous vous invitons à vous référer à la fiche de la base de connaissance Changer le régime de
+l'indemnité de rupture conventionnelle.
+
+Envoi d’une AED classique pour un dossier du groupe Spectacle
+
+Si, sur votre dossier, vous avez le module Spectacle (même si vous ne l'utilisez pas, celui-ci est lié
+à la CCN et ne peut pas être supprimé), il n'y a alors pas de point rouge sur les bulles bulletin et
+vous ne pouvez pas envoyer l'attestation via clic droit > Envoyer l'attestation EDI.
+Il vous faudra alors passer par l'édition/réédition du bulletin original en cochant
+"attestation Pôle emploi EDI".
+
+Jours de CP non déclarés dans l’attestation
+
+Les jours de CP restants sur le mois de sortie ne sont plus déclarés en FCTU.
+De ce fait, le cahier des charges de Pôle Emploi nʼexige plus la présence de ces informations
+dans lʼAER.
+
+Transfert de salarié
+
+Lors d'un transfert d'un salarié, il convient d'utiliser le motif de sortie 902. Celui-ci n'est pas un
+motif de fin de contrat et ne permet pas de réaliser d'attestation Pôle emploi. Si le salarié sort
+ensuite sur son nouvel emploi, l'AER devra reprendre les historiques des 2 emplois cumulés.
+Il faut cependant vérifier (dans les emplois archivés) que les 3 données identificatrices suivantes
+n'ont pas changé, et si c'est le cas alors il faut déclarer ce changement en DSN mensuelle (ou
+conserver les même données) :
+La date de début de contrat : Il faut renseigner la date de début de contrat (de
+l'ancienne structure) dans la fiche Salarié de la nouvelle structure.
+Le SIRET : Le changement doit être déclaré dans le menu DSN > Gestion des
+numéros de contrat DSN (saisir l'ancien SIRET). Cela déclenche un bloc dans la
+prochaine DSN calculée.
+Documentation Silae - Aide Client
+
+Page: 2
+
+Le numéro de contrat DSN (vérifier dans les emplois archivés s'il a changé ou pas) :
+S'il a changé il faut le déclarer dans le menu DSN > Gestion des numéros de
+contrat DSN .
+Si les historiques sont bien gérés (comme précisé plus haut), alors il faut faire l'envoi EDI FCTU.
+Vous recevrez en retour l'AER avec les salaires reconstitués.
+
+Absence des données signataires et numéro Urssaf
+
+Ces données ne sont pas transmises en FCTU, il est donc normal quʼelles ne soient plus
+reconstituées dans les AER.
+
+Délai de prévenance
+
+Pour un délai de prévenance, il convient de saisir les dates dans la zone préavis sur lʼassistant de
+sortie. Le logiciel le déclarera automatiquement en délai de prévenance.
+Lʼindemnité de préavis est à saisir dans les éléments variables via le libellé de prime I13 .
+
+Procédure CSP en FCT U
+
+Pour un CSP, vous devez renseigner le motif de sortie 26 (dans "autres motifs") dans l'assistant
+de sortie.
+Ensuite, vous devez renseigner le préavis pris en charge par l'organisme de 2 manières :
+1. Vous devez l'indiquer comme préavis non effectué non payé.
+2. Vous devez indiquer la durée et le montant de la prise en charge.
+Le fait de remplir les deux préavis avec le motif de sortie 26 entraînera automatiquement en
+DSN la déclaration du bon motif de préavis ainsi que du bloc concernant la prise en charge du
+préavis par Pôle emploi.
+Il faudra donc faire d'abord l'envoi EDI FCTU, puis vous recevrez le retour de l'attestation CSP en
+lieu et place de l'AER classique.
+
+Rendre obsolète les envois
+
+Si lʼenvoi FCTU ne vous est pas proposé alors que vous souhaitez faire une annule et remplace, il
+conviendra de rendre obsolète lʼenvoi précédent.
+Pour cela, vous devez vous rendre dans lʼonglet Production > Télédéclaration > DNAC > clic
+droit sur lʼenvoi précédent > Rendre obsolète , ensuite vous actualisez lʼétat dʼavancement et
+lʼenvoi sera à nouveau disponible.
+Documentation Silae - Aide Client
+
+Page: 3
+
+Powered by Document360
+Documentation Silae - Aide Client
+
+Page: 4
+
+

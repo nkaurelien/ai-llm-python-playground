@@ -1,0 +1,183 @@
+• FAQ Ecritures comptables
+
+COTISATIONS
+
+Scinder un compte 645x
+
+Cela concerne principalement la mutuelle et la prévoyance.
+
+Voir aussi la fiche Paramétrer les écritures comptables (point "Ajouter une
+ligne/créer des filtres").
+
+- Dans un 1er temps, dupliquer la ligne 645x avec clic droit
+
+- Clic droit sur la ligne ajoutée pour lui appliquer un filtre sur lʼorganisme ou sur les codes
+libellés (la 1ère ligne reprend tout ce qui nʼest pas filtré)
+
+- Modifier le libellé en double cliquant dessus et renseigner le numéro de compte
+
+Scinder un compte 43x
+
+Cela concerne principalement la mutuelle et la prévoyance.
+La première chose à faire est de créer tous les organismes dans le dossier (voir les fiches
+" Paramétrer les organismes " et " Gestion multi organismes " ).
+
+Documentation Silae - Aide Client
+
+Page: 1
+
+Lorsque les organismes sont créés et que les cotisations y sont bien rattachées, cela ajoute un
+compte 43 dans Paramétrage > Liaison comptable.
+Le libellé dʼun compte 431/437 nʼest pas modifiable. Cependant, vous pouvez modifier le numéro
+de compte et séparer la part salariale et patronale.
+
+Pour pouvoir scinder un compte 4, il faut le gérer via les organismes, en ajoutant un compte de
+même nature et le filtrer par population ou code libellé et mettre un numéro dʼaffiliation
+différent.
+
+Cela permet de scinder par exemple la retraite et la prévoyance en créant deux lignes distinctes
+dans la liaison comptable :
+
+PRIMES
+
+Comment modifier l’affectation comptable des primes ?
+
+Voir aussi la fiche Paramétrer les écritures comptables (point "Ajouter une
+ligne/créer des filtres").
+
+Documentation Silae - Aide Client
+
+Page: 2
+
+Il est possible de modifier les comptes 4 ou 6 en fonction des codes libellés. Pour cela, il convient
+de se rendre dans la liaison comptable tout en bas à gauche "Paramétrage des comptes de
+primes".
+Mettre le code libellé souhaité, le compte souhaité puis cocher « Paramétrage prioritaire » afin
+que ce paramétrage soit priorisé.
+
+Comment modifier l’affectation comptable des IJ prévoyances nettes ?
+
+Voir aussi la fiche Paramétrer les écritures comptables (point "Ajouter une
+ligne/créer des filtres").
+
+Comment modifier l’affectation
+prélèvements sur salaire ?
+
+comptable
+
+des
+
+saisies
+
+arrêts
+
+renseignés
+
+via
+
+les
+
+Il faut aller dans liaison comptable, puis modifier les lignes de Prélèvement salariés Ligne 1, 2
+et/ou 3 suivant lʼemplacement de la saisie dans la fiche Salarié.
+
+Documentation Silae - Aide Client
+
+Page: 3
+
+NET A PAYER
+
+Comment modifier le compte 421 ?
+
+Voir aussi la fiche Paramétrer les écritures comptables (point "Ajouter une
+ligne/créer des filtres").
+
+Comment traiter les reports NAP du mois précédent ?
+
+Vous pouvez modifier ce paramétrage dans le menu de gauche "421- Personnel –
+Rémunérations dues négatives" :
+
+FONCTIONNALITES ET AFFICHAGE
+
+Comment connaître le contenu d’un compte ?
+
+Il convient de cliquer sur "Ajouter le détail des écritures" à droite de lʼédition puis clic droit sur la
+ligne souhaitée :
+
+Documentation Silae - Aide Client
+
+Page: 4
+
+Comment personnaliser les libellés de compte ?
+
+Il convient de cliquer directement sur le libellé concerné afin de pouvoir le modifier, une flèche
+verte doit apparaitre :
+
+Comment regrouper des lignes dans l’écriture ?
+
+Vous pouvez regrouper des lignes qui possèdent le même numéro de compte. Pour cela il faut
+renseigner manuellement le même libellé :
+
+Comment supprimer des lignes dans l’écriture ?
+
+Il convient de renseigner un 0 dans chaque concerné (comptes 4 et 6) :
+
+Les options liées au transfert des comptes 6 ?
+
+Modification de l'option "Transfert simple" > "Un compte par établissement" ou "Un compte par
+affectation analytique".
+
+Documentation Silae - Aide Client
+
+Page: 5
+
+Il nʼexiste pas d'historisation des données après sauvegarde si l'on souhaite revenir en arrière.
+
+Comment faire des filtres et tris corrects ?
+
+Afin dʼobtenir une bonne répartition des cotisations par établissement ou section analytique il
+convient dʼeffectuer un "Filtre et tri" dans l'état d'avancement en sélectionnant tous les
+établissements/sections analytiques en même temps avant de générer lʼOD.
+Les données en cas de sélection partielle peuvent être erronées et vous constaterez des écarts
+dans les écritures.
+
+ANALYTIQUE
+
+Pourquoi y a-t-il des "?" dans l’écriture ?
+
+Cela signifie que des salariés nʼont pas été affectés à une section dans le menu Gestion >
+Imputations analytiques > Salariés non affectés :
+
+Documentation Silae - Aide Client
+
+Page: 6
+
+Comment traiter l’analytique en pourcentage par emploi ?
+
+L'affectation analytique ne peut se faire que par salarié, il n'est pas possible de faire une
+affectation par emploi.
+Pour appliquer une répartition il faut passer par l'analytique en %. Voir la fiche "Analytique en
+pourcentage ".
+
+FICHIER SEQUENTIEL
+
+Quel modèle de fichier séquentiel utiliser ?
+
+Vous retrouverez la liste des formats disponibles dans la fiche Liste des formats
+disponibles pour l'expor t des écritures comptables .
+
+MODELE D’ECRITURE
+
+Comment dupliquer un modèle de paramétrage sur un autre dossier ?
+
+Voir aussi la fiche Créer les modèles pour écritures comptables .
+
+Problème d’enregistrement du modèle
+
+Pour pouvoir "Sauver" un modèle il ne doit pas y avoir dʼanalytique dans le paramétrage ou
+dʼéléments spécifiques au dossier (compte par établissement, compte par salarié…) .
+Powered by Document360
+Documentation Silae - Aide Client
+
+Page: 7
+
+

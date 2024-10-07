@@ -1,0 +1,118 @@
+• FAQ Bureautique
+
+Prérequis
+➜ Vous devez avoir accès à la suite bureautique Microsoft . Tous les modèles se génèrent à
+partir dʼun document Word.
+
+Voir les fiches Paramétrer des modèles bureautiques et Liste des rubriques pour
+modèles bureautiques .
+
+Que faire si les mots clés sont convenablement positionnés et orthographiés mais ne se
+génèrent pas ?
+
+Plusieurs éléments peuvent expliquer cette anomalie :
+Vous avez fait un copier-coller des champs depuis la base de connaissances ;
+Un caractère masqué sʼest immiscé dans votre saisie.
+Voici les éléments qui vous permettront de résoudre ces situations :
+Saisir manuellement le mot clé dans son intégralité ;
+Rédiger le document dans un bloc note avant de le copier-coller dans le fichier
+Word. Cela permet de conserver le texte sans mise en forme et de supprimer les
+éventuels caractères masqués.
+
+Comment faire remonter les organismes dans votre modèle bureautique ?
+
+Lorsque vous souhaitez faire remonter une information sur un de vos organismes, vous devez
+dans un premier temps indiquer la nature de cet organisme .
+
+Documentation Silae - Aide Client
+
+Page: 1
+
+Voir la fiche Liste des rubriques pour modèles bureautiques .
+
+Si vous souhaitez faire remonter le nom et le numéro dʼaffiliation de votre organisme de
+prévoyance (RPO) vous devez saisir :
+$ORG_NATURERPO $ORG_NOM $ORG_NUMEROAFFILIATION
+
+À noter :
+Les informations concernant les organismes doivent être saisies au kilomètre , il ne faut
+pas faire un retour à la ligne.
+Dans le cas contraire, vous devez ressaisir $ORG_NATURE [XXX] sur la nouvelle ligne.
+
+Comment faire remonter plusieurs organismes ? (mul ti -organi smes)
+
+Dans le paramétrage de vos organismes, vous avez paramétré plusieurs organismes : SS, RPO ou
+RPS, par exemple.
+Dans le modèle bureautique, il convient d'ajouter une valeur (1, 2, 3, etc) à la définition de la
+nature de lʼorganisme à récupérer.
+
+Exemple : Dans un dossier, trois organismes RPO ont été paramétrés. Nous souhaitons faire
+remonter les éléments suivants : le nom et le numéro dʼaffiliation.
+
+Extrait du paramétrage des organismes du dossier :
+
+Documentation Silae - Aide Client
+
+Page: 2
+
+Extrait du paramétrage à saisir dans le modèle bureautique :
+
+Affichage des éléments lors de la génération de la bureautique :
+
+Comment voir les modèles bureautiques de dossiers Silae récupérés d'un autre prestataire
+?
+
+Les modèles bureautiques qui sont paramétrés au niveau du domaine ne sont jamais
+expor tés dans le cadre dʼun impor t/expor t de dossier , ni dans le cadre dʼune prestation de
+copie de dossier.
+
+Comment exporter en masse tous les modèles bureautiques ?
+
+À ce jour, il nʼexiste pas de solution pour exporter en masse tous vos modèles.
+
+Documentation Silae - Aide Client
+
+Page: 3
+
+Comment avoir son document en PDF ?
+
+Voir la procédure dans la fiche Paramétrer des modèles bureautiques (partie
+"Options du document (en contextes Salarié / Société))".
+
+Comment utiliser la fonction IF ?
+
+La fonction IF permet dʼadapter un bloc de votre modèle en fonction dʼune condition (la civilité,
+le statut, etc).
+Lors de la rédaction du bloc, il convient de vérifier que celui-ci est bien structuré de cette façon :
+
+La boucle conditionnelle doit contenir une succession de If – Else – Endif . Ces trois conditions
+doivent être encadrées des balises #star t et #stop .
+
+À noter :
+Il nʼest pas possible de faire des conditions sur des valeurs chiffrées. Exemple : Sur des
+heures.
+
+Voir la fiche Liste des rubriques pour modèles bureautiques (partie "Utiliser la
+fonction IF").
+
+Puis-je exécuter un calcul (opérati on) dans un modèle bureautique ?
+
+À ce jour, il nʼest pas possible dʼexécuter une opération dans un modèle bureautique.
+
+Comment exécuter en masse un modèle bureautique ?
+
+Il est possible de générer en masse votre modèle bureautique. Pour cela, se rendre dans l'état
+d'avancement et réaliser un clic droit sur le mot "Bulletin" .
+Documentation Silae - Aide Client
+
+Page: 4
+
+⚠ Attention :
+Le modèle ne sera pas archivé dans lʼhistorique de chacun des salariés.
+
+Powered by Document360
+Documentation Silae - Aide Client
+
+Page: 5
+
+

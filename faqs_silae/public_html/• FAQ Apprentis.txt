@@ -1,0 +1,93 @@
+• FAQ Apprentis
+
+Prérequis
+➜ Lire la fiche dʼaide en ligne "Contrat dʼapprentissage – Paramétrer un apprenti ".
+➜ Points importants concernant le paramétrage :
+
+- Vérifier/renseigner la date de naissance de lʼapprenti
+- Le Code contrat de travail doit être le "04 " ou le "05 " :
+
+- Vérifier sʼil existe une classification conventionnelle spécifique :
+
+- Bien remplir le tableau dʼ"Informations sur contrat par ticulier " :
+
+Documentation Silae - Aide Client
+
+Page: 1
+
+FAQ
+1. Le taux de rémunération est à 0 %
+
+➜ Vérifier que le tableau dʼ"Informations sur contrat par ticulier " soit bien renseigné :
+
+Voir la fiche dʼaide en ligne Contrat dʼapprentissage – Paramétrer un apprenti .
+
+2. Le taux de rémunération n'est pas celui attendu
+
+➜ Vérifier la date de naissance de lʼapprenti.
+➜ Vérifier la documentation conventionnelle dans Silae et se référer au tableau en annexe
+sʼil existe une rémunération conventionnelle pour les apprentis :
+
+➜ Vérifier que le tableau dʼ"Informations sur contrat par ticulier " soit bien renseigné.
+
+Voir la fiche dʼaide en ligne Contrat dʼapprentissage – Paramétrer un apprenti .
+
+Documentation Silae - Aide Client
+
+Page: 2
+
+➜ Ne pas modifier le choix "Compagnon du devoir" si lʼapprenti nʼen est pas un car cela
+impacte la rémunération :
+
+➜ Vérifier sʼil existe une classification métier conventionnelle apprenti . Si oui, bien choisir
+la classification correspondante au diplôme (notamment si plusieurs choix sont possibles) :
+
+⚠ Attention :
+Pour les CCN du bâtiment : Il y a plusieurs choix possibles au niveau de la classification
+métier. Il ne faut choisir "Apprentis compagnons du devoir" que si cʼest le cas. Les autres
+classifications "classiques" sont dans les "Niveau I" et "Niveau II" :
+
+3. Le barème légal s'applique à la place du barème conventionnel
+
+➜ Si la classification métier nʼest pas renseignée, Silae applique automatiquement le
+légal .
+Si la CCN ne prévoit pas de classification spécifique pour les apprentis lʼutilisateur peut tout de
+même renseigner une classification pour que le comparatif avec le légal soit fait.
+
+Documentation Silae - Aide Client
+
+Page: 3
+
+4. Comment savoir si le logiciel réalise un comparatif entre le légal et le conventionnel ?
+
+➜ Lorsquʼun comparatif entre le légal et le conventionnel est réalisé au niveau de la
+rémunération, une bulle explicative est présente au niveau de la ligne du salaire de base
+dans le bulletin :
+
+➜ Lʼinformation est également présente dans la synthèse de la CCN concernée (menu
+Documentation > Sélectionner la CCN) :
+
+5. Erreur DSN liée à l'absence de diplôme
+
+➜ Ceci est une nouvelle fonctionnalité de la norme DSN 2022 .
+Il convient de renseigner le diplôme dans la par tie "Informations complémentaires" de la
+fiche salarié :
+
+Documentation Silae - Aide Client
+
+Page: 4
+
+6. Les régularisations de primes ou d'heures des mois précédents impactent la base
+d'exonération du mois en cours
+
+➜ Pour que les régularisations nʼimpactent pas la base dʼexonération, il convient de refaire les
+bulletins précédents en y ajoutant les éléments manquants .
+Les modifications apportées aux mois précédents remonteront correctement dans la prochaine
+DSN et seront rattachées aux mois concernés.
+
+Powered by Document360
+Documentation Silae - Aide Client
+
+Page: 5
+
+

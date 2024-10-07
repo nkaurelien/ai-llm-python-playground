@@ -1,0 +1,36 @@
+{
+    "FAQ Portail salariéPaiepilote": [
+        {
+            "question": "passe t'il ?",
+            "answer": "Différentes situations peuvent être à lʼorigine dʼune impossibilité de se connecter au portail salarié et/ou à PaiePilote : Le por tail salarié n'est pas activé sur le dossier . Pour cela, il convient de vérifier si le bouton dʼactivation/désactivation du portail salarié est bien sur la position \"activé\" (bouton vert). Le salarié est sor ti et n'a donc plus d'emploi en cours . Il est donc normal qu'il n'ait plus accès au portail salarié et par conséquent qu'il ne parvienne pas à se connecter. Il se peut également quʼil sʼagisse dʼun souci de connexion purement technique . Dans cette situation, nous vous invitons à vous référer à la documentation Résoudre un problème de connexion."
+        },
+        {
+            "question": "payés ?",
+            "answer": "Non , il nʼest pas possible de paramétrer plusieurs superviseurs pour une même équipe congés payés. Chaque équipe dispose dʼun superviseur qui est le seul à pouvoir valider/refuser les demandes dʼabsence de son équipe."
+        },
+        {
+            "question": "3. Est-il possible de faire apparaître les bulletins originaux sur le portail salarié ?",
+            "answer": "Le salarié peut accéder à ses bulletins de salaire via son portail salarié (o u PaiePilote). Par contre, seuls les bulletins duplicatas apparaissent sur le por tail salarié . Les bulletins originaux sont remis au salarié uniquement via les modes de distributions paramétrables dans les tâches à réaliser. Les bulletins disponibles sur le por tail salarié nʼont pas la valeur dʼun bulletin original ."
+        },
+        {
+            "question": "portail salarié ?",
+            "answer": "Il est possible de sélectionner les absences qui peuvent être saisies par le salarié via son por tail salarié.   \fPour appliquer ce paramètre, se rendre sur Gestion du por tail salarié > Paramétrage types dʼabsences .  Cocher ou décocher les types dʼabsences à faire apparaitre ou non."
+        },
+        {
+            "question": "dossier ?",
+            "answer": "Il est possible de paramétrer un contact comme super viseur du por tail salarié dʼun dossier même sʼil nʼest pas salarié sur ce dossier.  Pour cela, il convient de : Créer le contact Cocher la case \"Ce contact peut se connecter\" Attribuer au contact le droit \"Saisie des repos uniquement (ou superviseur portail   \fCP)\".  Après ce paramétrage, il sera possible de créer lʼéquipe congés payés et ainsi dʼattribuer au contact le rôle de superviseur et lui affecter des supervisés. Il parviendra à se connecter à la supervision de son équipe grâce à son identifiant et son mot de passe."
+        },
+        {
+            "question": "6. Le salarié ne reçoit pas le mail contenant son identifiant et son mot de passe de",
+            "answer": "connexion au portail salarié  Dans cette situation il convient dʼappliquer la procédure ci-dessous.  Il faut d'avord se rendre dans Paramétrage du dossier > Envoi des identifiants par mail :    \fPuis sélectionner Salarié dans le menu déroulant et cocher la case Utiliser un expéditeur générique sans modifier lʼadresse mail qui se préremplie :  Il vous suffit enfin de faire un nouvel envoi de mot de passe par mail à ou aux salarié(s) concerné(s)."
+        },
+        {
+            "question": "7. Il est impossible d'activer le portail salarié d'un des salariés. Que se passe t'il ?",
+            "answer": "Il apparait impossible dʼactiver le portail salarié. Après avoir sauvé le portail salarié, lʼétat apparait à nouveau comme désactivé dans la \"Gestion du portail salarié\".   \fCela est dû au fait que lʼadresse mail du salarié utilisée pour le por tail salarié est déjà utilisée pour un autre salarié. Il suffit de vérifier quel salarié utilise déjà cette adresse mail dans la liste des salariés de la gestion du portail salarié et ainsi veiller à saisir une adresse mail différente pour chaque salarié du dossier."
+        },
+        {
+            "question": "8. Comment paramétrer un collaborateur du cabinet comme superviseur sur un dossier ?",
+            "answer": "Il est possible de paramétrer un collaborateur du cabinet comme superviseur sur un dossier, pour cela il convient de suivre la procédure ci-dessous.  Créer le collaborateur comme contact sur le dossier sans cocher la case Ce contact peut se connecter .  Se rendre dans Affectation équipe congés payés , le nommer comme superviseur et lui attribuer des supervisés.  Se rendre dans la Gestion du por tail salarié . Clic droit sur le nom du collaborateur du cabinet superviseur et sélectionner Associer à un compte existant .    Powered by Document360"
+        }
+    ]
+}

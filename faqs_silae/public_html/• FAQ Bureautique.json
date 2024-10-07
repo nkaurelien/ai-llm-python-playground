@@ -1,0 +1,40 @@
+{
+    "FAQ Bureautique": [
+        {
+            "question": "génèrent pas ?",
+            "answer": "Plusieurs éléments peuvent expliquer cette anomalie : Vous avez fait un copier-coller des champs depuis la base de connaissances ; Un caractère masqué sʼest immiscé dans votre saisie. Voici les éléments qui vous permettront de résoudre ces situations : Saisir manuellement le mot clé dans son intégralité ; Rédiger le document dans un bloc note avant de le copier-coller dans le fichier Word. Cela permet de conserver le texte sans mise en forme et de supprimer les éventuels caractères masqués."
+        },
+        {
+            "question": "Comment faire remonter les organismes dans votre modèle bureautique ?",
+            "answer": "Lorsque vous souhaitez faire remonter une information sur un de vos organismes, vous devez dans un premier temps indiquer la nature de cet organisme .    \fVoir la fiche Liste des rubriques pour modèles bureautiques .  Si vous souhaitez faire remonter le nom et le numéro dʼaffiliation de votre organisme de prévoyance (RPO) vous devez saisir : $ORG_NATURERPO $ORG_NOM $ORG_NUMEROAFFILIATION  À noter : Les informations concernant les organismes doivent être saisies au kilomètre , il ne faut pas faire un retour à la ligne. Dans le cas contraire, vous devez ressaisir $ORG_NATURE [XXX] sur la nouvelle ligne."
+        },
+        {
+            "question": "Comment faire remonter plusieurs organismes ? (mul ti -organi smes)",
+            "answer": "Dans le paramétrage de vos organismes, vous avez paramétré plusieurs organismes : SS, RPO ou RPS, par exemple. Dans le modèle bureautique, il convient d'ajouter une valeur (1, 2, 3, etc) à la définition de la nature de lʼorganisme à récupérer.  Exemple : Dans un dossier, trois organismes RPO ont été paramétrés. Nous souhaitons faire remonter les éléments suivants : le nom et le numéro dʼaffiliation.  Extrait du paramétrage des organismes du dossier :    \fExtrait du paramétrage à saisir dans le modèle bureautique :  Affichage des éléments lors de la génération de la bureautique :"
+        },
+        {
+            "question": "?",
+            "answer": "Les modèles bureautiques qui sont paramétrés au niveau du domaine ne sont jamais expor tés dans le cadre dʼun impor t/expor t de dossier , ni dans le cadre dʼune prestation de copie de dossier."
+        },
+        {
+            "question": "Comment exporter en masse tous les modèles bureautiques ?",
+            "answer": "À ce jour, il nʼexiste pas de solution pour exporter en masse tous vos modèles."
+        },
+        {
+            "question": "\fComment avoir son document en PDF ?",
+            "answer": "Voir la procédure dans la fiche Paramétrer des modèles bureautiques (partie \"Options du document (en contextes Salarié / Société))\"."
+        },
+        {
+            "question": "Comment utiliser la fonction IF ?",
+            "answer": "La fonction IF permet dʼadapter un bloc de votre modèle en fonction dʼune condition (la civilité, le statut, etc). Lors de la rédaction du bloc, il convient de vérifier que celui-ci est bien structuré de cette façon :  La boucle conditionnelle doit contenir une succession de If – Else – Endif . Ces trois conditions doivent être encadrées des balises #star t et #stop .  À noter : Il nʼest pas possible de faire des conditions sur des valeurs chiffrées. Exemple : Sur des heures.  Voir la fiche Liste des rubriques pour modèles bureautiques (partie \"Utiliser la fonction IF\")."
+        },
+        {
+            "question": "Puis-je exécuter un calcul (opérati on) dans un modèle bureautique ?",
+            "answer": "À ce jour, il nʼest pas possible dʼexécuter une opération dans un modèle bureautique."
+        },
+        {
+            "question": "Comment exécuter en masse un modèle bureautique ?",
+            "answer": "Il est possible de générer en masse votre modèle bureautique. Pour cela, se rendre dans l'état d'avancement et réaliser un clic droit sur le mot \"Bulletin\" .   ⚠ Attention : Le modèle ne sera pas archivé dans lʼhistorique de chacun des salariés."
+        }
+    ]
+}

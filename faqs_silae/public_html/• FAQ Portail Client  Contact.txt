@@ -1,0 +1,70 @@
+• FAQ Portail Client - Contact
+
+1. Pourquoi le message "Rai son : l 'i denti fi ant exi ste déjà" apparaît-il lorsque je souhaite
+créer le contact client ?
+
+Ce message signifie que lʼidentifiant renseigné lors de la création du contact est déjà utilisé, soit
+:
+En tant qu'identifiant contact sur un autre dossier ;
+Soit comme identifiant collaborateur sur le domaine.
+
+Si cet identifiant est déjà utilisé comme identifiant collaborateur sur le domaine, il convient
+dʼutiliser un autre identifiant. Un même identifiant ne peut être à la fois utilisé comme
+collaborateur du domaine et comme contact.
+En revanche, si cet identifiant est déjà utilisé comme identifiant contact sur un autre dossier, ce
+message dʼerreur peut apparaître si lʼidentifiant nʼa pas la forme dʼune adresse mail .
+Un contact peut avoir accès à plusieurs dossiers avec un même identifiant, à condition qu'il
+s'agisse d'une adresse mail.
+
+2. Pourquoi le message "Cet i denti fi ant a des droi ts sur un autre dossi er" apparaît-il ?
+
+Ce message nʼest pas bloquant. Il sʼagit seulement dʼune alerte afin dʼinformer que cet identifiant
+existe déjà sur un autre dossier en tant que contact. Cette personne aura accès à ce dossier en
+plus des dossiers pour lesquels elle a déjà été renseignée comme contact.
+
+Documentation Silae - Aide Client
+
+Page: 1
+
+3. Pourquoi une fenêtre blanche apparaît-elle lors de l'ouverture de l'accès contact ?
+
+Cela signifie quʼaucun droit nʼa été attribué à ce contact.
+
+Il convient de lui donner des droits via la gestion des contacts :
+
+4. Le contact ne reçoit pas le mail contenant son identifiant et mot de passe.
+
+Dans cette situation il convient dʼappliquer la procédure ci-dessous :
+Se rendre dans le Paramétrage du dossier, puis cliquer sur Envoi des identifiants par mail .
+
+Documentation Silae - Aide Client
+
+Page: 2
+
+Puis sélectionner Contact dans le menu déroulant et cocher la case Utiliser un expéditeur
+générique sans modifier lʼadresse mail pré-remplie.
+
+Réaliser ensuite un nouvel envoi de mot de passe aux contacts concernés.
+Documentation Silae - Aide Client
+
+Page: 3
+
+5. Pourquoi la validation des éléments variables ne déclenche-t-elle pas le calcul des
+bulletins ?
+
+Pour que le calcul des bulletins se déclenche à la suite de la validation des éléments variables, il
+faut que le contact ait les droits de saisie de lʼensemble des éléments variables (heures, activités,
+éléments variables, saisie des acomptes, saisie de lʼactivité journalière).
+
+6. Pourquoi le message "Erreur 12345 : Période en cours de finalisation" apparaît-il ?
+
+Ce message d'erreur signifie que la période de paie du mois précédent nʼa pas été clôturée.
+
+La période de paie précédente doit être finalisée côté cabinet afin dʼouvrir la saisie au contact,
+
+Powered by Document360
+Documentation Silae - Aide Client
+
+Page: 4
+
+

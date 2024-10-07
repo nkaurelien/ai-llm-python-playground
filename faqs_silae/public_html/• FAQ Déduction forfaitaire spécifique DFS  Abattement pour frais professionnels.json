@@ -1,0 +1,8 @@
+{
+    "FAQ Déduction forfaitaire spécifique DFS  Abattement pour frais professionnels": [
+        {
+            "question": "600 € par année civile et par salarié.",
+            "answer": "Pour rappel, la limite annuelle d'abattement est de 7600 € par an. Si on souhaite que la déduction mensuelle soit supérieure à 633 €, il convient de désactiver le lissage annuel dans la fiche Salarié. En effet, le lissage limite le plafond mensuel automatiquement à 633 € en réalisant le calcul suivant : 7600/12 = 633. La déduction prend fin lorsque le plafond annuel est atteint.    Mise en place la DFS en cours d’année avec effet rétroactif  Il n'existe qu'une seule méthode pour régulariser les assiettes des cotisations chaque mois : refaire les bulletins précédents . Les modifications apportées aux mois précédents remonteront correctement dans la prochaine DSN et seront rattachées aux mois concernés.  ⚠ Attention : Il ne faut en aucun cas toucher aux DSN précédemment calculées."
+        }
+    ]
+}

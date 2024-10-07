@@ -1,0 +1,292 @@
+• FAQ DSN URSSAF
+
+Point de situation sur les contrôles URSSAF CN
+
+Les éditeurs ont sollicité lʼURSSAF et le GIP-MDS afin que soient tracés et historisés les
+différentes évolutions des contrôles portés par les CRM 61/62 et les CRM normalisés 119/120 .
+Lʼinformation des désactivations nous paraît essentielle. En effet, elle permet de considérer :
+Que les contrôles ont donné lieu à des anomalies à tort ;
+Quʼen conséquence, aucune correction nʼest attendue malgré lʼéventuelle persistance
+dʼun message contraire dans le tableau de bord Suivi DSN.
+Nous vous tiendrons informés des suites réservées à cette requête.
+En synthèse :
+Code anomalie
+
+Désactivé
+le :
+
+Nature de
+CRM
+
+Action atttendue de
+l'utilisateur Silae
+
+UR_ANO_ASS_PLF_DIDACD09
+
+06/04/2023
+
+119/120
+
+Aucune correction attendue
+
+UR_ANO_CTP_CHO_DAPA03
+
+08/02/2023
+
+119/120
+
+Aucune correction attendue
+
+UR_ANO_ASS_DIQU04.5
+
+Date non
+précisée
+
+62
+
+Aucune correction attendue
+
+UR_ANO_EXO_DIQU04.3b
+
+07/03/2023
+
+62
+
+Aucune correction attendue
+
+UR_ANO_QUO_HSSA_DIQU041B
+
+Date non
+précisée
+
+62
+
+Aucune correction attendue
+
+CRM Neores 119 et 120
+Depuis janvier 2023, suite à la production des CRM normalisés, les résultats des contrôles opérés
+par lʼURSSAF CN donnent lieu à des remontées dʼanomalies à tort (codes retours 119 et 220).
+Le contrôle UR_ANO_ASS_CSG_CD14 remonte une anomalie à tort lorsque uniquement des
+populations dont un evenu dʼactivité ou de remplacement non soumis à la CSG/CRDS sont
+présentes en DSN. Les contrôles suivants ont été désactivés par lʼURSSAF CN :
+UR_ANO_ASS_PLF_DIDACD09 (désactivé le 6/04/2023)
+UR_ANO_CTP_CHO_DAPA03 (désactivé le 8/02/2023)
+En conséquence, ne pas tenir compte de ces remontées pour lesquelles aucune correction n'est
+attendue.
+
+Documentation Silae - Aide Client
+
+Page: 1
+
+Pour plus d'informations, consulter les mémos disponibles :
+Depuis la vue multi-dossiers dans le volet de droite (Production > Suivi des
+CRM NEOReS ) ;
+Depuis l'état d'avancement de chaque dossier dans le volet de droite (Suivi des
+CRM DSN ).
+
+CRM 62
+Mise à jour le 05/05/2023 :
+Depuis le début de lʼannée 2023, de nouveaux contrôles ont donné lieu à des remontées
+dʼanomalies à tort.
+Anomalies liées aux heures supplémentaires :
+UR_ANO_ASS_DIQU04.5
+UR_ANO_EXO_DIQU04.3b
+UR_ANO_QUO_HSSA_DIQU041B
+Anomalie liée au contrat dʼapprentissage :
+UR_ANO_ASS_APP_DIEXO08e3
+Le 04/05/2023, à l'occasion d'un nouvel atelier d'échanges dédié aux contrôles, le GIP-MDS et
+l'URSSAF Caisse Nationale nous confirment la remontée à tort de ces anomalies.
+Les 3 contrôles portant sur les heures supplémentaires sont désactivés.
+Le contrôle portant sur le contrat d'apprentissage est modifié pour tenir compte de la
+présence effective de l'individu.
+En conséquence, il n'y a pas lieu de tenir compte de ces 4 anomalies pour lesquelles aucune
+correction n'est attendue.
+
+Pour mémoire – campagne précédente :
+
+Début octobre 2022, nous avons été alertés sur la présence de messages dʼanomalies
+probablement injustifiées dans les CRM en provenance de lʼURSSAF CN, dans le cadre de ses
+contrôles DI/DA (données individuelles/données agrégées) récemment déployés.
+Pour mémoire, les contrôles déclaratifs et le service Suivi DSN ont été généralisés à tous les
+employeurs le 29/09/2022, après une phase transitoire de déploiement limité aux Urssaf PACA et
+Aquitaine de juin à septembre 2022.
+
+A titre dʼexemple, nous vous avions cité les deux messages suivants :
+Documentation Silae - Aide Client
+
+Page: 2
+
+« Une incohérence est constatée entre les montants positifs d'assiette individuelle pour le code
+S21.G00.81.001 = 907 - Complément de cotisation Assurance Maladie , et la somme des
+montants d'assiette en données agrégées (S21.G00.23.003) des codes de cotisations avec
+maladie à taux plein et des codes de cotisations complément cotisation maladie. »
+« Vous avez déclaré au bloc Cotisation agrégée (S21.G00.23) une assiette au titre de
+l'exonération apprenti (CTP 726 ou 727) mais vous n'avez pas déclaré d'assiette apprenti au
+bloc Cotisation individuelle (S21.G00.81) ».
+
+Mi-octobre, lʼURSSAF CN nous a directement confirmé quʼune anomalie avait entaché le résultat
+notifié aux entreprises. Une correction a été apportée pour lʼavenir.
+Pour les motifs dʼanomalies déjà notifiés à tort, lʼURSSAF CN demande de ne pas en tenir compte
+et sʼexcuse pour le désagrément encouru.
+
+Le 19 octobre, à lʼoccasion dʼun atelier organisé avec les éditeurs, lʼURSSAF CN apporte les
+précisions suivantes :
+• Quatre contrôles Urssaf ont été désactivés depuis le 12/10/2022 :
+1. DIDA_PA_15a – Complément maladie
+2. DIDA_EXO_09a – Apprentis du secteur privé
+3. DIDA_CD_09 – Cohérence assiette plafonnée
+4. DIDA_PA_01a – CNAV – assiette plafonnée salariée
+➜ Avant réactivation de ces contrôles, une communication sera assurée à
+lʼensemble des éditeurs.
+• Des mentions ont été ajoutées aux contrôles suivants, dans les CRM, indiquant quʼils ne
+doivent pas être pris en compte :
+1. UR_ANO_CTP_CHO_DAPA03
+2. UR_ANO_ASS_CHO_DIDAPA02
+➜ Les correctifs sur ces contrôles vont être appor tés prochainement par lʼUrssaf.
+
+LʼUrssaf CN a par ailleurs indiqué que les éléments de communication nécessaires ont été
+transmis aux Urssaf locales de manière à ce que celles-ci puissent interagir avec les déclarants
+concernés le cas échéant.
+
+Comment ajouter une régularisation manuelle au niveau établissement pour l'URSSAF ?
+
+Afin d'ajouter les blocs, la procédure est la suivante :
+Activez la méthode 111 (mettre la valeur N).
+Clic droit sur la ligne DSN du mois en cours calculée ► modifier la déclaration DSN
+mensuelle.
+Documentation Silae - Aide Client
+
+Page: 3
+
+Se placer sur la dernière ligne du bloc S21.G00.20 (souvent la DGFIP) ► ajouter les 8
+lignes et renseigner les rubriques suivantes afin de constituer 2 blocs :
+
+S21.G00.22 (date de rattachement)
+S21.G00.22.001
+S21.G00.22.002
+S21.G00.22.003
+S21.G00.22.004
+S21.G00.22.005
+S21.G00.23 (CTP URSSAF)
+S21.G00.23.001
+S21.G00.23.002
+S21.G00.23.004
+
+(L'entité d'affectation des opérations = SIRET de l'entreprise)
+
+Pourquoi le paiement ne tient pas compte du bloc de régularisation négatif ?
+
+Les blocs de régularisation négatifs nʼimpactent jamais le paiement (au cas où la régularisation
+serait refusée par l'organisme).
+Un paiement ne peut jamais être négatif, de ce fait, s'il est négatif, il sera à 0.
+Il est possible de modifier manuellement le montant du paiement sur le mois courant ou après
+avis de crédit de lʼURSSAF en double cliquant dessus au bas du récap :
+
+Pourquoi les cotisations du bulletin post emploi sont dans un bloc de régularisation ?
+
+Documentation Silae - Aide Client
+
+Page: 4
+
+Les cotisations présentes dans les bulletins post-emploi sont déclarées dans un bloc de
+régularisation rattaché au mois de sortie du salarié.
+
+Voir fiche Réaliser un bulletin post-emploi - Partie Bulletins post-emploi et date de
+rattachement
+
+Pourquoi les bruts négatifs sont-ils rejetés par l’Urssaf ?
+
+Des bulletins avec un brut négatif peuvent entraîner un CTP négatif (100, 726, etc..) sur la DSN.
+Ces CTP négatifs ne sont pas pris en compte par lʼURSSAF et sont plafonnés à 0.
+Il convient dans ce cas de recalculer les bulletins de la période concernée en faisant en sorte de
+ne pas avoir de brut négatif (lisser sur plusieurs périodes).
+La régularisation remontera automatiquement lors du calcul de la DSN du mois courant.
+Vérifier que le montant des régularisations correspond bien à ce qui est attendu par lʼURSSAF.
+Si ce nʼest pas le cas, rectifier manuellement les bases des cotisations agrégées dans la DSN
+(blocs S21.G00.22 et S21.G00.23).
+
+Voir la fiche Modifier la DSN mensuelle avant son envoi .
+
+Pourquoi l’effectif n’est pas présent dans la DSN ?
+
+Concernant les rubriques dʼeffectif moyen de lʼentreprise, le décret n°2017-858 du 9 mai 2017 ne
+rend plus obligatoire, depuis le 1er janvier 2018, la déclaration de ces rubriques par les
+entreprises (sauf pour les employeurs du secteur public ou du secteur maritime).
+Le calcul de l'effectif est désormais réalisé par l'ACOSS à partir des données individuelles
+véhiculées en DSN, pour les établissements pour lesquels la substitution de la DADS-U par la
+DSN est avérée.
+
+Documentation Silae - Aide Client
+
+Page: 5
+
+Voir la fiche Analyser l'effectif de la société .
+
+Comment corriger une erreur de taux sur la contribution formation professionnelle (CFP) ?
+
+Pour corriger une erreur de taux appliqué sur la formation professionnelle, il convient d'utiliser
+le profil REGUL-CFP.
+
+Pourquoi faut-il refaire les bulletins pour effectuer des blocs de régularisation ?
+
+Certaines régularisations peuvent être faites sur le bulletin du mois courant avec un profil.
+Nous vous conseillons de vérifier si un profil est disponible sur la fiche de la base de
+connaissances relative à la problématique rencontrée.
+
+Voir dans Outils logiciel > Profils
+
+Exemples de profils disponibles : ANNUL-FS20, FOR-TRSAD et ANNU-TRSAD, ANNCHOMAG, FORCE-CHOM, REG-CHOMAG
+Si un profil nʼest pas disponible, il conviendra de refaire le(s) bulletin(s) concerné(s).
+
+Pourquoi l’URSSAF envoie un courrier sur la non prise en compte d’une régularisation
+progressive ?
+
+Certaines URSSAF adressent des courriers de notification d'anomalie DSN lorsque le montant de
+réduction appliquée dans le cadre d'une régularisation progressive dépasse le montant des
+cotisations patronales dues au titre du mois courant.
+Ces Urssaf calculent selon un plafond mensuel sauf que nous appliquons une réduction
+progressive (conforme à l'ACCOSS), cʼest en fin dʼannée que l'on va régulariser en tenant compte
+du plafond annuel.
+Documentation Silae - Aide Client
+
+Page: 6
+
+Certaines demandent à tort de transmettre des blocs de régularisation pour chaque période
+concernée.
+Ces courriers ne respectent pas la consigne nationale diffusée par l'ACOSS aux URSSAF, laquelle
+leur demande de gérer ces cas de dépassement sans adresser de notification aux entreprises.
+Voir lien : DSN-Guide-declaration-regularisation-cotisations-sociales-Urssaf.pdf
+
+Nos traitements sont conformes à la norme.
+
+Rappel : les CTP de déduction concernée par une régularisation annuelle, donc acceptés en
+dépassement, sont les suivants :
+- 671 (réduction générale),
+- 668 (réduction générale étendue),
+- 437 (Réduction Allocation Familiale),
+- 637 (Réduction maladie),
+- 401 (Accre),
+- 462 / 463 473 (Lodeom).*
+
+Voir la fiche Questions - réponses DSN Par tie 11 .
+
+Pourquoi les régularisations de taux AT ne remontent pas en DSN ?
+
+Auparavant, les URSSAF nʼattendaient pas de régularisation de taux AT et VM (ex-VT) en DSN.
+Depuis 2021, les régularisations de taux AT et VM doivent être déclarés en DSN.
+Documentation Silae - Aide Client
+
+Page: 7
+
+Voir la fiche Régulariser un taux AT
+
+Si les bulletins des périodes précédentes sur lesquels se trouve le taux à régulariser sont
+recalculés, la régularisation remontera automatiquement lors du calcul de la DSN du mois
+courant.
+
+Powered by Document360
+Documentation Silae - Aide Client
+
+Page: 8
+
+

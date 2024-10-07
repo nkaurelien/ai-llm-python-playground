@@ -1,0 +1,32 @@
+{
+    "FAQ Réduction générale de cotisation exFillon": [
+        {
+            "question": "241-10\".",
+            "answer": "Source : Article D241-11 du Code de la sécurité sociale (www.legifrance.gouv.fr).  Des échanges sont en cours côté GIP-MDS, SDDS et URSSAF CN pour obtenir une position officielle. Pour une meilleure sécurisation juridique, nous attendons une consolidation des échanges avant d'envisager une évolution.  Courrier de fiabilisation Urssaf sur la Réduction Générale de Cotisation  Ce courrier avec l'objet ci-dessous peut être généré par le fait que nous déclarions par erreur le Smic Fillon du mois précédent dans la DSN, lorsquʼun bulletin post-emploi était généré. Le paramétrage a été corrigé mais pour régulariser, il faut utiliser le profil REG-FILLON ."
+        },
+        {
+            "question": "Comment régulariser la Réduction Générale de Cotisation ?",
+            "answer": "Il faut obligatoirement utiliser le profil REG-FILLON (⚠ Ne jamais insérer de ligne manuellement). Dans les éléments variables, saisir une date de rattachement dans la colonne DateRegFillon puis, selon le besoin de régularisation, saisir dans la/les colonnes concernées le différentiel entre ce qui a été déclaré et ce qui aurait dû être déclaré :   \fColonne AssRegFillon pour lʼassiette Fillon ; Colonne SmicRegFillon pour le smic Fillon ; Colonne MtRegFillon pour le montant Fillon ; Colonne MtRegAA pour le montant de la part retraite.  À noter : Le profil nʼest utilisable quʼune fois par bulletin.  Voir la fiche Profil REG-FILLON - Régularisation de la réduction générale des cotisations patronales pour plus d'informations."
+        },
+        {
+            "question": "Pourquoi je ne peux pas mettre plusieurs fois le profil REG-FILLON ?",
+            "answer": "Le profil nʼest utilisable quʼune seule fois par bulletin. Les régularisations peuvent se faire en cumul car cʼest un calcul annuel. LʼURSSAF ne peut pas refuser une régularisation en cumul. Il nʼy a aucune obligation dans la norme DSN de faire la régularisation mois par mois pour la RGC."
+        },
+        {
+            "question": "Pourquoi mon paramètre T est trop important ?",
+            "answer": "Le paramètre T peut être supérieur à la limite légale (limite des 6.01 non respectée à tort) si la cotisation AA201 a été modifié sur le dossier. Il ne faut jamais modifier la AA201 . Pour résoudre le problème, il faut supprimer la AA201 dans le menu Paramétrage > Cotisations > Taux pour la remplacer par les codes AA101 pour les non-cadres et AA001 pour les cadres. Enfin, il faut utiliser le profil REG-FILLON pour régulariser la répartition Urssaf/retraite pour les mois précédents."
+        },
+        {
+            "question": "Pourquoi la Réduction Générale de Cotisation bascule sur M-1 dans la DSN ?",
+            "answer": "Si on fait un tableau des charges, on constate que les cotisations URSSAF sont négatives. Or, la norme DSN interdit dʼavoir des bases négatives. Pour éviter cela, le logiciel bascule automatiquement sur le mois précédent. C'est le traitement normal du logiciel. Il faut simplement modifier le montant du paiement manuellement pour le mettre à 0.    \fPourquoi le calcul de la Réduction Générale est erroné sur un dossier en cours de"
+        },
+        {
+            "question": "montage avec de l’abattement ?",
+            "answer": "Cela vient des montants repris des DSN précédentes. En effet les montants sans abattement ne sont pas déclarés dans la DSN. Il faut donc le renseigner manuellement via le menu Traitement de mois > Modification des bulletins impor tés DSN :  Renseigner la période, puis dans le volet de droite, sélectionner le niveau Fillon sans abattement ."
+        },
+        {
+            "question": "Pourquoi les IJ Prévoyance n’impactent pas le prorata du SMIC Fillon ?",
+            "answer": "Tout dépend du profil utilisé. Pour que les IJ prévoyance rentrent dans le calcul du prorata du SMIC Fillon, il faut utiliser un profil se terminant par \".SD \".  ⚠ Attention : En cas dʼallocation complémentaire de prévoyance versée par un organisme tiers, lʼURSSAF précise : Si le montant de lʼallocation complémentaire aux IJSS émanant dʼun organisme de prévoyance, versé par lʼemployeur et soumis à cotisations sociales, est afférent au mois de lʼabsence , il convient de le prendre en compte pour pondérer le Smic au numérateur. En revanche, si le montant de lʼallocation complémentaire aux IJSS émanant dʼun organisme de prévoyance, versé par lʼemployeur et soumis à cotisations sociales, concerne des arrêts de travail sur les mois précédents , il nʼest pas affecté par lʼabsence du mois considéré pour le calcul de la réduction générale. Le montant de lʼallocation constitue, dans cette hypothèse, un élément de rémunération non proratisé pour tenir compte de lʼabsence. Il doit dès lors être déduit dans le rapport entre le salaire versé le mois considéré et celui qui aurait été versé si le salarié nʼavait pas été absent. Dans un tel cas de figure, le Smic au numérateur est nul dans la mesure où le salarié a uniquement perçu lʼallocation complémentaire aux IJSS pour le mois considéré. Le coefficient de la réduction générale sera donc négatif ; la réduction sera donc nulle pour le mois concerné. Ainsi, si les IJ prévoyance sont versées sur le mois de lʼabsence, elles ne sont pas des éléments non impactés par lʼabsence mais sont traitées comme le seraient des indemnités complémentaires employeur.  Dans cette optique, Silae - Aide Client les profils dʼIJ prévoyance existants sont considérés être pour un usage   Dans cette optique, les profils dʼIJ prévoyance existants sont considérés être pour un usage \"avec décalage\", et 6 nouveaux profils ont été créés (avec lʼextension \".SD\" = \"sans décalage\") pour traiter un maintien avec IJ prévoyance sans décalage avec le traitement Fillon adéquat.  Voir la fiche Réduction générale des cotisations, maintien et IJ Prévoyance ."
+        }
+    ]
+}

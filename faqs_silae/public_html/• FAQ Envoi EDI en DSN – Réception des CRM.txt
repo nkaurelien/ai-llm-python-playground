@@ -1,0 +1,126 @@
+• FAQ Envoi EDI en DSN – Réception des CRM
+
+Consulter le détail des retours EDI pour les DSN mensuelles
+
+Accès : État d'avancement > clic droit sur une bulle de la ligne "Déclarations"
+
+Faire un clic droit sur la Date EDI et sélectionner "Voir l'historique EDI" , puis double-cliquer
+sur "Rejeté" . Un message d'information sur les organismes ayant accepté ou non la déclaration
+s'ouvre.
+
+Ouvrir le fichier en pièce jointe (avis.xml) dans lequel se trouvent des précisions (salarié
+concerné, organisme concerné, valeur en erreur...) et le motif de rejet.
+Il est aussi possible de double-cliquer sur "Accepté" . Cela permet d'ouvrir les CRM des
+organismes de prévoyance, par exemple.
+
+Consulter le détail des retours EDI pour les DSN évènementielles
+
+Se rendre dans l'onglet Production et sélectionner Télédéclarations (à droite).
+
+Documentation Silae - Aide Client
+
+Page: 1
+
+Double-cliquer sur DNAC ou DSIJ puis double-cliquer sur la croix rouge.
+
+Un message d'information sur les organismes ayant accepté ou non la déclaration apparait.
+Ouvrir le fichier en pièce jointe (avis.xml) dans lequel se trouvent des précisions (salarié
+concerné, organisme concerné, valeur en erreur...) et le motif de rejet.
+
+Paramétrer un émetteur
+
+Il existe deux options pour paramétrer l'émetteur de la DSN mensuelle :
+Si l'émetteur est commun à tous les dossiers :
+Il convient de le créer dans Paramétrage paie
+Emetteur .
+
+> Déclarations
+
+> DSIJ/DSN –
+
+Puis, rattacher le dossier à une agence dans Gestion interne > Clients > Affectations .
+
+Si l'émetteur est spécifique au dossier :
+Il doit être créé dans l'État d'avancement de votre dossier > Organismes .
+
+Documentation Silae - Aide Client
+
+Page: 2
+
+Une nouvelle page s'ouvre : sélectionner "Définir l'émetteur Net-Entreprises.fr" à
+droite de l'écran.
+
+Voir la fiche Paramétrer un compte Net-entreprises et un émetteur DSN .
+
+L'émetteur des attestations de salaire (DSIJ) doit être renseigné dans Paramétrage paie >
+Déclarations > Paramétrage contacts DSN .
+
+L'émetteur des attestations de sor tie doit être renseigné dans Paramétrage paie >
+Déclarations > DADS – Émetteur .
+
+Documentation Silae - Aide Client
+
+Page: 3
+
+Erreur "Message Avis XML Motif non récupérable"
+
+Ce message indique que le logiciel n'arrive pas à récupérer le raccourci pour afficher le motif du
+rejet. Afin de visualiser le message d'anomalie, il convient de faire un clic droit > Voir
+historique EDI puis de faire un double-clic sur "Rejeté" .
+
+Erreur "S10.G00.01 et S10.G00.02 : La rubrique ne respecte pas la cardinalité de la norme
+(trop peu d'occurrence)"
+
+Il conviendra de renseigner un émetteur pour le dossier (agence ou émetteur spécifique).
+
+Erreur "(99) La connexion sous-jacente a été fermée : impossible d'établir une relation de
+confiance pour le canal sécurité SSL/T LS ou (99) Problème technique"
+
+Cette erreur vient de la plateforme d'envoi. Elle peut apparaître lors d'un envoi/dépôt.
+Il faudra vérifier qu'aucun compte-rendu n'a été généré sur Net-entreprises, puis retenter l'envoi
+de la déclaration.
+Si l'erreur persiste, se rapprocher de la plateforme.
+
+Erreur "(99) NET ENT REPRISE (401) - Le serveur distant a retourné une erreur : (401)
+Non autorisé"
+
+Cette erreur vient du fait qu'il y a eu une modification dans les informations saisies sur
+Net-Entreprises (mot de passe, coordonnées...).
+Il conviendra de s'assurer que les identifiants et mots de passe correspondent bien et que les
+flux DSN régime général et régime agricole sur Net-Entreprise soient bien activés.
+Vérifier également qu'il n'y ait pas d'émetteur spécifique renseigné dans le dossier.
+En cas d'urgence, il conviendra de faire un dépôt manuel de la DSN.
+
+Erreur "La plateforme de dépôt DSN nécessite l'utilisation de votre compte NetEntreprises"
+
+Documentation Silae - Aide Client
+
+Page: 4
+
+Pour ce type d'anomalie, il conviendra de vérifier les points suivants :
+• Sur le domaine :
+Paramétrage paie > Déclarations > DSIJ/DSN Émetteurs > Siret/Nom/Prénom doivent
+êtr e strictement identiques aux informations du compte Net-Entreprises (vérifier, par
+exemple, si un espace après le nom nʼest pas présent, accent, majuscule, minuscule…).
+
+• Depuis la Gestion interne :
+Cliquer sur Clients > Affectations > Vérifier qu'une agence est bien affectée au dossier
+(sinon, par défaut, l'émetteur n'est pas reconnu).
+
+• Depuis le compte Net-entreprises :
+Vérifier les coordonnées renseignées et sʼassurer que le compte détient les habilitations
+dʼenvoi de DSN pour ce client.
+Si besoin, contacter la plateforme pour obtenir la précision du motif de rejet.
+En cas d'urgence, il conviendra de faire un dépôt manuel de la DSN .
+
+Erreur "L'émetteur n'est pas abonné à la procédure de télédéclaration"
+
+Il convient d'activer le flux DSN sur votre compte JeDeclare et de vérifier que l'émetteur est le
+même sur Silae.
+
+Powered by Document360
+Documentation Silae - Aide Client
+
+Page: 5
+
+

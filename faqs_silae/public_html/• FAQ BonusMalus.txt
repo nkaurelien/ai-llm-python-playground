@@ -1,0 +1,92 @@
+• FAQ Bonus-Malus
+
+Prérequis
+
+Voir les fiches suivantes qui se rattachent au thème des cotisations chômage :
+
+Bonus-Malus : Modulation de la contribution patronale dʼassurance chômage
+Profils CHOMAGE - Annulation, calcul rétroactif ou régularisation des
+versements chômage et AGS
+
+Comment supprimer ou appliquer la cotisation chômage ?
+
+Il ne faut jamais insérer de ligne manuellement. Il convient dʼutiliser le profil selon la situation :
+Profil ANN-CHOMAG : Annuler des versements chômage et AGS rétroactivement.
+Profil FORCE-CHOM : Forcer le calcul de lʼassurance chômage et de lʼAGS
+rétroactivement.
+Profil REG-CHOMAG : Régulariser les assiettes de lʼassurance chômage et de lʼAGS
+rétroactivement.
+
+L'utilisation de ces profils est détaillée dans la fiche Profils CHOMAGE - Annulation,
+calcul rétroactif ou régularisation des versements chômage et AGS .
+
+Comment régulariser le taux chômage sur le bulletin ?
+
+Pour effectuer la régularisation du taux bonus-malus, il faut dans un premier temps, paramétrer
+le taux dans le menu Paramétrage > Cotisations > Taux bonus-malus dʼassurance
+chômage .
+Puis insérer le profil REG-CHOMAG avec un choix et une date de régularisation dans la colonne
+DtDebChom au format JJMMAAAA.
+
+Exemple :
+
+Documentation Silae - Aide Client
+
+Page: 1
+
+Rappel :
+Dans la colonne Choix , par défaut, si rien nʼest renseigné (valeur "0 "), les cotisations
+dʼassurance chômage et AGS sont annulées. Pour annuler seulement les cotisations
+dʼassurance chômage, saisir "1 ". Pour annuler seulement les cotisations AGS, saisir "2 ".
+
+Pour quelle raison la cotisation bonus-malus ne s’applique pas sur le bulletin ?
+
+Nous vous invitons à vérifier que le contrat du salarié ne se trouve pas dans la liste
+des exclusions :
+Contrats d'insertion (Conclus en vertu du 1° de l'article L1242-3 CT) ;
+Contrat unique d'insertion (CUI-CAE, CUI-CIE) ;
+Parcours emploi compétences (PEC) ;
+Contrat adultes-relais ;
+CDD senior ;
+Contrat d'engagement jeune ;
+Contrat d'apprentissage ;
+Contrat de professionnalisation ;
+CDD tremplin ;
+CDD travailleurs occasionnels agricoles dans une entreprise d'insertion (EI) ;
+Contrat de travail temporaire dans CCN "T028" pour un entreprise adaptée (EA) ;
+CDDI conclu dans une entreprise d'insertion (EI) ;
+Intermittent dans une entreprise de groupe CCN spectacle ;
+Contrat d'intérim dans une entreprise de travail temporaire d'insertion (ETTI) ;
+Contrat d'intérim d'un salarié statut BOETH.
+
+Courrier URSSAF avec objet « Absence de "bonus-mal us" de contri buti on à l ’assurancechômage »
+
+Si vous recevez ce type de courrier :
+
+Documentation Silae - Aide Client
+
+Page: 2
+
+Cela peut venir du fait que le taux bonus-malus nʼétait pas remonté ou créé au moment du
+calcul du bulletin. Il convient de vérifier le taux et le CTP appliqué sur le bulletin .
+Pour régulariser le taux et le CTP, il faudra alors utiliser le profil REG-CHOMAG .
+
+Rappel CTP :
+Pour les entreprises et les contrats exclus du dispositif bonus-malus, la déclaration doit être
+réalisée avec le CTP 772 . Les entreprises éligibles auront recours au CTP 725 .
+Voir la synthèse des CTP dans la fiche Bonus-Malus : Modulation de la contribution
+patronale dʼassurance chômage .
+
+Le CRM bonus-malus n’est pas remonté, comment appliquer le bon taux sur le bulletin ?
+
+Si vous avez reçu une notification sur le compte cotisant Urssaf ou via emailing et qu'aucun CRM
+n'est remonté au moment où vous calculez un bulletin, il convient de créer le taux
+manuellement .
+Pour paramétrer le taux, se rendre dans le menu Paramétrage > Cotisations > Taux bonusmalus dʼassurance chômage .
+
+Powered by Document360
+Documentation Silae - Aide Client
+
+Page: 3
+
+

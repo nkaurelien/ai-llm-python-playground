@@ -1,0 +1,192 @@
+• FAQ Exonération HS / HC
+
+Prérequis
+
+Voir les fiches suivantes qui se rattachent au thème des éxonérations :
+
+Récapitulatif des exonérations por tant sur les HS
+Heures rémunérées prises en compte pour les exonérations
+
+Voir les fiches suivantes qui se rattachent au thème de l'exonération HS/HC :
+
+Exonération sociale et fiscale des HS et HC
+Heures rémunérées prises en compte pour les exonérations
+Régulariser l'exonération sociale et fiscale sur les HS
+Profil EXOHSEXCLU - Exclure un salarié de l'exonération sociale et fiscale sur
+les HS
+
+Voir les fiches suivantes qui se rattachent au thème de TEPA :
+
+Traiter la déduction forfaitaire patronale (TEPA/PPA)
+Profil ANNUL-TEPA - Annuler les versements TEPA
+TEPA heures supplémentaires structurelles en cas d'absence
+
+Documentation Silae - Aide Client
+
+Page: 1
+
+Exonération HS/HC
+
+Pourquoi la base de lʼexonération HS/ HC est supérieure au montant des heures
+supplémentaires ?
+
+Exemple : La base de lʼexonération de 247.86 est supérieure au montant des heures
+supplémentaires de 214.06.
+
+Documentation Silae - Aide Client
+
+Page: 2
+
+Sur ce dossier, cela vient de la prime dʼancienneté car elle est prise en compte dans le taux
+horaire dʼabsence.
+
+Voir la fiche Exonération sociale et fiscale des heures supplémentaires et
+complémentaires .
+
+À noter : (Montant de la prime / Salaire de base avec les HS ou les HC) * (Montant HS
+et/ou HC) = Base de lʼexo HS / HC
+Soit pour notre exemple : 506.80 / 3209.79 * 214.06 = 33.80
+La base de lʼexonération est la somme des 33.80 + 214.06 = 247.86
+
+Comment est calculé la base de lʼexonération en cas dʼabsence ?
+Documentation Silae - Aide Client
+
+Page: 3
+
+En cas dʼabsence non rémunérée ou partiellement rémunérée, la rémunération des HS/HC
+structurelles est prise en compte après application dʼun coefficient dʼabsence correspondant au
+rapport entre la rémunération versée et celle qui aurait dû être versée si le salarié nʼavait pas été
+absent.
+
+À noter :
+Coefficient dʼabsence = rémunération avec absence / rémunération sans absence
+Base de lʼexonération = montant des HS/HC * Coefficient dʼabsence
+
+Exemple : La base de lʼexonération ne correspond pas au montant des HS.
+
+La formule de calcul est la suivante :
+Salaire sans absence : 3742.33 + 15.46 = 3757.79
+Salaire avec absence : 2443.19
+Soit :
+Coefficient dʼabsence : 2443.19 / 3757.79 = 0.6501
+Base de lʼexonération : 467.70 *0.6501 = 304.08
+
+Documentation Silae - Aide Client
+
+Page: 4
+
+Comment savoir quelles heures supplémentaires et complémentaires sont prises en
+compte dans le calcul de lʼexonération ?
+
+Les heures supplémentaires rentrent dans le calcul de lʼexonération si elles sont majorées et
+indemnisées en espèce :
+
+Nous vous invitons à consulter le tableau récapitulatif ci-dessous :
+
+Voir la fiche Récapitulatif des exonérations por tant sur les HS
+
+Documentation Silae - Aide Client
+
+Page: 5
+
+Comment créer des HS ou des HC non exonérées socialement et fiscalement ?
+
+Voir la partie "Critères de sélection des HC/HS" dans la fiche Exonération sociale et
+fiscale des heures supplémentaires et complémentaires
+Extrait de la fiche (non exhaustif) :
+
+Comment modifier le traitement des HS / HC hors TEPA ?
+
+Il est possible dʼutiliser la méthode 320 :
+
+Documentation Silae - Aide Client
+
+Page: 6
+
+Comment exclure un salarié de lʼexonération HS/HC ?
+
+Il faut utiliser le profil EXOHSEXCLU :
+
+Voir la fiche Profil EXOHSEXCLU - Exclure un salarié de l'exonération sociale et
+fiscale sur les HS
+
+Comment initialiser ou forcer le montant net fiscal ?
+
+Le profil EXOFISCHS est disponible :
+
+Voir la fiche Exonération sociale et fiscale des heures supplémentaires et
+complémentaires
+
+Documentation Silae - Aide Client
+
+Page: 7
+
+Déduction forfaitaire patronale T EPA
+
+Pourquoi la déduction ne sʼapplique pas ou ne se régularise pas sur cer tains mois et
+pas dʼautres ?
+
+La déduction est cumulable avec dʼautres mesures dʼexonérations de cotisations patronales.
+Cependant, le cumul de ces exonérations est limité aux cotisations patronales.
+
+Voir la fiche Traiter la déduction forfaitaire patronale (TEPA/PPA)
+
+Ainsi, sʼil y a une régularisation de complément AF et/ou maladie ou une régularisation de la
+RGC, alors il est possible dʼavoir une déduction forfaitaire partielle ou nulle.
+
+Comment est calculé la base de la déduction en cas dʼabsence ? Et quel est l'impact de
+la méthode 155 sur le calcul ?
+
+Documentation Silae - Aide Client
+
+Page: 8
+
+En cas dʼabsence non rémunérée ou partiellement rémunérée, la rémunération des HS/HC
+structurelles est prise en compte après application dʼun coefficient dʼabsence correspondant au
+rapport entre la rémunération versée et celle qui aurait dû être versée si le salarié nʼavait pas été
+absence.
+
+À noter :
+Coefficient dʼabsence = rémunération avec absence / rémunération sans absence
+Base de la déduction = nombre dʼheures HS/HC * Coefficient dʼabsence
+
+Exemple 1 : Absence maladie par tiellement maintenue
+
+Coefficient dʼabsence : 3183.55 / 3742.33 = 0.8507
+Base de la déduction : 17.33 * 0.8507 = 13.6
+
+Exemple 2 : Absence CP
+
+Documentation Silae - Aide Client
+
+Page: 9
+
+Coefficient dʼabsence : 2360.76 / 3742.33 = 0.6308
+Base de la déduction : 17.33 * 0.6308 = 10.93
+
+Il est possible de modifier ce traitement et dʼexclure les absences Congés Payés du prorata grâce
+à la méthode 155 :
+
+Voir la fiche Traiter la déduction forfaitaire patronale (TEPA/PPA)
+
+Exemple 3 : méthode 155 activée avec la valeur 2
+Il nʼy a plus de prorata pour lʼabsence CP :
+
+Documentation Silae - Aide Client
+
+Page: 10
+
+Lʼexonération TEPA nʼa pas été appliquée depuis le début de lʼannée. Comment
+régulariser ?
+
+Dans un premier temps, il faut que la fiche Société soit correctement renseignée. Puis il faut
+utiliser le profil RETRO-TEPA :
+
+Voir la fiche Traiter la déduction forfaitaire patronale (TEPA/PPA)
+
+Powered by Document360
+Documentation Silae - Aide Client
+
+Page: 11
+
+

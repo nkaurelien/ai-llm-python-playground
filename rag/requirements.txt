@@ -1,0 +1,15 @@
+panda
+# pymongo
+# pymongo[srv]
+# elasticsearch
+streamlit
+streamlit-folium
+streamlit-keyup>=0.1.9
+streamlit-aggrid
+python-dotenv
+langchain_community
+langchain
+beautifulsoup4
+tiktoken
+chromadb
+pysqlite3-binary

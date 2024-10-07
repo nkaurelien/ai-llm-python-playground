@@ -1,0 +1,181 @@
+• FAQ Cotisations Sécurité sociale
+
+Pourquoi le forfait social est à 20% au lieu de 16% (OPA ou AGRICOLE) ?
+
+À noter :
+Plusieurs mises à jour ont eu lieu pour les dossiers avec ce groupe de CCN. Les
+informations sont disponibles dans la base de connaissance en semaine 34 , 35 et 36
+(Mises à jour Silae Paie > Nouveautés livrées ).
+
+Le taux du forfait social à 20% dépend uniquement de l'organisme collecteur CPCEA (code
+P0223). Si l'organisme collecteur est différent, il est normal d'avoir un FS à 16%. Seuls les codes
+libellés de cotisations suivants sont concernés : GR210, GR240, GR250, GX110, GX120, GX130 .
+Il est donc important de vérifier les points suivants sur les dossiers concernés :
+Si lʼentreprise est affiliée à la CPCEA : Lʼorganisme P0223 CPCEA doit être
+paramétré ;
+Si des filtres sont appliqués sur cet organisme (CPCEA) : Contrôler dans les
+filtres que les codes libellés cités plus haut soient bien rattachés à l'organisme.
+
+Comment modifier le taux AT ?
+
+Se rendre dans le menu Paramétrages > Cotisations > Taux AT puis cliquer sur Ajouter des
+valeurs au taux :
+
+À noter :
+Lorsque le taux AT a le même code section dans la fiche Société et dans les taux historisés,
+le logiciel prend en compte en priorité le taux AT priorisé repris des CRM. La date
+d'application est alors utilisée pour une éventuelle régularisation des mois précédents.
+
+Documentation Silae - Aide Client
+
+Page: 1
+
+Pourquoi le taux AT ne s'applique-t-il plus sur les bulletins ?
+
+Vérifier que le code section AT rattaché dans la fiche Salarié est bien celui souhaité provenant de
+la fiche Société.
+
+Comment faire une régularisation du taux AT ?
+
+Eviter d'insérer une ligne de régularisation pour cette cotisation et privilégier la régularisation
+automatique .
+Lorsquʼun taux AT a le même code section dans la fiche Société et dans les taux historisés, le
+logiciel prend en compte, en priorité, le taux AT historisé repris des CRM et prend en compte la
+date d'effet pour une éventuelle régularisation des mois précédents.
+
+Voir la fiche Régulariser un taux AT (Accident du Travail) .
+
+À noter :
+Les régularisations automatiques ne fonctionnent que sur lʼannée en cours . Pour
+régulariser des années antérieures, il est possible dʼinsérer manuellement les
+régularisations.
+Il convient dʼinsérer deux lignes : une en moins avec lʼancien taux (encadré rouge) et une en
+plus avec le nouveau taux (encadré bleu) :
+
+Il faut associer les lignes à la période concernée :
+
+Documentation Silae - Aide Client
+
+Page: 2
+
+Comment régulariser de la CSG/CRDS ?
+
+Voir la fiche FAQ Frais de santé et prévoyance .
+
+Pourquoi les cotisations CSG/CRDS ne se déclenchent pas sur le bulletin de paie, sur la
+base de l'AEN (Avantages En Nature) qui constitue la seule rémunération ?
+
+Lorsque les avantages en nature constituent la seule rémunération du salarié (Salaire de base à
+0), l'avantage en nature est exonéré de CSG/CRDS.
+
+Le salarié étant rémunéré exclusivement en avantages en nature, les cotisations salariales de
+sécurité sociale ne sont pas dues. De ce fait, l'employeur n'a pas à précompter la CSG/CRDS.
+
+Sources :
+- Article R242-1 I Alinéa 8 du Code de la sécurité sociale sur legifrance.gouv.fr.
+- Lettre ministérielle du 29 mars 1991.
+
+Toutefois, il est possible de modifier le paramétrage par défaut en cas de besoin en insérant la
+cotisation sur le bulletin de paie.
+Voir la fiche Insérer un libellé de cotisation et le rattacher à une période .
+
+En cas de Déduction Forfaitaire Spécifique (DFS abattement) en cours d'année, comment
+régulariser les mois précédents ?
+
+La DFS est un choix annuel . En conséquence, il n'existe pas de profil pour régulariser
+l'abattement et les bulletins depuis janvier doivent être refaits.
+
+Commment régulariser du forfait social ?
+
+Plusieurs profils sont disponibles à cet effet, à choisir selon la situation.
+Voir les fiches Profils RFS - Régularisation du forfait social et Profils FORCE-FS8
+et ANNULE-FS8 - Calcul ou annulation du forfait social à 8 pct .
+
+⚠ Attention :
+Documentation Silae - Aide Client
+
+Page: 3
+
+Si cela conduit à avoir une base de forfait social négative alors il faut utiliser le profil
+ANNULE-FS pour éviter dʼavoir des erreurs DSN. Ainsi, il y aura une régularisation mois par
+mois.
+
+Pourquoi l'AGS n'apparaît-elle pas sur le bulletin ?
+
+Par défaut, une forme juridique commençant par 2 ne s'applique pas à cette cotisation. Vérifier
+donc la forme juridique de la société.
+
+Pour modifier ce traitement, la méthode 123 peut être appliquée (Paramétrage > Méthodes) .
+
+Pourquoi le forfait socail n'apparaît-il pas sur le bulletin alors qu'une cotisation soumise à
+forfait social est appliquée ?
+
+Vérifier si le bulletin de paie fait mention d'une réintégration sociale.
+
+Si la réintégration sociale s'élève au même montant que les bases assujetties au forfait social,
+celui-ci s'annule alors. Cette configuration est normale.
+Voir la fiche Réintégration sociale des cotisations .
+
+La base du forfait social ne correspond pas au montant patronal de la cotisation. Comment
+retrouver la base du forfait social ?
+
+Voir la fiche FAQ Réintégration sociale ou fiscale .
+
+Pourquoi la cotisation APECITA se déclenche-t-elle sur les Techniciens ?
+
+La cotisation se déclenche via le paramétrage dans l'onglet Social et fiscal de la fiche Société :
+
+Documentation Silae - Aide Client
+
+Page: 4
+
+La cotisation DI009 - APECITA est due pour le régime 300. Celle-ci se déclenche également pour
+les salariés cadres et TAM sous le régime agricole (Source : AGRICA).
+
+Se rapprocher de l'organisme pour plus d'information.
+
+Comment effectuer la cotisation APECITA au régime agricole de la MSA ?
+
+Par défaut, cette cotisation est collectée par la CPCEA du régime agricole. Pour modifier ce
+traitement, la méthode 206 peut être appliquée (Paramétrage > Méthodes) .
+
+À noter :
+Il sera nécessaire de regénérer les bulletins de paie pour que la modification soit pris en
+compte dans le tableau des charges.
+
+Comment régulariser du FNAL ?
+
+Deux profils sont disponibles à cet effet, à choisir selon la situation.
+Voir la fiche Profils FORC-FNAL7 et FORC-FNAL8 - Forcer le calcul du FNAL .
+
+La taux de Formation Professionnelle continue devrait être différent.
+
+Vérifier dans un premier temps l'effectif de l'entreprise et la date renseignée correspondante
+dans la fiche Société pour la participation à la formation professionnelle. La date indiquée doit
+toujours correspondre à l'année N-1. Par conséquent, le franchissement du seuil débute le 1er
+janvier de l'année suivante :
+
+Documentation Silae - Aide Client
+
+Page: 5
+
+Exemple : Si l'année renseignée dans la fiche Société est 2018, la première année de passage
+est 2019. Le changement de taux à 1% a donc lieu en 2024 (2019 + 5). En effet, une entreprise
+qui atteint ou dépasse les 11 salariés pour la première fois à partir de 2018 reste soumise au
+taux à 0,55% pendant 5 années (Source : https://www.demarches.interieur.gouv.fr)
+
+Si le taux ne convient pas, il est possible de le modifier directement dans le dossier.
+Voir la fiche Cotisations formation professionnelle .
+
+Comment régulariser le versement transport ?
+
+Deux profils sont disponibles à cet effet, à choisir selon la situation.
+Voir la fiche Profils TRS - Calcul, annulation ou régularisation du versement
+transpor t .
+
+Powered by Document360
+Documentation Silae - Aide Client
+
+Page: 6
+
+

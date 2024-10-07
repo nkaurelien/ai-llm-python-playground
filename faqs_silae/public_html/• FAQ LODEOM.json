@@ -1,0 +1,32 @@
+{
+    "FAQ LODEOM": [
+        {
+            "question": "Pourquoi l’URSSAF n’accepte pas la totalité du montant de l’exonération ?",
+            "answer": "Lorsque l'exonération est totale, le calcul est base * coefficient , la différence calculée avec l'exonération déjà pratiquée est retenue pour l'exonération du mois.  Le logiciel calcule une régularisation progressive, l'URSSAF doit en principe tenir compte que, sur certains mois, l'exonération peut être supérieure aux cotisations mensuelles :    \fVoir la fiche Questions / Réponses DSN ."
+        },
+        {
+            "question": "salarié sorti ?",
+            "answer": "Il nʼexiste pas de profil pour régulariser lʼexonération et il nʼest pas possible de la régulariser sur un bulletin post-emploi . Il ne faut pas non plus insérer les lignes manuellement, en DSN cela ne passera pas car les CTP ne seront pas corrects. Il nʼy a pas dʼautre solution que de refaire les bulletins sur la période concernée."
+        },
+        {
+            "question": "place de la LODEOM ?",
+            "answer": "La régularisation RGC ne se fait pas automatiquement, il faut la faire manuellement en utilisant le profil REG-FILLON .    \fVoir la fiche FAQ Réduction générale de cotisation (ex-Fillon) ."
+        },
+        {
+            "question": "Pourquoi y a-t-il une régularisation de l’exonération LODEOM sur les mois précédents ?",
+            "answer": "Il y a un plafonnement de lʼexonération aux cotisations patronales :  Voir la fiche Exonération LODEOM : Paramétrage logiciel et exemples .  Exemple sur 2022 :"
+        },
+        {
+            "question": "\fDossier en Montage, pourquoi le montant de l’exonération n’est pas bon ?",
+            "answer": "Il convient de vérifier/modifier les éléments repris par lʼimport de DSN. En effet, seule la par tie URSSAF est reprise automatiquement .    \fVoir la fiche Modifier des bulletins impor tés (impor t DSN en cours d'année) ."
+        },
+        {
+            "question": "Pourquoi l’exonération LODEOM se régularise alors que cela ne devrait pas ?",
+            "answer": "Il faut vérifier que la coche \"Emploi principal\" soit bien activée dans la fiche Salarié et dans les emplois archivés :"
+        },
+        {
+            "question": "Pourquoi l’exonération ne s’applique pas sur le bulletin ?",
+            "answer": "Il convient de vérifier que la fiche Salarié est correctement renseignée et que le salarié nʼa pas un statut qui lʼexclu du bénéfice de lʼexonération ou que le salarié ne bénéficie pas déjà dʼune autre exonération non cumulable.  Exemple : Le mandataire est exclu.    Source : Document \"Exonérations zonées\" §1110 sur le site du boss.gouv.fr"
+        }
+    ]
+}

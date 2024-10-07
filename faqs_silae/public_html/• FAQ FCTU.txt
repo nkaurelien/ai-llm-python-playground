@@ -1,0 +1,151 @@
+• FAQ FCTU
+
+Erreur : "Pour votre éditeur : Les rubriques S20.G00.07.001 et S20.G00.07.003 ne peuvent
+se suivre. Erreur à la ligne xx du fichier-S20.G00.07.002 la rubrique obligatoire dans la
+norme est absente."
+
+Le contact est défini dans le menu Déclarations > paramétrage contact IJ pour la CNAM :
+indiquer soit le signataire au niveau de la fiche société, ou bien le collaborateur du dossier dans
+le menu Gestion Interne > Clients .
+Le collaborateur renseigné doit avoir une adresse mail et une adresse téléphonique qui se
+paramètrent dans le menu Gestion Interne > Collaborateur .
+
+Motif de rejet : "Déclaration référencée inconnue"
+
+Envoyer une déclaration initiale en désactivant la coche "Gestion automatique des annule et
+remplace" dans la fenêtre dʼenvoi.
+
+Message d’erreur : "La DSN FCT U n’est pas disponible pour les ENIM (ou spectacle)"
+
+Le FCTU n'est pour l'instant pas encore développé pour le spectacle et l'ENIM : continuer à
+envoyer les déclarations selon l'ancienne méthode.
+
+Documentation Silae - Aide Client
+
+Page: 1
+
+L’envoi FCT U n'est pas proposé sur un dossier avec module SPECTACLE activé :
+
+Le module spectacle est sur ce dossier. Même s'il n'est as utilisé, il est lié à la CCN et ne peut pas
+être supprimé. Il n'y a alors pas de point rouge sur les bulles bulletins et l'attestation nepeut être
+envoyée via clic droit/Envoyer l'attestation EDI.
+Passer alors par l'édition/réédition du bulletin original en cochant "Attestation Pôle emploi EDI".
+
+Appliquer la procédure CSP en FCT U :
+
+Pour un CSP, renseigner le motif de sortie 26 dans l'assistant de sortie :
+
+Ensuite, renseigner le préavis pris en charge par l'organisme de 2 manières :
+1 - L'indiquer comme préavis non effectué non payé
+2 - Indiquer la durée et le montant de la prise en charge
+Le fait de remplir les 2 préavis avec le motif de sortie 26 entraînera automatiquement en DSN la
+déclaration du bon motif de préavis ainsi que du bloc concernant la prise en charge du préavis
+par pôle emploi.
+L'envoi EDI FCTU est donc d'abord à faire, puis un retour de l'attestation CSP en lieu et place de
+l'AER classique prendra effet.
+
+Que faire dans le cas d'un transfert de salarié dans le dossier pour reconstituer
+l’historique ?
+
+1er cas :
+
+Documentation Silae - Aide Client
+
+Page: 2
+
+Lors d'un transfert d'un salarié ou reprise de dossier, vérifier (dans les emplois archivés) que les
+3 données identifiantes suivantes n'ont pas changé. Si c'est le cas, déclarer ce changement en
+DSN mensuelle :
+- La date de début de contrat. Renseigner la date de début de contrat (de l'ancienne structure)
+dans la fiche salariée de la nouvelle structure.
+- Le SIRET dont le changement doit être déclaré dans le menu DSN/Gestion des numéros de
+contrat DSN (saisir l'ancien SIRET), cela déclenche un bloc dans la prochaine DSN calculée.
+- Le numéro de contrat DSN (vérifier dans les emplois archivés s'il a changé ou pas). S'il a
+changé, le déclarer dans le menu DSN/Gestion des numéros de contrat DSN.
+Les historiques sont recherchés par Pôle Emploi en se basant sur le numéro de contrat DSN/le
+SIRET/la date de début de contrat de chaque salarié.
+À la reprise du dossier sur Silae ou lors des changements de contrats ou de SIRET, il convient de
+renseigner les numéros de contrat et/ou SIRET (anciens et nouveaux) pour assurer le chaînage
+des informations lors des DSN évènementielles.
+Ce problème peut se corriger en renseignant les informations contrat DSN et/ou SIRET dans le
+menu DSN/Gestion des numéros de contrat. En revanche, ce changement sera déclaré dans la
+prochaine DSN mensuelle et donc effective pour les DSN évènementielles suivantes.
+
+En attendant, pour l'envoi actuel, si envoyer en DSN évènementielle n'est pas possible, alors
+saisir manuellement l'attestation sur Net-Entreprises ou sur le site de Pôle Emploi pour avoir les
+36 derniers mois. Il n'y a pas d'autre solution.
+
+2ème cas :
+Sur certains retours dʼAER, il arrive que des historiques ne soient pas reconstitués dans le cadre 4
+qui concerne les périodes dʼabsence.
+Vérifier si les dates de reprises ont été déclarées en DSN mensuelle.
+Solution : il est impossible d'agir sur les dates de reprises non déclarées dans les DSN
+mensuelles précédentes, donc la seule solution sera d'aller saisir manuellement l'attestation sur
+le site de Pôle Emploi ou Net-Entreprises.
+
+L’historique des salaires est absent de l'Attestation Employeur Rematérialisée retournée
+par Pôle Emploi :
+
+Documentation Silae - Aide Client
+
+Page: 3
+
+Les points ci-dessous sont à vérifier.
+Des changements de contrats ou d'établissement ont pu occasionner des modifications sur les
+données identificatrices du contrat dans les 36 dernières DSN mensuelles. Or, ces données
+permettent à Pôle emploi de retrouver les historiques du contrat dans les DSN mensuelles
+précédentes.
+Les données identificatrices sont :
+- la date de début de contrat (si absente dans la fiche salariée, alors c'est la date de début
+d'emploi qui est déclarée)
+- le SIRET
+- le numéro de contrat DSN
+En vérifiant le contenu de vos DSN mensuelles précédentes, si ces éléments ont connu des
+modifications, alors elles auraient dû être déclarées en DSN mensuelle via un bloc changement
+de contrat sur la structure S21.G00.41.
+Le changement doit être déclaré dans le menu DSN > Gestion des numéros de contrat DSN
+(s'il y a eu un changement de SIRET, il convient d'intervenir sur la colonne "Siret d'origine" / s'il y
+a eu un changement de numéro de contrat DSN, il faut intervenir sur les colonnes "Numéro de
+contrat" et "Ancien numéro de contrat"). Un bloc de régularisation est déclenché dans la
+prochaine DSN calculée.
+
+Si vous ne pouvez pas attendre le calcul de la prochaine DSN pour rectifier vos historiques, alors
+la seule solution de contournement sera d'aller saisir manuellement l'attestation sur le site de
+Pôle emploi.
+
+Comment retrouver le calcul de la Base assurance chômage dans la colonne 5 du cadre
+6.1 ?
+
+Dans la colonne 5 du cadre 6.1, le salaire brut soumis à cotisations est retrouvé par le calcul
+suivant :
+Base assurance chômage - les primes et indemnités des cadres 6.2 ou 6.3.
+Il nʼest donc pas anormal dʼavoir parfois un montant négatif.
+
+Documentation Silae - Aide Client
+
+Page: 4
+
+Comment déclarer un préavis pour inaptitude professionnelle ?
+
+Voici les préconisations de Net-Entreprises pour les inaptitudes professionnelles :
+Le préavis doit obligatoirement être déclaré :
+- Code 02 – Préavis non effectué et payé
+- Code 03 – Préavis non effectué et non payé
+La date de fin de contrat doit se terminer à la fin du préavis et pas avant.
+Nous sommes donc contraints de suivre la norme DSN sinon les envois seraient refusés. Il faut
+donc mentionner un préavis et faire terminer le contrat à la fin de celui-ci.
+Voir "Gestion du préavis en DSN" fiche n°1264 sur www.net-entreprises.com.
+
+Comment déclarer une sortie pour inaptitude non professionnelle dans le cadre d’un CDD
+?
+
+En norme DSN, rien n'est prévu pour saisir l'indemnité de fin de CDD pour inaptitude non
+professionnelle. Il faut donc passer par une saisie manuelle dans les éléments variables et
+l'indemnité ne figurera pas sur l'attestation Pôle Emploi.
+
+Powered by Document360
+Documentation Silae - Aide Client
+
+Page: 5
+
+

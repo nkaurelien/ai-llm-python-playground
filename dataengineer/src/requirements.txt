@@ -1,0 +1,9 @@
+PyPDF2~=2.0
+tabula-py
+pdfquery
+pandas
+pdf2image
+pdfminer.six
+aspose-words
+markdownify
+beautifulsoup4

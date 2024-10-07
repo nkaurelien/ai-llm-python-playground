@@ -1,0 +1,199 @@
+• FAQ Frais de santé et prévoyance
+
+Prérequis
+
+Voir les fiches suivantes qui se rattachent aux thèmes des cotisations :
+
+Créer, modifier un taux de cotisation (paramétrage d'une cotisation non
+conventionnelle)
+Créer des taux de cotisation variables via un contrat complémentaire
+Insérer un libellé de cotisation et le rattacher à une période
+Dispenses de frais de santé
+Appliquer le versement santé
+Prise en charge par le CE d'une par tie de la cotisation salariale mutuelle
+Maintenir lʼaffiliation du salarié au contrat de prévoyance
+
+Le taux ou le montant a été mis à jour sur Silae mais il ne remonte pas sur les bulletins
+
+Nous vous invitons à vérifier les trois points suivants :
+
+► Si lʼévolution du taux répond à un avenant non étendu
+Se rendre dans la documentation conventionnelle Documentation > CCN du dossier >
+Onglet "Détail des avenants" .
+Pour appliquer les nouveaux taux même si lʼavenant nʼest pas étendu, deux solutions :
+Soit cocher la case "Application immédiate des avenants" dans la fiche Société :
+
+Soit étendre cet avenant uniquement pour appliquer les nouveaux taux.
+Pour cela, voir la fiche Étendre un avenant spécifique pour un dossier
+
+Documentation Silae - Aide Client
+
+Page: 1
+
+► Si le taux ou le montant a été mis à zéro sur le dossier
+Se rendre dans le menu Paramétrage > Cotisations > Taux .
+Si le taux a été mis à zéro ou quʼil apparait avec un autre taux, cela signifie quʼil a été neutralisé
+ou modifié manuellement.
+
+► Si le taux ou le montant a été personnalisé au niveau du dossier, se rendre dans le
+menu Paramétrage > Cotisations > Taux applicables au dossier
+Pour filtrer les cotisations, renseigner le code nature de la cotisation et cliquer sur Visualiser .
+Si la ligne de la cotisation est jaune, cela signifie quʼelle est personnalisée au dossier et quʼelle
+ne peut être mise à jour automatiquement sauf en supprimant cette personnalisation.
+Cette personnalisation peut être supprimée depuis le menu Paramétrage > Cotisations >
+Taux (voir point ci-dessus).
+En supprimant la personnalisation, le paramétrage conventionnel reviendra.
+
+La cotisation ne remonte pas sur le bulletin
+
+Il est possible que la cotisation ne remonte pas sur le bulletin dans lʼune des situations suivantes
+:
+
+► La CCN renseignée dans la fiche Salarié ne correspond pas à la CCN de la cotisation
+
+Documentation Silae - Aide Client
+
+Page: 2
+
+► Le taux de la cotisation a été mis à zéro
+Vérifier dans le menu Paramétrage > Cotisations > Taux
+
+► La case "Application des frais de santé conventionnels" a été décochée dans la fiche
+Société
+
+► La cotisation de base n'est pas à zéro si la cotisation attendue est une sous-racine
+Par exemple, le déclenchement de la cotisation GX110.P est attendu. Vérifier que la cotisation de
+base GX110 ne soit pas mise à zéro dans le menu Paramétrage > Cotisations > Taux .
+Lorsque la cotisation GX110.P est remontée sur le bulletin, l'affichage correspond à la racine
+GX110. Les taux de la GX110.P sont cependant présents sur le bulletin. Cette configuration est
+tout à fait normale, ce n'est qu'une question d'affichage.
+
+► Si le PSS est à 0, il est normal que les cotisations ne se déclenchent pas
+
+La régularisation automatique ne se déclenche pas
+
+La régularisation automatique ne se déclenche pas si :
+
+► La cotisation nʼest pas présente sur les bulletins antérieurs
+Si la cotisation nʼest pas présente sur les mois précédents, Silae ne déclenche pas de ligne de
+régularisation automatique. Une intervention manuelle est nécessaire.
+
+► La coche "Le calcul automatique des régularisations est désactivé" est activée dans
+la fiche Société
+
+Documentation Silae - Aide Client
+
+Page: 3
+
+► Si vous avez modifié le taux via le menu Paramétrage > Cotisations > Taux et que la
+date dʼeffet nʼa pas été correctement renseignée
+
+► Sʼil y a eu un changement de statut en cours dʼannée (changement de statut ou de
+contrat de travail), voir la fiche Gérer le changement de contrat d'un salarié
+
+Vous insérez manuellement des lignes de régularisations mais, lors du recalcul du bulletin,
+elles disparaissent
+
+Dans cette situation, vérifier que la cotisation à régulariser est une cotisation dérivée.
+Par exemple, une cotisation (.B) ou une cotisation (.FAFN) etc, sont des dérivées.
+Dans ce cas, il nʼest pas possible de réaliser une régularisation manuelle. Le seul moyen de
+régulariser est de recalculer les bulletins précédents.
+
+Régulariser les cotisations par des blocs de régul pour les mois précédents
+
+Afin de pouvoir régulariser les DSN, il existe deux options :
+Recalculer tous les bulletins depuis le début de lʼanomalie. Si au recalcul du
+bulletin, un écart entre le net à payer du bulletin dʼorigine et du bulletin recalculé est
+constaté, saisir la différence dans un libellé K18.
+Insérer une ligne de régularisation pour chaque mois sur le bulletin du mois en
+cours, en associant bien chaque ligne à la période concernée.
+Voir la fiche Insérer un libellé de cotisation et le rattacher à une période
+Documentation Silae - Aide Client
+
+Page: 4
+
+Le recalcul de bulletin pour régulariser un bulletin est une procédure standard sur Silae. Cela
+permet de déclencher des blocs de régularisation par période en DSN attendus par l'organisme
+en cas de correction.
+
+Régulariser le paiement de la cotisation directement sur la DSN
+
+Pour régulariser le paiement de la cotisation directement sur la DSN, il convient dʼajouter la
+ligne directement au bas du récapitulatif.
+
+Une fois la ligne ajoutée, il convient de compléter les informations surlignées (sachant que
+lʼentité dʼaffiliation est le SIRET de lʼentreprise).
+
+Modifier ensuite le paiement en double en cliquant dessus.
+
+À noter :
+Nous vous invitons à sélectionner le thème "DSN Prévoyance" dans le formulaire
+d'assistance pour toute demande complémentaire.
+
+La régularisation n'alimente pas correctement les bases CSG/CRDS
+
+Pour les régularisations effectuées manuellement, Silae ne fait pas de recalcul des bulletins pour
+connaitre lʼimpact de la régularisation sur la réintégration sociale, forfait social. La base
+CSG/CRDS nʼest donc pas ajustée de ces montants. Il convient alors de forcer la base CSG/CRDS
+
+Documentation Silae - Aide Client
+
+Page: 5
+
+Il faut donc régulariser manuellement la CSG afin que la cotisation tienne bien compte
+de la prévoyance.
+Voir la fiche Insérer un libellé de cotisation et le rattacher à une période
+
+Vous ne souhaitez pas appliquer une cotisation conventionnelle à un ou plusieurs salariés
+
+Dans ce cas, il convient de créer un contrat complémentaire pour en exclure le ou les salariés.
+Voir la fiche Créer
+complémentaire
+
+des taux
+
+de cotisation
+
+variables via
+
+un
+
+contrat
+
+Création d’une cotisation à la charge du salarié
+
+Pour les cotisations à la charge du salarié, il convient de personnaliser l'une des cotisations se
+terminant en .NE. Pour cela, rendez-vous dans le menu Paramétrage > Cotisations > Taux
+applicables au dossier .
+Voir la fiche Créer, modifier un taux de cotisation (paramétrage d'une cotisation
+non conventionnelle)
+
+La cotisation du salarié se proratise alors qu’il n’est pas entré ou sorti ce mois-ci
+
+Vérifier que la case "Gestion des entrées/sorties fréquentes" dans la fiche Salarié nʼest pas
+cochée. Si cette case est cochée, un prorata se fera sur des bulletins où il nʼy a pas eu dʼabsence
+E/S. Il convient donc de décocher cette case pour ne pas avoir de calcul de prorata E/S qui se fait
+à tort.
+
+Les cotisations ne se déclenchent pas sur le bulletin du mandataire
+
+Le PSS dʼun mandataire, qui ne cumule pas son mandat avec un contrat de travail, reste fixe à 3
+428,00 €.
+Documentation Silae - Aide Client
+
+Page: 6
+
+Les cotisations de retraite se déclenchent dans le bulletin uniquement si le calcul du PMSS est
+activé.
+Il faut vérifier que :
+Le plafond ne soit pas mis à zéro dans les éléments calculés du bulletin.
+La coche "Calcul spécifique du PSS" dans la fiche Salarié soit bien décochée.
+En cas de cumul mandat/contrat de travail, le plafond est mis en totalité sur le premier bulletin
+pour le calcul des cotisations.
+
+Powered by Document360
+Documentation Silae - Aide Client
+
+Page: 7
+
+

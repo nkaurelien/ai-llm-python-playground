@@ -1,0 +1,126 @@
+• FAQ DSN PAS
+
+Pourquoi dans la DSN du mois M est indiqué une ligne DGFIP du mois M+1 ?
+
+La date indiquée est liée au paramétrage de la date de paiement du bulletin. Cette dernière est
+inscrite dans la fiche société et constitue pour la DGFIP un dossier en paie décalée.
+
+Comment regrouper en DSN le paiement DGFIP de deux établissements sur un seul ?
+
+Il convient pour cela de se rendre dans les Organismes puis de cliquer sur DGFIP dans la partie
+VLU sur la droite de lʼécran. Sélectionner ensuite lʼétablissement qui va récupérer le paiement de
+lʼautre établissement puis Sauver .
+
+Pourquoi un montant est prélevé à tort alors que les salariés ne sont pas imposables ?
+
+Il sʼagit dʼun cas rare mais qui peut arriver. Il convient dʼêtre vigilant sur le bloc paiement et de le
+forcer immédiatement. Dans le cas où le constat se fait ultérieurement, il convient, en accord
+avec la DGFIP, de pouvoir en déduire le montant sur les prochains paiements.
+
+Sur un dossier, il n’y a pas de DSN de 12/N-1 à envoyer. Une régularisation qui concerne
+N-1 est effectuée sur 01/N à la demande de la DGFIP mais cette dernière bloque la
+déclaration car ils veulent obligatoirement la réception de la déclaration de décembre à
+néant. Comment procéder dans cette situation ?
+
+Dans ce cas-là, il est recommandé de faire lʼenvoi sur la période de 12/N-1 et non sur janvier N,
+car la déclaration de cette période nʼa jamais été envoyée.
+
+Message d’erreur "La DGFIP ne peut pas prendre en compte votre paiement du
+prélèvement à la source pour le motif suivant : Compte bancaire inconnu pour ce SIREN
+dans son espace abonné professionnel impots.gouv.fr : prélèvement SEPA invalide"
+
+Documentation Silae - Aide Client
+
+Page: 1
+
+Cette erreur n'est pas liée au logiciel, il conviendra de vérifier les modalités dʼexécution du
+télépaiement sur le site de www.net-entreprises.fr, fiche n°1847, "Modalités pour exécuter le
+télépaiement par la DGFIP".
+
+Dans quel menu se paramètre le RIB pour le télépaiement DGFIP ?
+
+Dans le dossier : Menu PAS > Gestion des paiements > Modifier le compte (dans la partie
+droite de lʼécran)
+
+Documentation Silae - Aide Client
+
+Page: 2
+
+Comment faire une régularisation du PAS sur l'année en cours ?
+
+Il convient pour cela dʼutiliser le profil PAS-REG sur le bulletin courant.
+
+Comment dissocier les périodicités de paiement de l'URSSAF et de la DGFIP ?
+
+Ces périodicités de paiement sont liées. Il n'est pas possible que l'une soit mensuelle et l'autre
+trimestrielle.
+
+Après avoir refait un bulletin de N-1, pourquoi le montant du PAS remonte à zéro dans la
+DSN ?
+
+Le problème vient du fait que vous réalisez un bulletin de N-1. La norme DSN interdit la
+régularisation du PAS N-1 après janvier N. C'est pour cela que le logiciel bloque la régularisation
+du PAS sur la DSN.
+
+Comment corriger en DSN la rémunération nette fiscale sur la période N-1 ?
+
+Le plus facile sera d'utiliser sur le bulletin du mois courant le profil RNFREGDATE et de
+régulariser l'assiette fiscale initiale (régularisation positive si celle-ci n'a pas été déclarée ou
+négative si elle a été déclarée à tort). Cela permettra de faire remonter automatiquement le bloc
+56 de type 04 en DSN. Il est normal de ne pas avoir de bloc paiement dans ce cas (la norme DSN
+ne le permet pas).
+
+Comment annuler le PAS payé 2 fois suite à un changement de SIRET ?
+
+Il convient dʼannuler la DSN envoyée sur l'ancien SIRET (même si elle a été rejetée) en suivant la
+procédure suivante (3 cas possibles) :
+
+1er cas : Régul sur lʼannée en cours
+Documentation Silae - Aide Client
+
+Page: 3
+
+Annulation de la DSN de MM/22 :
+1. Dans le suivi des télédéclarations de MM/2022, faire un clic droit Détails sur Date Edi
+et choisir Voir Historique Edi . Double cliquer sur la bulle du dépôt de la première
+DSN, cela ouvre un mail avec en pièce jointe le fichier attach.txt qui est la DSN de
+l'ancien Siret (vérifier le Siret dans le fichier). Enregistrer ce fichier sur votre disque.
+2. Créer un nouvel établissement avec l'ancien Siret.
+3. Paramétrer l'organisme Urssaf pour pouvoir faire une DSN sur cet ancien Siret.
+Renseigner une date de début et de fin d'affiliation (exemple : si la DSN à annuler a
+été faite en 03/2022 et la régularisation en 05/2022, mettre en date de début 03/2022
+et date de fin 05/2022).
+4. Dans les déclarations de MM/2022, faire un clic droit sur l'ancien établissement et
+choisir Impor t DSN pour importer le fichier DSN du point 1.
+5. Dans les déclarations du mois courant, faire un clic droit sur l'ancien établissement,
+choisir Options de calcul de la DSN et cocher Régul MM/2022 .
+6. Transmettre cette DSN négative pour l'ensemble des organismes.
+
+2ème cas : Régul de N-1 sur lʼannée en cours
+Si le changement de Siret sʼest effectué en N-1 et que nous le constatons sur lʼannée N, la
+procédure reste la même sur les points 1, 2, 3, 4 et 6.
+Sur le point 5, il convient obligatoirement dʼappliquer le calcul avec Option de calcul DSN sur
+la déclaration de janvier de lʼannée en cours (au-delà de janvier, le bloc DGFIP ne remontera pas
+car lʼannée fiscale N-1 est close).
+
+3ème cas : Régul avec dossier en décalage de paie
+Il convient de modifier le fichier attach.txt du 1. au niveau de la date de paiement.
+Ouvrir le fichier.
+Faire Édition , Remplacer .
+Remplacer tout avec la date au dernier jour du mois concerné. Exemple :
+
+Rechercher : S21.G00.50.001,'10042022'
+Remplacer par : S21.G00.50.001,'31032022'
+Le reste de la procédure est identique.
+
+Existe-t-il une documentation qui détaille le fonctionnement du prélèvement à la source en
+DSN ?
+
+Oui, il sʼagit du "Guide du prélèvement à la source en DSN" sur www.net-entreprises.fr.
+
+Powered by Document360
+Documentation Silae - Aide Client
+
+Page: 4
+
+

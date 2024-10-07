@@ -1,0 +1,64 @@
+{
+    "FAQ Ecritures comptables": [
+        {
+            "question": "Comment modifier l’affectation comptable des primes ?",
+            "answer": "Voir aussi la fiche Paramétrer les écritures comptables (point \"Ajouter une ligne/créer des filtres\").    \fIl est possible de modifier les comptes 4 ou 6 en fonction des codes libellés. Pour cela, il convient de se rendre dans la liaison comptable tout en bas à gauche \"Paramétrage des comptes de primes\". Mettre le code libellé souhaité, le compte souhaité puis cocher « Paramétrage prioritaire » afin que ce paramétrage soit priorisé."
+        },
+        {
+            "question": "Comment modifier l’affectation comptable des IJ prévoyances nettes ?",
+            "answer": "Voir aussi la fiche Paramétrer les écritures comptables (point \"Ajouter une ligne/créer des filtres\")."
+        },
+        {
+            "question": "prélèvements sur salaire ?",
+            "answer": "comptable  des  saisies  arrêts  renseignés  via  les  Il faut aller dans liaison comptable, puis modifier les lignes de Prélèvement salariés Ligne 1, 2 et/ou 3 suivant lʼemplacement de la saisie dans la fiche Salarié.    \fNET A PAYER"
+        },
+        {
+            "question": "Comment modifier le compte 421 ?",
+            "answer": "Voir aussi la fiche Paramétrer les écritures comptables (point \"Ajouter une ligne/créer des filtres\")."
+        },
+        {
+            "question": "Comment traiter les reports NAP du mois précédent ?",
+            "answer": "Vous pouvez modifier ce paramétrage dans le menu de gauche \"421- Personnel – Rémunérations dues négatives\" :  FONCTIONNALITES ET AFFICHAGE"
+        },
+        {
+            "question": "Comment connaître le contenu d’un compte ?",
+            "answer": "Il convient de cliquer sur \"Ajouter le détail des écritures\" à droite de lʼédition puis clic droit sur la ligne souhaitée :"
+        },
+        {
+            "question": "\fComment personnaliser les libellés de compte ?",
+            "answer": "Il convient de cliquer directement sur le libellé concerné afin de pouvoir le modifier, une flèche verte doit apparaitre :"
+        },
+        {
+            "question": "Comment regrouper des lignes dans l’écriture ?",
+            "answer": "Vous pouvez regrouper des lignes qui possèdent le même numéro de compte. Pour cela il faut renseigner manuellement le même libellé :"
+        },
+        {
+            "question": "Comment supprimer des lignes dans l’écriture ?",
+            "answer": "Il convient de renseigner un 0 dans chaque concerné (comptes 4 et 6) :"
+        },
+        {
+            "question": "Les options liées au transfert des comptes 6 ?",
+            "answer": "Modification de l'option \"Transfert simple\" > \"Un compte par établissement\" ou \"Un compte par affectation analytique\".    \fIl nʼexiste pas d'historisation des données après sauvegarde si l'on souhaite revenir en arrière."
+        },
+        {
+            "question": "Comment faire des filtres et tris corrects ?",
+            "answer": "Afin dʼobtenir une bonne répartition des cotisations par établissement ou section analytique il convient dʼeffectuer un \"Filtre et tri\" dans l'état d'avancement en sélectionnant tous les établissements/sections analytiques en même temps avant de générer lʼOD. Les données en cas de sélection partielle peuvent être erronées et vous constaterez des écarts dans les écritures.  ANALYTIQUE"
+        },
+        {
+            "question": "Pourquoi y a-t-il des \"?\" dans l’écriture ?",
+            "answer": "Cela signifie que des salariés nʼont pas été affectés à une section dans le menu Gestion > Imputations analytiques > Salariés non affectés :"
+        },
+        {
+            "question": "\fComment traiter l’analytique en pourcentage par emploi ?",
+            "answer": "L'affectation analytique ne peut se faire que par salarié, il n'est pas possible de faire une affectation par emploi. Pour appliquer une répartition il faut passer par l'analytique en %. Voir la fiche \"Analytique en pourcentage \".  FICHIER SEQUENTIEL"
+        },
+        {
+            "question": "Quel modèle de fichier séquentiel utiliser ?",
+            "answer": "Vous retrouverez la liste des formats disponibles dans la fiche Liste des formats disponibles pour l'expor t des écritures comptables .  MODELE D’ECRITURE"
+        },
+        {
+            "question": "Comment dupliquer un modèle de paramétrage sur un autre dossier ?",
+            "answer": "Voir aussi la fiche Créer les modèles pour écritures comptables .  Problème d’enregistrement du modèle  Pour pouvoir \"Sauver\" un modèle il ne doit pas y avoir dʼanalytique dans le paramétrage ou dʼéléments spécifiques au dossier (compte par établissement, compte par salarié…) ."
+        }
+    ]
+}

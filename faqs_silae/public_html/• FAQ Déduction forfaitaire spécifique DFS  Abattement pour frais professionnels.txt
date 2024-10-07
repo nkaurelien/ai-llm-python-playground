@@ -1,0 +1,50 @@
+• FAQ Déduction forfaitaire spécifique (DFS) - Abattement
+pour frais professionnels
+
+Prérequis
+Pour approfondir, les fiches suivantes sont à votre disposition :
+SMIC et assiette minimale des cotisations ;
+Déduction forfaitaire spécifique pour frais professionnels (abattement).
+
+L’assiette des cotisations ne correspond pas au brut abattu
+
+Il convient de vérifier les points suivants :
+Le brut abattu est inférieur ou supérieur à lʼAssiette Minimale de Cotisations
+(AMC)
+Consulter la fiche SMIC et assiette minimale des cotisations, partie "Calculer lʼassiette
+minimale de cotisations". Calculer votre AMC et votre Brut Abattu, puis comparer les pour
+vous assurer que lʼAMC est respectée.
+Deux situations peuvent se présenter :
+
+- Si le Brut Abattu < AMC , appliquer lʼAMC ;
+- Si le Brut Abattu > AMC , appliquer le Brut Abattu.
+
+La base de cotisation est différente de lʼAMC et du Brut Abattu
+Consulter la fiche Déduction forfaitaire spécifique pour frais professionnels (abattement),
+partie "Gestion du plafond". Contrôler la limite du montant de la déduction qui est à 7
+600 € par année civile et par salarié.
+Pour rappel, la limite annuelle d'abattement est de 7600 € par an. Si on souhaite que la
+déduction mensuelle soit supérieure à 633 €, il convient de désactiver le lissage annuel
+dans la fiche Salarié. En effet, le lissage limite le plafond mensuel automatiquement à 633 €
+en réalisant le calcul suivant : 7600/12 = 633. La déduction prend fin lorsque le plafond
+annuel est atteint.
+
+Documentation Silae - Aide Client
+
+Page: 1
+
+Mise en place la DFS en cours d’année avec effet rétroactif
+
+Il n'existe qu'une seule méthode pour régulariser les assiettes des cotisations chaque mois :
+refaire les bulletins précédents . Les modifications apportées aux mois précédents
+remonteront correctement dans la prochaine DSN et seront rattachées aux mois concernés.
+
+⚠ Attention :
+Il ne faut en aucun cas toucher aux DSN précédemment calculées.
+
+Powered by Document360
+Documentation Silae - Aide Client
+
+Page: 2
+
+

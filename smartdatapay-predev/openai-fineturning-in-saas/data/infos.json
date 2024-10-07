@@ -1,0 +1,71 @@
+{
+ "FineTuningJobs": {
+  "object": "list",
+  "data": [
+   {
+    "object": "fine_tuning.job",
+    "id": "ftjob-q7hipLKE3mzEzwUiuS5yF2BY",
+    "model": "gpt-3.5-turbo-0613",
+    "created_at": 1696422408,
+    "finished_at": null,
+    "fine_tuned_model": null,
+    "organization_id": "org-0bJE68fq20tZUu0rb53cO4yU",
+    "result_files": [],
+    "status": "validating_files",
+    "validation_file": null,
+    "training_file": "file-GTSNEcrMyFtxwlj51qHnT2cz",
+    "hyperparameters": {
+     "n_epochs": "auto"
+    },
+    "trained_tokens": null,
+    "error": null
+   }
+  ],
+  "has_more": false
+ },
+ "Files": {
+  "object": "list",
+  "data": [
+   {
+    "object": "file",
+    "id": "file-7RPgtAaYPNeoH6oBWjYMP4kW",
+    "purpose": "fine-tune",
+    "filename": "file",
+    "bytes": 7112904,
+    "created_at": 1696421130,
+    "status": "processed",
+    "status_details": null
+   },
+   {
+    "object": "file",
+    "id": "file-sCWaezXPvlzLD6VaBCgtUN15",
+    "purpose": "fine-tune",
+    "filename": "file",
+    "bytes": 7112904,
+    "created_at": 1696422300,
+    "status": "uploaded",
+    "status_details": null
+   },
+   {
+    "object": "file",
+    "id": "file-GTSNEcrMyFtxwlj51qHnT2cz",
+    "purpose": "fine-tune",
+    "filename": "file",
+    "bytes": 7112904,
+    "created_at": 1696422407,
+    "status": "uploaded",
+    "status_details": null
+   },
+   {
+    "object": "file",
+    "id": "file-7wRvLUWVXyXFFGDDswPB5Cgu",
+    "purpose": "fine-tune",
+    "filename": "file",
+    "bytes": 7112904,
+    "created_at": 1696421610,
+    "status": "processed",
+    "status_details": null
+   }
+  ]
+ }
+}

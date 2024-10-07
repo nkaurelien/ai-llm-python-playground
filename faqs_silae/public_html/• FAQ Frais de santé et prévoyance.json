@@ -1,0 +1,8 @@
+{
+    "FAQ Frais de santé et prévoyance": [
+        {
+            "question": "428,00 €.",
+            "answer": "Les cotisations de retraite se déclenchent dans le bulletin uniquement si le calcul du PMSS est activé. Il faut vérifier que : Le plafond ne soit pas mis à zéro dans les éléments calculés du bulletin. La coche \"Calcul spécifique du PSS\" dans la fiche Salarié soit bien décochée. En cas de cumul mandat/contrat de travail, le plafond est mis en totalité sur le premier bulletin pour le calcul des cotisations."
+        }
+    ]
+}

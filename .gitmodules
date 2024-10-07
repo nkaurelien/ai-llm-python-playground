@@ -1,0 +1,6 @@
+[submodule "SocialGouv-kali-data"]
+	path = kali-data
+	url = https://github.com/SocialGouv/kali-data.git
+[submodule "kali-data"]
+	path = kali-data
+	url = https://github.com/SocialGouv/kali-data.git

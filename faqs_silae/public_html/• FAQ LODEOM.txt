@@ -1,0 +1,97 @@
+• FAQ LODEOM
+
+Prérequis
+
+Voir les fiches suivantes qui se rattachent au thème LODEOM :
+
+Exonération LODEOM : Paramétrage logiciel et exemples
+Exonération LODEOM : Impor t DSN
+Exonération LODEOM : Outils divers
+
+⚠ Point impor tant concernant le paramétrage :
+Toujours renseigner la date de début d'exonération au 1er du mois et cela quelle que soit la
+date de début du contrat :
+
+Pourquoi l’URSSAF n’accepte pas la totalité du montant de l’exonération ?
+
+Lorsque l'exonération est totale, le calcul est base * coefficient , la différence calculée avec
+l'exonération déjà pratiquée est retenue pour l'exonération du mois.
+
+Le logiciel calcule une régularisation progressive, l'URSSAF doit en principe tenir compte que,
+sur certains mois, l'exonération peut être supérieure aux cotisations mensuelles :
+
+Documentation Silae - Aide Client
+
+Page: 1
+
+Voir la fiche Questions / Réponses DSN .
+
+Comment régulariser l’exonération LODEOM ? Comment régulariser l’exonération sur un
+salarié sorti ?
+
+Il nʼexiste pas de profil pour régulariser lʼexonération et il nʼest pas possible de la
+régulariser sur un bulletin post-emploi .
+Il ne faut pas non plus insérer les lignes manuellement, en DSN cela ne passera pas car les CTP
+ne seront pas corrects.
+Il nʼy a pas dʼautre solution que de refaire les bulletins sur la période concernée.
+
+Comment régulariser la Réduction Générale des Cotisations (RGC) à la suite de la mise en
+place de la LODEOM ?
+
+La régularisation RGC ne se fait pas automatiquement, il faut la faire manuellement en utilisant
+le profil REG-FILLON .
+
+Documentation Silae - Aide Client
+
+Page: 2
+
+Voir la fiche FAQ Réduction générale de cotisation (ex-Fillon) .
+
+Pourquoi y a-t-il une régularisation de l’exonération LODEOM sur les mois précédents ?
+
+Il y a un plafonnement de lʼexonération aux cotisations patronales :
+
+Voir la fiche Exonération LODEOM : Paramétrage logiciel et exemples .
+
+Exemple sur 2022 :
+
+Documentation Silae - Aide Client
+
+Page: 3
+
+Dossier en Montage, pourquoi le montant de l’exonération n’est pas bon ?
+
+Il convient de vérifier/modifier les éléments repris par lʼimport de DSN.
+En effet, seule la par tie URSSAF est reprise automatiquement .
+
+Documentation Silae - Aide Client
+
+Page: 4
+
+Voir la fiche Modifier des bulletins impor tés (impor t DSN en cours d'année) .
+
+Pourquoi l’exonération LODEOM se régularise alors que cela ne devrait pas ?
+
+Il faut vérifier que la coche "Emploi principal" soit bien activée dans la fiche Salarié et dans les
+emplois archivés :
+
+Pourquoi l’exonération ne s’applique pas sur le bulletin ?
+
+Il convient de vérifier que la fiche Salarié est correctement renseignée et que le salarié nʼa pas
+un statut qui lʼexclu du bénéfice de lʼexonération ou que le salarié ne bénéficie pas déjà dʼune
+autre exonération non cumulable.
+
+Exemple : Le mandataire est exclu.
+
+Documentation Silae - Aide Client
+
+Page: 5
+
+Source : Document "Exonérations zonées" §1110 sur le site du boss.gouv.fr
+
+Powered by Document360
+Documentation Silae - Aide Client
+
+Page: 6
+
+

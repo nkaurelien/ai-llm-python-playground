@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SilaePay - YSO Conseils</title>
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css"> -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- SweetAlert2 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+    <!-- Links (sit on top) -->
+    <div class="w3-top">
+
+        <div class="w3-container w3-blue">
+            <h1 style="font-size: 24px;">Menu FAQ</h1>
+        </div>
+    </div>
+
+    <!-- Content -->
+    <div class="w3-content" style="max-width:1100px;margin-top:80px;margin-bottom:80px">
+        <div class="w3-container">
+            <ul class="w3-ul w3-large">
+                
+                <li class="w3-display-container">
+                    <a class="openModal" target="_blank" href="• FAQ Alerte déchéance.html"> Alerte déchéance</a>
+                    <!-- <a target="_blank" style="font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ Alerte déchéance.txt">.txt</a> -->
+                    <!-- <a target="_blank" style="margin-right: 50px; font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ Alerte déchéance.json">.json</a> -->
+                </li>
+                
+                <li class="w3-display-container">
+                    <a class="openModal" target="_blank" href="• FAQ Apprentis.html"> Apprentis</a>
+                    <!-- <a target="_blank" style="font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ Apprentis.txt">.txt</a> -->
+                    <!-- <a target="_blank" style="margin-right: 50px; font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ Apprentis.json">.json</a> -->
+                </li>
+                
+                <li class="w3-display-container">
+                    <a class="openModal" target="_blank" href="• FAQ BonusMalus.html"> BonusMalus</a>
+                    <!-- <a target="_blank" style="font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ BonusMalus.txt">.txt</a> -->
+                    <!-- <a target="_blank" style="margin-right: 50px; font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ BonusMalus.json">.json</a> -->
+                </li>
+                
+                <li class="w3-display-container">
+                    <a class="openModal" target="_blank" href="• FAQ Bulletins ne se calculent pas.html"> Bulletins ne se calculent pas</a>
+                    <!-- <a target="_blank" style="font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ Bulletins ne se calculent pas.txt">.txt</a> -->
+                    <!-- <a target="_blank" style="margin-right: 50px; font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ Bulletins ne se calculent pas.json">.json</a> -->
+                </li>
+                
+                <li class="w3-display-container">
+                    <a class="openModal" target="_blank" href="• FAQ Bureautique.html"> Bureautique</a>
+                    <!-- <a target="_blank" style="font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ Bureautique.txt">.txt</a> -->
+                    <!-- <a target="_blank" style="margin-right: 50px; font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ Bureautique.json">.json</a> -->
+                </li>
+                
+                <li class="w3-display-container">
+                    <a class="openModal" target="_blank" href="• FAQ CFPTA Contributions formation professionnelle et taxe d’apprentissage.html"> CFPTA Contributions formation professionnelle et taxe d’apprentissage</a>
+                    <!-- <a target="_blank" style="font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ CFPTA Contributions formation professionnelle et taxe d’apprentissage.txt">.txt</a> -->
+                    <!-- <a target="_blank" style="margin-right: 50px; font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ CFPTA Contributions formation professionnelle et taxe d’apprentissage.json">.json</a> -->
+                </li>
+                
+                <li class="w3-display-container">
+                    <a class="openModal" target="_blank" href="• FAQ Complément AFmaladie.html"> Complément AFmaladie</a>
+                    <!-- <a target="_blank" style="font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ Complément AFmaladie.txt">.txt</a> -->
+                    <!-- <a target="_blank" style="margin-right: 50px; font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ Complément AFmaladie.json">.json</a> -->
+                </li>
+                
+                <li class="w3-display-container">
+                    <a class="openModal" target="_blank" href="• FAQ Congés Payés.html"> Congés Payés</a>
+                    <!-- <a target="_blank" style="font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ Congés Payés.txt">.txt</a> -->
+                    <!-- <a target="_blank" style="margin-right: 50px; font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ Congés Payés.json">.json</a> -->
+                </li>
+                
+                <li class="w3-display-container">
+                    <a class="openModal" target="_blank" href="• FAQ Cotisations CCP médecine divers.html"> Cotisations CCP médecine divers</a>
+                    <!-- <a target="_blank" style="font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ Cotisations CCP médecine divers.txt">.txt</a> -->
+                    <!-- <a target="_blank" style="margin-right: 50px; font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ Cotisations CCP médecine divers.json">.json</a> -->
+                </li>
+                
+                <li class="w3-display-container">
+                    <a class="openModal" target="_blank" href="• FAQ Cotisations Sécurité sociale.html"> Cotisations Sécurité sociale</a>
+                    <!-- <a target="_blank" style="font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ Cotisations Sécurité sociale.txt">.txt</a> -->
+                    <!-- <a target="_blank" style="margin-right: 50px; font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ Cotisations Sécurité sociale.json">.json</a> -->
+                </li>
+                
+                <li class="w3-display-container">
+                    <a class="openModal" target="_blank" href="• FAQ DSN CIBTP.html"> DSN CIBTP</a>
+                    <!-- <a target="_blank" style="font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ DSN CIBTP.txt">.txt</a> -->
+                    <!-- <a target="_blank" style="margin-right: 50px; font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ DSN CIBTP.json">.json</a> -->
+                </li>
+                
+                <li class="w3-display-container">
+                    <a class="openModal" target="_blank" href="• FAQ DSN PAS.html"> DSN PAS</a>
+                    <!-- <a target="_blank" style="font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ DSN PAS.txt">.txt</a> -->
+                    <!-- <a target="_blank" style="margin-right: 50px; font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ DSN PAS.json">.json</a> -->
+                </li>
+                
+                <li class="w3-display-container">
+                    <a class="openModal" target="_blank" href="• FAQ DSN URSSAF.html"> DSN URSSAF</a>
+                    <!-- <a target="_blank" style="font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ DSN URSSAF.txt">.txt</a> -->
+                    <!-- <a target="_blank" style="margin-right: 50px; font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ DSN URSSAF.json">.json</a> -->
+                </li>
+                
+                <li class="w3-display-container">
+                    <a class="openModal" target="_blank" href="• FAQ Déduction forfaitaire spécifique DFS  Abattement pour frais professionnels.html"> Déduction forfaitaire spécifique DFS  Abattement pour frais professionnels</a>
+                    <!-- <a target="_blank" style="font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ Déduction forfaitaire spécifique DFS  Abattement pour frais professionnels.txt">.txt</a> -->
+                    <!-- <a target="_blank" style="margin-right: 50px; font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ Déduction forfaitaire spécifique DFS  Abattement pour frais professionnels.json">.json</a> -->
+                </li>
+                
+                <li class="w3-display-container">
+                    <a class="openModal" target="_blank" href="• FAQ Ecritures comptables.html"> Ecritures comptables</a>
+                    <!-- <a target="_blank" style="font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ Ecritures comptables.txt">.txt</a> -->
+                    <!-- <a target="_blank" style="margin-right: 50px; font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ Ecritures comptables.json">.json</a> -->
+                </li>
+                
+                <li class="w3-display-container">
+                    <a class="openModal" target="_blank" href="• FAQ Editions groupées.html"> Editions groupées</a>
+                    <!-- <a target="_blank" style="font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ Editions groupées.txt">.txt</a> -->
+                    <!-- <a target="_blank" style="margin-right: 50px; font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ Editions groupées.json">.json</a> -->
+                </li>
+                
+                <li class="w3-display-container">
+                    <a class="openModal" target="_blank" href="• FAQ Envoi EDI en DSN – Réception des CRM.html"> Envoi EDI en DSN – Réception des CRM</a>
+                    <!-- <a target="_blank" style="font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ Envoi EDI en DSN – Réception des CRM.txt">.txt</a> -->
+                    <!-- <a target="_blank" style="margin-right: 50px; font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ Envoi EDI en DSN – Réception des CRM.json">.json</a> -->
+                </li>
+                
+                <li class="w3-display-container">
+                    <a class="openModal" target="_blank" href="• FAQ Envoi de mails.html"> Envoi de mails</a>
+                    <!-- <a target="_blank" style="font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ Envoi de mails.txt">.txt</a> -->
+                    <!-- <a target="_blank" style="margin-right: 50px; font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ Envoi de mails.json">.json</a> -->
+                </li>
+                
+                <li class="w3-display-container">
+                    <a class="openModal" target="_blank" href="• FAQ Exonération HS  HC.html"> Exonération HS  HC</a>
+                    <!-- <a target="_blank" style="font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ Exonération HS  HC.txt">.txt</a> -->
+                    <!-- <a target="_blank" style="margin-right: 50px; font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ Exonération HS  HC.json">.json</a> -->
+                </li>
+                
+                <li class="w3-display-container">
+                    <a class="openModal" target="_blank" href="• FAQ FCTU.html"> FCTU</a>
+                    <!-- <a target="_blank" style="font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ FCTU.txt">.txt</a> -->
+                    <!-- <a target="_blank" style="margin-right: 50px; font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ FCTU.json">.json</a> -->
+                </li>
+                
+                <li class="w3-display-container">
+                    <a class="openModal" target="_blank" href="• FAQ Fiche Salarié.html"> Fiche Salarié</a>
+                    <!-- <a target="_blank" style="font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ Fiche Salarié.txt">.txt</a> -->
+                    <!-- <a target="_blank" style="margin-right: 50px; font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ Fiche Salarié.json">.json</a> -->
+                </li>
+                
+                <li class="w3-display-container">
+                    <a class="openModal" target="_blank" href="• FAQ Fiche Société.html"> Fiche Société</a>
+                    <!-- <a target="_blank" style="font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ Fiche Société.txt">.txt</a> -->
+                    <!-- <a target="_blank" style="margin-right: 50px; font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ Fiche Société.json">.json</a> -->
+                </li>
+                
+                <li class="w3-display-container">
+                    <a class="openModal" target="_blank" href="• FAQ Frais de santé et prévoyance.html"> Frais de santé et prévoyance</a>
+                    <!-- <a target="_blank" style="font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ Frais de santé et prévoyance.txt">.txt</a> -->
+                    <!-- <a target="_blank" style="margin-right: 50px; font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ Frais de santé et prévoyance.json">.json</a> -->
+                </li>
+                
+                <li class="w3-display-container">
+                    <a class="openModal" target="_blank" href="• FAQ LODEOM.html"> LODEOM</a>
+                    <!-- <a target="_blank" style="font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ LODEOM.txt">.txt</a> -->
+                    <!-- <a target="_blank" style="margin-right: 50px; font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ LODEOM.json">.json</a> -->
+                </li>
+                
+                <li class="w3-display-container">
+                    <a class="openModal" target="_blank" href="• FAQ Maladie.html"> Maladie</a>
+                    <!-- <a target="_blank" style="font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ Maladie.txt">.txt</a> -->
+                    <!-- <a target="_blank" style="margin-right: 50px; font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ Maladie.json">.json</a> -->
+                </li>
+                
+                <li class="w3-display-container">
+                    <a class="openModal" target="_blank" href="• FAQ Paie Dématérialisée.html"> Paie Dématérialisée</a>
+                    <!-- <a target="_blank" style="font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ Paie Dématérialisée.txt">.txt</a> -->
+                    <!-- <a target="_blank" style="margin-right: 50px; font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ Paie Dématérialisée.json">.json</a> -->
+                </li>
+                
+                <li class="w3-display-container">
+                    <a class="openModal" target="_blank" href="• FAQ Portail Client  Contact.html"> Portail Client  Contact</a>
+                    <!-- <a target="_blank" style="font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ Portail Client  Contact.txt">.txt</a> -->
+                    <!-- <a target="_blank" style="margin-right: 50px; font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ Portail Client  Contact.json">.json</a> -->
+                </li>
+                
+                <li class="w3-display-container">
+                    <a class="openModal" target="_blank" href="• FAQ Portail salariéPaiepilote.html"> Portail salariéPaiepilote</a>
+                    <!-- <a target="_blank" style="font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ Portail salariéPaiepilote.txt">.txt</a> -->
+                    <!-- <a target="_blank" style="margin-right: 50px; font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ Portail salariéPaiepilote.json">.json</a> -->
+                </li>
+                
+                <li class="w3-display-container">
+                    <a class="openModal" target="_blank" href="• FAQ Prime de partage de la valeur PPV.html"> Prime de partage de la valeur PPV</a>
+                    <!-- <a target="_blank" style="font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ Prime de partage de la valeur PPV.txt">.txt</a> -->
+                    <!-- <a target="_blank" style="margin-right: 50px; font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ Prime de partage de la valeur PPV.json">.json</a> -->
+                </li>
+                
+                <li class="w3-display-container">
+                    <a class="openModal" target="_blank" href="• FAQ Retraite.html"> Retraite</a>
+                    <!-- <a target="_blank" style="font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ Retraite.txt">.txt</a> -->
+                    <!-- <a target="_blank" style="margin-right: 50px; font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ Retraite.json">.json</a> -->
+                </li>
+                
+                <li class="w3-display-container">
+                    <a class="openModal" target="_blank" href="• FAQ Réduction générale de cotisation exFillon.html"> Réduction générale de cotisation exFillon</a>
+                    <!-- <a target="_blank" style="font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ Réduction générale de cotisation exFillon.txt">.txt</a> -->
+                    <!-- <a target="_blank" style="margin-right: 50px; font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ Réduction générale de cotisation exFillon.json">.json</a> -->
+                </li>
+                
+                <li class="w3-display-container">
+                    <a class="openModal" target="_blank" href="• FAQ Réintégration sociale ou fiscale.html"> Réintégration sociale ou fiscale</a>
+                    <!-- <a target="_blank" style="font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ Réintégration sociale ou fiscale.txt">.txt</a> -->
+                    <!-- <a target="_blank" style="margin-right: 50px; font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ Réintégration sociale ou fiscale.json">.json</a> -->
+                </li>
+                
+                <li class="w3-display-container">
+                    <a class="openModal" target="_blank" href="• FAQ Saisie de l’activité journalière.html"> Saisie de l’activité journalière</a>
+                    <!-- <a target="_blank" style="font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ Saisie de l’activité journalière.txt">.txt</a> -->
+                    <!-- <a target="_blank" style="margin-right: 50px; font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ Saisie de l’activité journalière.json">.json</a> -->
+                </li>
+                
+                <li class="w3-display-container">
+                    <a class="openModal" target="_blank" href="• FAQ Sortie de salarié.html"> Sortie de salarié</a>
+                    <!-- <a target="_blank" style="font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ Sortie de salarié.txt">.txt</a> -->
+                    <!-- <a target="_blank" style="margin-right: 50px; font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ Sortie de salarié.json">.json</a> -->
+                </li>
+                
+                <li class="w3-display-container">
+                    <a class="openModal" target="_blank" href="• FAQ Taxe sur les salaires.html"> Taxe sur les salaires</a>
+                    <!-- <a target="_blank" style="font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ Taxe sur les salaires.txt">.txt</a> -->
+                    <!-- <a target="_blank" style="margin-right: 50px; font-size: 9pt;" class="actions w3-button w3-display-right" href="• FAQ Taxe sur les salaires.json">.json</a> -->
+                </li>
+                
+            </ul>
+        </div>
+
+
+    </div>
+
+    <div class="w3-bottom">
+
+        <div class="w3-container w3-blue w3-margin-top">
+            <p>YSO Conseils © 2023</p>
+        </div>
+
+    </div>
+
+
+
+    <!-- Boîte de dialogue modale -->
+    <div id="myModal" class="w3-modal">
+        <div class="w3-modal-content">
+            <div class="w3-container">
+                <span onclick="document.getElementById('myModal').style.display='none'"
+                    class="w3-button w3-display-topright">&times;</span>
+                <div id="modalContent"></div>
+            </div>
+        </div>
+    </div>
+    <!-- chatbase -->
+    <iframe src="https://www.chatbase.co/chatbot-iframe/qa2OsXATIvcixB4ke1N6R" width="100%"
+        style="height: 100%; min-height: 700px; display: none;" frameborder="0"></iframe>
+
+    <!-- <script>
+        document.querySelector('.openModal').addEventListener('click', function (e) {
+            e.preventDefault();
+            let linkTarget = location.origin.trimEnd('/') + '/' + $(this).attr("href");
+
+            fetch(encodeURI(linkTarget))
+                .then(response => response.text())
+                .then(data => {
+                    Swal.fire({
+                        title: 'Contenu',
+                        html: data,
+                        width: '60%',
+                        customClass: {
+                            popup: 'custom-popup-class'
+                        }
+                    });
+                })
+                .catch(error => {
+                    console.error("There was an error fetching the content:", error);
+                });
+        });
+    </script> -->
+
+    <script>
+        $(".openModal").on("click", function (e) {
+            e.preventDefault(); // Empêcher la redirection
+
+            let linkTarget = location.origin.trimEnd('/') + '/' + $(this).attr("href");
+
+            console.log(encodeURI(linkTarget));
+            // Charger le contenu de la page cible dans la modale
+            // $("#modalContent").load(encodeURI(linkTarget), function () {
+            //     // Afficher la modale une fois le contenu chargé
+            //     document.getElementById('myModal').style.display = 'block';
+            // });
+            fetch(encodeURI(linkTarget))
+                .then(response => response.text())
+                .then(data => {
+                    Swal.fire({
+                        title: 'Contenu',
+                        html: data,
+                        width: '60%',
+                        confirmButtonColor: "#000000",
+                        confirmButtonText: "Terminer",
+                        customClass: {
+                            popup: 'custom-popup-class'
+                        }
+                    });
+                })
+                .catch(error => {
+                    console.error("There was an error fetching the content:", error);
+                });
+        });
+    </script>
+
+    <script>
+        window.chatbaseConfig = {
+            chatbotId: "qa2OsXATIvcixB4ke1N6R",
+        }
+    </script>
+    <script src="https://www.chatbase.co/embed.min.js" id="qa2OsXATIvcixB4ke1N6R" defer>
+    </script>
+</body>
+
+</html>

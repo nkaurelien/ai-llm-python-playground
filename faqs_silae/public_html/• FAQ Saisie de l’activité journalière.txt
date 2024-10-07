@@ -1,0 +1,79 @@
+• FAQ Saisie de l’activité journalière
+
+Comment payer des heures annualisées ?
+
+L'utilisation de l'activité journalière ne permet pas le paiement des heures
+annualisées.
+Il convient de passer par la saisie des heures et dʼutiliser les libellés souhaités.
+
+Comment les heures non majorées se déclenchent-elles ?
+
+Les saisies effectuées sur les semaines qui contiennent des jours de repos ou des jours
+d'absence déclenchent des heures non majorées sur la semaine concernée (voir la méthode
+056).
+
+Comment modifier le plafond de déclenchement des heures non exonérées ?
+
+Au-delà de 10 heures par jour, les HS ne sont pas exonérées.
+Pour modifier ce plafond, se rendre dans le menu Paramétrage > Fonctions calcul > "Créer
+une fonction calcul" dans le volet de droite.
+Saisir obligatoirement le code fonction : HEURESTRAV-INIT.
+Intitulé : Libre.
+Dans la par tie Fonction , indiquer : MaxHJour = nombre dʼheures par jour (nouveau plafond).
+Sauver .
+Au-delà de 48 heures par semaine, les HS ne sont pas exonérées.
+
+Comment avoir le détail des heures par semaine ?
+
+Pour faire apparaître le détail des heures par semaine sur le bulletin, il convient de se rendre
+dans le menu Paramétrage > Fonctions calcul > "Créer une fonction calcul" dans le volet
+de droite.
+Saisir obligatoirement le code fonction : HEURESTRAV-INIT.
+Intitulé : Libre.
+Dans la par tie Fonction , indiquer : DetailSemaine = true.
+
+Sauver .
+
+Documentation Silae - Aide Client
+
+Page: 1
+
+Comment ajouter des variables d’heures conventionnelles ?
+
+Dans certaines CCN, il y a des heures à saisir dans la saisie des éléments variables. Il est possible
+de basculer cette saisie dans lʼactivité journalière.
+Pour cela, il convient se rendre dans le menu Paramétrage > Fonctions calcul > "Créer une
+fonction calcul" dans le volet de droite.
+Saisir obligatoirement le code fonction : PLAGESHORAIRES-PARAM.
+Puis rédiger la fonction calcul en saisissant les noms des colonnes des éléments variables du
+dossier que lʼon souhaite avoir dans la saisie de lʼactivité journalière de la manière suivante :
+None
+
+Copy
+
+Begin
+Call GroupeHT_AjoutePrime("HDimanche")
+End
+
+À noter :
+Cette fonction doit commencer par Begin et se clôturer par End.
+Cette fonction n'est possible qu'en mode avancé.
+
+Comment résoudre l’erreur "12345 : Période en cours de finalisation" ?
+
+Cette erreur se produit quand la période de paie n'a pas été ouverte pour votre client.
+Il faut ouvrir la période de paie dans le menu Collaboration .
+
+Comment régulariser des heures supplémentaires sur l’activité journalière ?
+
+Il convient de se rendre dans la fiche Salarié en dessous de la grille horaire > Activité
+journalière .
+Vous devez décocher "Saisie de l'activité journalière" pour être en saisie des heures
+classique. Vous pouvez ensuite saisir les HS à régulariser mois par mois.
+
+Powered by Document360
+Documentation Silae - Aide Client
+
+Page: 2
+
+
