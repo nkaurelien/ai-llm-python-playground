@@ -7,7 +7,7 @@ load_dotenv()
 
 openai.api_key = os.environ["OPENAI_API_KEY"]
 
-audio_file= open("/path/to/file/audio.mp3", "rb")
+audio_file= open("datasets/audio.mp3", "rb")
 transcript = openai.Audio.transcribe("whisper-1", audio_file)
 
 print(transcript)

@@ -1,13 +1,3 @@
-# import ollama
-# response = ollama.chat(model='llama2', messages=[
-#   {
-#     'role': 'user',
-#     'content': 'Why is the sky blue?',
-#   },
-# ])
-# print(response['message']['content'])
-
-import streamlit as st
 from langchain-.llms import Ollama
 from langchain.agents import AgentType, initialize_agent, load_tools
 from langchain.callbacks.manager import CallbackManager
@@ -35,7 +25,5 @@ if prompt!="":
             ,handle_parsing_errors=True
         )
         response = agent.run(prompt, callbacks=[StreamlitCallbackHandler(st.container())])
-        # BUG 2023Nov05 can spiral Q&A: https://github.com/langchain-ai/langchain/issues/12892
-        # to get out, refresh browser page
-        
+
     st.markdown(response)
